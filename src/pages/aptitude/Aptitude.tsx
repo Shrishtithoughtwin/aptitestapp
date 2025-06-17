@@ -1,4 +1,5 @@
 import MainLayout from "../../layouts/MainLayout";
+import apti from "../../assets/images/apti.jpg";
 const Aptitude: React.FC = () => {
   return (
     <MainLayout>
@@ -20,6 +21,7 @@ const Aptitude: React.FC = () => {
           exams like IBPS PO, Clerk, NDA exams, Police Constable exams, etc. In
           each topic, you will get formulas and shortcut tricks.
         </p>
+        <img className=" place-self-center" src={apti}/>
 
         <div className="bg-blue-400 h-1 my-6"></div>
         <h1 className="text-2xl  font-bold mb-3">Aptitude Online Mock test </h1>

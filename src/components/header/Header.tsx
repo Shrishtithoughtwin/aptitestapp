@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from "react";
-import { NavLink, useLocation } from "react-router-dom";
-import logo from "../../assets/logo.png"; 
+import { NavLink, } from "react-router-dom";
+import logo from "../../assets/logo.png";
 
 const Header: React.FC = () => {
   const [theme, setTheme] = useState<"light" | "dark">(() => {
-    
     return (localStorage.getItem("theme") as "light" | "dark") || "light";
   });
-  const location = useLocation();
+
+  
 
   useEffect(() => {
     document.documentElement.setAttribute("data-theme", theme);
@@ -16,62 +16,70 @@ const Header: React.FC = () => {
   const toggleTheme = () => {
     const newTheme = theme === "light" ? "dark" : "light";
     setTheme(newTheme);
-    localStorage.setItem("theme", newTheme); 
+    localStorage.setItem("theme", newTheme);
   };
 
   return (
-    <header className="bg-white-500 text-black shadow-md">
-    <div className="container mx-auto flex justify-between items-center py-3 px-6">
-      {/* Logo */}
-      <div>
-        <a href="/">
-          <img
-            src={logo}
-            alt="Logo"
-            className="h-17 w-auto inline-block ml-10"
-          />
-        </a>
-      </div>
+    <header className="bg-base-200 text-base-content shadow-md">
+      <div className="container mx-auto flex justify-between items-center py-3 px-6">
+        {/* Logo */}
+        <div>
+          <a href="/">
+            <img
+              src={logo}
+              alt="Logo"
+              className="h-12 w-auto inline-block ml-2"
+            />
+          </a>
+        </div>
 
-      {/* Centered Navigation Links */}
-      <nav className="flex-grow text-center">
-        <ul className="inline-flex space-x-8">
-          <li>
-            <NavLink
-              to="/"
-              className={`${
-                location.pathname === "/" ? "text-blue-500 font-bold" : "text-black dark:text-white"
-              } hover:text-blue-500 transition-colors duration-300`}
-            >
-              Home
-            </NavLink>
-          </li>
-          <li>
-          <NavLink
+        {/* Navigation */}
+        <nav className="flex-grow text-center">
+          <ul className="inline-flex space-x-8">
+            <li>
+              <NavLink
+                to="/"
+                className={({ isActive }) =>
+                  isActive
+                    ? "font-bold text-primary"
+                    : "text-base-content hover:text-primary transition-colors"
+                }
+              >
+                Home
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
                 to="/aptitude"
-                className={`${
-                  location.pathname === "/aptitude"
-                    ? "text-blue-500 font-bold dark:text-blue-400"
-                    : "text-black dark:text-white"
-                } hover:text-blue-500 dark:hover:text-blue-400 transition-colors duration-300`}
+                className={({ isActive }) =>
+                  isActive
+                    ? "font-bold text-primary"
+                    : "text-base-content hover:text-primary transition-colors"
+                }
               >
                 Aptitude
               </NavLink>
-          </li>
-        </ul>
-      </nav>
-
+            </li>
+          </ul>
+        </nav>
 
         {/* Theme Toggle Button */}
-        <button
-          onClick={toggleTheme}
-          className="ml-4 px-4 py-2 rounded-md bg-gray-200 hover:bg-gray-300 dark:bg-gray-700 dark:hover:bg-gray-600 transition-colors"
-        >
-          {theme === "light" ? "Dark Mode" : "Light Mode"}
-        </button>
-
-    </div>
-  </header>
+        <div className="flex items-center space-x-2">
+          <span className="text-sm text-primary">Mode</span>
+          <button
+            onClick={toggleTheme}
+            className="w-12 h-6 bg-neutral dark:bg-gray-600 rounded-full p-1 transition-colors"
+            aria-label="Toggle theme"
+          >
+            <div
+              className={`w-4 h-4 bg-white rounded-full shadow-md transform transition-transform ${
+                theme === "dark" ? "translate-x-6" : "translate-x-0"
+              }`}
+            />
+          </button>
+        </div>
+      </div>
+    </header>
   );
 };
 

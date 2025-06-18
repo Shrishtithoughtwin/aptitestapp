@@ -1,9 +1,16 @@
-import MainLayout from "../../layouts/MainLayout";
+import { Link } from "react-router-dom"; 
+// import { Check } from "lucide-react";
 import apti from "../../assets/images/apti.jpg";
 const Aptitude: React.FC = () => {
+  const topics = [
+    { name: "LCM and HCF", path: "/lcmhcf" },
+    { name: "Average", path: "/average" },
+    { name: "Profit and Loss", path: "/profitloss" },
+    { name: "Simple Interest ", path: "/simpleinterest" },
+    { name: "Compound Interest ", path: "/compoundinterest" },
+  ];
   return (
-    <MainLayout>
-      <div className="container mx-auto p-6 text-center">
+<>      <div className="container mx-auto p-6 text-center">
         <h2 className="text-4xl font-bold mb-4">
           Online Aptitude Test , Solved Aptitude Questions, Apti Test
         </h2>
@@ -22,6 +29,24 @@ const Aptitude: React.FC = () => {
           each topic, you will get formulas and shortcut tricks.
         </p>
         <img className=" place-self-center" src={apti}/>
+
+        <ul className="grid grid-cols-2 gap-4 my-6">
+        {topics.map((topic, index) => (
+          <li
+            key={index}
+            className="text-lg border  border-blue-400 px-2 py-2 hover:text-blue-400  cursor-pointer transition-all"
+            style={{
+              borderLeftWidth: "10px", 
+            }}
+          >
+        {/* <Check className="h-5 w-5 text-blue-500 mr-3"  /> */}
+            <Link to={topic.path}>{topic.name}</Link>
+           
+           
+          </li>
+        ))}
+      </ul>
+
 
         <div className="bg-blue-400 h-1 my-6"></div>
         <h1 className="text-2xl  font-bold mb-3">Aptitude Online Mock test </h1>
@@ -44,22 +69,11 @@ const Aptitude: React.FC = () => {
             and formats as well. Each category has the basics along with the
             tests.
           </p>
-          <p>
-            We hope to help you a lot. IOB staff selection (IBPS) joint written
-            test entrance, State Bank of India (FDA) entrance exams Grants
-            Committee University (UGC), Regional Rural Bank entrance exams,
-            railway recruitment board (RRB) examination, selection committee
-            staff (SSC) entrance test, test general aptitude (CAT) entrance
-            exam, Inc. life insurance (LIC) entrance exams, the Public Service
-            Commission of the Union (UPSC), the University of exams, all types
-            of the corresponding functions, information technology (IT),
-            integrated exams common entrance test (ICET) and many other exams.
-            Test online for free, wishing you all the very best for your
-            endeavor in the future.
-          </p>
+         
         </p>
       </div>
-    </MainLayout>
+      </>
+
   );
 };
 export default Aptitude;

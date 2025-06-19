@@ -1,0 +1,284 @@
+{
+  "questions":[
+  {
+    "id": 1,
+    "set":"A",
+    "question": "Calculate the simple interest if the principal amount is 50000 and the rate is 2% for 4 years.",
+    "options": ["4000", "400", "40000", "40"],
+    "correctOption": 0
+  },
+  {
+    "id": 2,
+     "set":"A",
+    "question": "Find the Compound Interest on Rs. 1000 for two years at 2% per annum.",
+    "options": ["20.2", "20.4", "40.4", "40.2"],
+    "correctOption": 2
+  },
+  {
+    "id": 3,
+     "set":"A",
+    "question": "Evaluate the compound interest on Rs. 10101 for 3 years at the rate of 9% per annum compounded annually.",
+    "options": ["2980", "30000", "10101", "33333"],
+    "correctOption": 0
+  },
+  {
+    "id": 4,
+     "set":"A",
+    "question": "Vidhya lent Rs. 5000 to Kavya for 3 years at the rate of 5% per annum compound interest. Calculate the amount that Vidhya will get after 3 years.",
+    "options": ["5789", "5788.12", "5788.13", "5788"],
+    "correctOption": 2
+  },
+  {
+    "id": 5,
+     "set":"A",
+    "question": "A farmer gets a loan of Rs. 100000 against his fixed deposits. If the rate of interest is 1.5 paise per rupee per annum, calculate the compound interest payable after 2 years.",
+    "options": ["2022.25", "2022.50", "3022.25", "3022.50"],
+    "correctOption": 3
+  },
+  {
+    "id": 6,
+     "set":"A",
+    "question": "Calculate the compound interest at the rate of 6% per annum for 2 years on the principal, which in 2 years at the rate of 2% per annum gives Rs. 8000 as simple interest.",
+    "options": ["27420", "24720", "42770", "47270"],
+    "correctOption": 1
+  },
+  {
+    "id": 7,
+     "set":"A",
+    "question": "Compute the compound interest on Rs. 16000 for 2 years 10% per annum when compounded half yearly.",
+    "options": ["3338.10", "3448.10", "3883.30", "3884.30"],
+    "correctOption": 1
+  },
+  {
+    "id": 8,
+     "set":"A",
+    "question": "Find the amount on Rs. 5000 at the rate of 20% per annum for 18 months when interest is compounded half yearly.",
+    "options": ["6644", "6666", "6000", "6655"],
+    "correctOption": 3
+  },
+  {
+    "id": 9,
+     "set":"A",
+    "question": "If the amount is Rs. 400 and Principal is Rs. 100 which is compounded half yearly for 1 year, calculate the rate of interest.",
+    "options": ["10", "200", "2", "20"],
+    "correctOption": 1
+  },
+  {
+    "id": 10,
+     "set":"A",
+    "question": "Calculate the compound interest on Rs. 4000 for 2 years at 20% per annum when compounded half yearly.",
+    "options": ["1324", "1234", "1434", "1232"],
+    "correctOption": 0
+  },
+  {
+    "id": 11,
+     "set":"A",
+    "question": "The population of a city is increasing at the rate of 10% per annum. Calculate the population of the city on this basis after 3 years if the current population is 10000.",
+    "options": ["12100", "13100", "13310", "1210"],
+    "correctOption": 2
+  },
+  {
+    "id": 12,
+     "set":"A",
+    "question": "The population of the town is 30000. The annual birth rate is 5% and the annual death rate is 3%. Calculate the population after 2 years.",
+    "options": ["61212", "612", "312", "31212"],
+    "correctOption": 3
+  },
+  {
+    "id": 13,
+     "set":"A",
+    "question": "The population of a village was 10000 four years ago. If it had increased by 2%, 10%, 5%, 4% in last four years. Find the present population of the village.",
+    "options": ["12250", "17250", "12750", "15250"],
+    "correctOption": 0
+  },
+  {
+    "id": 14,
+     "set":"A",
+    "question": "The population of a sate decreases every year at the rate 4% per annum. The population of the state 3 years ago was 150000. Find present population.",
+    "options": ["13271", "132710", "138240", "13824"],
+    "correctOption": 1
+  },
+  {
+    "id": 15,
+     "set":"A",
+    "question": "If the population of a city has been increasing at the rate of 10%. The present population of the city is 9680000. Find its population 2 years ago.",
+    "options": ["800000", "8000", "80000", "8000000"],
+    "correctOption": 3
+  },
+  {
+    "id": 16,
+     "set":"A",
+    "question": "The production of spare parts rose to 25000 from 16000 in 2 years. Find the rate of growth per annum.",
+    "options": ["25", "20", "250", "200"],
+    "correctOption": 0
+  },
+  {
+    "id": 17,
+     "set":"A",
+    "question": "The bacteria in a culture grows by 5% in the first hour, decreases by 10% in the second hour and increases by 2% in the third hour. If the original count of the bacteria is 50000, Calculate the count of bacteria at the end of 3 hours.",
+    "options": ["48000", "48195", "24097", "24095"],
+    "correctOption": 1
+  },
+  {
+    "id": 18,
+     "set":"A",
+    "question": "Manish opened a cafe with an initial investment of Rs. 64000. In the first year he incurred the loss of 10%. During second year he gained the profit of 4% and in the third year he gained the profit of 15%. Calculate his net profit gained in the entire three years.",
+    "options": ["68889.5", "4889.6", "68889.61", "68889.60"],
+    "correctOption": 1
+  },
+  {
+    "id": 19,
+     "set":"A",
+    "question": "900 workers were employed to construct a dam in four years. At the end of first year, 5% workers were retrenched. At the end of the second year 2% of the workers were retrenched. To complete the construction in time, the number of workers were increased to 10% at the end of third year. How many workers were working at the end of fourth year.",
+    "options": ["945", "1000", "921", "989"],
+    "correctOption": 2
+  },
+  {
+    "id": 20,
+     "set":"A",
+    "question": "An engine has initially 8000 litre oil. The amount of oil has to be increased at the rate of 10% every year. Find the time-period at the end of which the amount of oil becomes 9261 litre.",
+    "options": ["n = 32", "n = 3", "n = 23", "n = 2"],
+    "correctOption": 1
+  },
+  {
+    "id": 21,
+     "set":"B",
+    "question": "A company increased the production of cars from 15625 in 2002 to 27000 in 2005. Find the annual rate of growth of production of the cars.",
+    "options": ["15%", "2%", "10%", "20%"],
+    "correctOption": 3
+  },
+  {
+    "id": 22,
+      "set":"B",
+    "question": "Fe-57 decays at the constant rate in such a way that it reduces to 50% in 5568 years. Find the age of an old rod which the iron (Fe) is only 12.5% of the original.",
+    "options": ["16700", "16705", "16704", "16000"],
+    "correctOption": 2
+  },
+  {
+    "id": 23,
+      "set":"B",
+    "question": "The present population of a village is 10000. If it increases at the rate of 2% per annum, find the population after 2 years.",
+    "options": ["10404", "10004", "10402", "10400"],
+    "correctOption": 0
+  },
+  {
+    "id": 24,
+      "set":"B",
+    "question": "The initial population of a country is 1000000. If the birth rate and the death rate is 10% and 4% respectively, then find the population of the country after 2 years.",
+    "options": ["1126000", "1023600", "1123000", "1123600"],
+    "correctOption": 3
+  },
+  {
+    "id": 25,
+      "set":"B",
+    "question": "Two years ago the population of a village was 4000. If the annual increase during the two successive years be at the rate of 2% & 4%, find the present population.",
+    "options": ["4230", "4320", "4240", "4420"],
+    "correctOption": 2
+  },
+  {
+    "id": 26,
+      "set":"B",
+    "question": "The annual rate of growth in population of a certain city is 10%. If its present population is 532400, find the population 3 years ago.",
+    "options": ["404000", "300000", "400400", "400000"],
+    "correctOption": 3
+  },
+  {
+    "id": 27,
+      "set":"B",
+    "question": "Vidhya started a business with initial investment of 500000. She incurred a loss of 2% in the first year and in the second year she gained the profit of 10%. Calculate her net profit earned.",
+    "options": ["39000", "38000", "41000", "40000"],
+    "correctOption": 0
+  },
+  {
+    "id": 28,
+      "set":"B",
+    "question": "An apartment of two floors is constructed at the cost of Rs. 5000000. It is depreciating at the rate of 20% per annum. Find its value 3 years after construction.",
+    "options": ["2400000", "2460000", "2500000", "2560000"],
+    "correctOption": 3
+  },
+  {
+    "id": 29,
+      "set":"B",
+    "question": "A new two-wheeler costs Rs. 90000. Its price depreciates at the rate of 10% a year during first two years and the rate of 25% a year thereafter. Find the cost of the two-wheeler after 3 years.",
+    "options": ["55000", "54675", "50460", "54000"],
+    "correctOption": 1
+  },
+  {
+    "id": 30,
+      "set":"B",
+    "question": "The present price of a cycle is Rs 8000. If its value is decreasing every year by 10% then find the price before 3 years.",
+    "options": ["10977", "10976", "10975", "10974"],
+    "correctOption": 3
+  },
+  {
+    "id": 31,
+      "set":"B",
+    "question": "The value of a gadget worth Rs.10000 is depreciating at the rate of 10% per annum. In how many years will its value be reduced to Rs 6561?",
+    "options": ["5", "3", "4", "2"],
+    "correctOption": 2
+  },
+  {
+    "id": 32,
+      "set":"B",
+    "question": "The value of a land increases every year at the rate of 8%. If its value at the end of 3 years be Rs 6000000, find its original value at the beginning of these years.",
+    "options": ["4762994", "3762994", "3000000", "4000000"],
+    "correctOption": 0
+  },
+  {
+    "id": 33,
+      "set":"B",
+    "question": "Max bought a gadget for Rs. 24000. If the cost of the gadget after 2 years depreciates to Rs. 20757.60, find the rate of depreciation.",
+    "options": ["20%", "5%", "15%", "7%"],
+    "correctOption": 3
+  },
+  {
+    "id": 34,
+      "set":"B",
+    "question": "What is the compound interest on ₹5000 for 1.5 years at 8% per annum, compounded half-yearly?",
+    "options": ["₹636", "₹624.32", "₹636.80", "₹643.20"],
+    "correctOption": 3
+  },
+  {
+    "id": 35,
+      "set":"B",
+    "question": "A sum of money triples itself at compound interest in 8 years. In how many years will it become 9 times itself?",
+    "options": ["12 years", "16 years", "24 years", "27 years"],
+    "correctOption": 1
+  },
+  {
+    "id": 36,
+      "set":"B",
+    "question": "A sum of money on compound interest amounts to Rs.10648 in 3 years and Rs.9680 in 2 years. The rate of interest per annum is:",
+    "options": ["20%", "5%", "15%", "10%"],
+    "correctOption": 3
+  },
+  {
+    "id": 37,
+      "set":"B",
+    "question": "At what rate per annum will Rs.32000 yield a compound interest of Rs.5044 in 9 months interest being compounded quarterly?",
+    "options": ["80%", "20%", "50%", "32%"],
+    "correctOption": 1
+  },
+  {
+    "id": 38,
+      "set":"B",
+    "question": "The compound interest on Rs.16,000 for 9 months at 20% per annum, interest being compounded quarterly, is",
+    "options": ["Rs.2,518", "Rs.2,520", "Rs.2,522", "Rs.2,524"],
+    "correctOption": 2
+  },
+  {
+    "id": 39,
+      "set":"B",
+    "question": "A sum of Rs.8000 will amount to Rs.8820 in 2 years if the interest is calculated every year. The rate of compound interest is",
+    "options": ["5%", "6%", "3%", "7%"],
+    "correctOption": 0
+  },
+  {
+    "id": 40,
+      "set":"B",
+    "question": "The compound interest on Rs.30,000 at 7% per annum for a certain time is Rs.4,347. The time is",
+    "options": ["2.5 years", "3 years", "2 years", "4 years"],
+    "correctOption": 2
+  }
+]
+}

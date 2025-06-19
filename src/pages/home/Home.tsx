@@ -28,9 +28,6 @@ const Home: React.FC = () => {
           <li className="text-lg border border-gray-300  px-4 py-2 hover:text-blue-400 cursor-pointer">
             <Link to="/compoundinterest">Compound Interest</Link>
           </li>
-          <li className="text-lg border border-gray-300 px-4 py-2 hover:text-blue-500 cursor-pointer">
-            <Link to="/profitloss">Profit and Loss</Link>
-          </li>
           <li className="text-lg border border-gray-300 px-4 py-2 hover:text-blue-400 cursor-pointer">
           <Link to="/average">Average</Link>
           </li>

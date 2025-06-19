@@ -9,6 +9,8 @@ import ProfitLoss from "../pages/profitloss/ProfitLoss";
 import LcmHcf from "../pages/lcmhcf/LcmHcf";
  import MainLayout from "../layouts/MainLayout";
 import TestInstruction from "../pages/testrule/TestInstruction";
+import QuestionsComponent from "../pages/quesCompnent/QuestionComponent";
+import ViewResult from "../pages/viewresult/ViewResult";
 
 const AppRoutes: React.FC = () => (
   <MainLayout>
@@ -20,7 +22,9 @@ const AppRoutes: React.FC = () => (
       <Route path="/compoundinterest" element={<CompoundInterest />} />
       <Route path="/profitloss" element={<ProfitLoss />} />
       <Route path="/lcmhcf" element={<LcmHcf />} /> 
-      <Route path="/testinstruction" element={<TestInstruction/>}/>
+      <Route path="/testinstruction/:testId" element={<TestInstruction />} />
+      <Route path="/questions/:testId" element={<QuestionsComponent/>}/>
+      <Route path="/viewresult" element={<ViewResult score={0} totalQuestions={0} />} />
     </Routes>
   </MainLayout>
 );

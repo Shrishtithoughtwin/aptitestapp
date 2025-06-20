@@ -1,17 +1,47 @@
 import React from "react";
-import MainLayout from "../../layouts/MainLayout";
+import { Link } from "react-router-dom"; 
+
 
 const Home: React.FC = () => {
   return (
-    <MainLayout>
+   <>
       <div className="text-center">
         <h1 className="text-4xl font-size-36px ">
           Questions and Answers for Competitive Exams, Free Online Test, Mock
           test Series, MCQ Questions, Practice Test , Online Quiz
         </h1>
-        <p className="mt-4">Take practice tests and improve your skills.</p>
+        <p className=" text-2xl mt-4">Take practice tests and improve your skills.</p>
       </div>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
+
+      <div className="container mx-auto mt-8">
+  <div className="flex justify-center">
+    <div className="card border border-gray-400 shadow-xl w-full max-w-md">
+      <div className="card-body text-center ">
+        
+      <div className="bg-blue-500 text-white py-3 px-4 border-b border-gray-400">
+  <h2 className="card-title text-2xl">Aptitude</h2>
+</div>
+        <ul className="list-none  ">
+          <li className="text-lg border border-gray-300  px-4 py-2 hover:text-blue-400 cursor-pointer">
+            <Link to="/simpleinterest">Simple Interest</Link>
+          </li>
+          <li className="text-lg border border-gray-300  px-4 py-2 hover:text-blue-400 cursor-pointer">
+            <Link to="/compoundinterest">Compound Interest</Link>
+          </li>
+          <li className="text-lg border border-gray-300 px-4 py-2 hover:text-blue-400 cursor-pointer">
+          <Link to="/average">Average</Link>
+          </li>
+          <li className="text-lg border border-gray-300 px-4 py-2 hover:text-blue-400 cursor-pointer">
+            <Link to="/aptitude">Learn More</Link>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
       <div className="bg-blue-400 h-1 my-6"></div>
       <p className="mb-3 text-gray-500  text-justify">
         <p className="mb-3 text-gray-500  text-justify">
@@ -39,19 +69,9 @@ const Home: React.FC = () => {
         model questions in social media networks such as Facebook, Twitter,
         Google plus etc.
         </p>
-        <p>
-        Institute of Banking Personnel Selection (IBPS) Common
-        Written Entrance test, State Bank of India (SBI) Entrance Exams,
-        Regional Rural Bank Entrance Exams, Railway Recruitment Board (RRB)
-        Exam, Common Aptitude Test (CAT) Entrance Exam, Life Insurance
-        Corporation (LIC) Entrance Exams, Union Public Service Commission
-        (UPSC), Staff Selection Commission (SSC) Entrance Test, University
-        exams, All types of Interview jobs, Information Technology (IT) Exams,
-        University Grants Commission (UGC), Integrated Common Entrance Test
-        (ICET) and many other exams. All the very best friends.
-        </p>
+        
       </p>
-    </MainLayout>
+      </>
   );
 };
 

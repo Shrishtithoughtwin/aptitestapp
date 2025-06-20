@@ -1,15 +1,32 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Home from "../pages/home/Home";
 import Aptitude from "../pages/aptitude/Aptitude";
+import Average from "../pages/average/Average";
+import SimpleInterest from "../pages/sipage/SimpleInterest";
+import CompoundInterest from "../pages/cipage/CompoundInterest";
+import ProfitLoss from "../pages/profitloss/ProfitLoss";
+import LcmHcf from "../pages/lcmhcf/LcmHcf";
+ import MainLayout from "../layouts/MainLayout";
+import TestInstruction from "../pages/testrule/TestInstruction";
+import QuestionsComponent from "../pages/quesCompnent/QuestionComponent";
+import ViewResult from "../pages/viewresult/ViewResult";
 
 const AppRoutes: React.FC = () => (
-  <Router>
+  <MainLayout>
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/aptitude" element={<Aptitude />} />
+       <Route path="/average" element={<Average />} />
+      <Route path="/simpleinterest" element={<SimpleInterest />} />
+      <Route path="/compoundinterest" element={<CompoundInterest />} />
+      <Route path="/profitloss" element={<ProfitLoss />} />
+      <Route path="/lcmhcf" element={<LcmHcf />} /> 
+      <Route path="/testinstruction/:testId" element={<TestInstruction />} />
+      <Route path="/questions/:testId" element={<QuestionsComponent/>}/>
+      <Route path="/viewresult" element={<ViewResult score={0} totalQuestions={0} />} />
     </Routes>
-  </Router>
+  </MainLayout>
 );
 
 export default AppRoutes;

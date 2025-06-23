@@ -44,7 +44,7 @@ const Home: React.FC = () => {
 
       <div className="bg-blue-400 h-1 my-6"></div>
       <p className="mb-3 text-gray-500  text-justify">
-        <p className="mb-3 text-gray-500  text-justify">
+      
         All about freeonlinetest.in Home page: This page is having all the main
         categories list mentioned in this website. Those are Aptitude,
         Reasoning, English, General knowledge, Computer, Professional Knowledge
@@ -55,8 +55,7 @@ const Home: React.FC = () => {
         registration and no need to pay the money. It is free of cost. Start
         using it and share it with your friends if you like this website. This
         web site helps for below mentioned exams.
-        </p>
-        <p className="mb-3 text-gray-500  text-justify">
+        <br/>
          Why freeonlinetest ? why not
         other websites? This is the only website which display time spent on
         each question along with full report, Handling negative marking in the
@@ -70,7 +69,7 @@ const Home: React.FC = () => {
         Google plus etc.
         </p>
         
-      </p>
+      
       </>
   );
 };

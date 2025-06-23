@@ -8,7 +8,6 @@ const Average = () => {
     navigate(`/test-rule-avg/${testId}`);
   };
   return (
-   
       <div className="container mx-auto p-6 text-center">
         <h2 className="text-4xl font-bold mb-4">
           Averages online test - Aptitude
@@ -46,7 +45,6 @@ const Average = () => {
           </button>
         </div>
       ))}
-
         <div className="bg-blue-400 h-1 my-6"></div>
         <h1 className="text-2xl  font-bold mb-3">  Averages Online Mock test </h1>
         <p className="mb-3 text-gray-500  text-justify">
@@ -58,8 +56,6 @@ const Average = () => {
             opportunity and try to get a great benefit. If you want to report
             anything please post in the forum for debate and doubt to get your
             clarification.
-        
-         
         </p>
       </div>
   

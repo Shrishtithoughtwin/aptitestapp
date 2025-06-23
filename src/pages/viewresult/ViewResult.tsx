@@ -1,8 +1,4 @@
-
-
-
 import React from "react";
-
 interface ViewResultProps {
   score: number;
   totalQuestions: number;

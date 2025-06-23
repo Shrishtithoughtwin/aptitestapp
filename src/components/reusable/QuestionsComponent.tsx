@@ -71,32 +71,36 @@ const QuestionsComponent: React.FC<QuestionsComponentProps> = ({
     return `${minutes} mins : ${seconds < 10 ? "0" : ""}${seconds} secs`;
   };
 
-  const handleOptionClick = (optionIndex: number) => {
-    setSelectedOptions((prevOptions) => ({
-      ...prevOptions,
-      [currentQuestionIndex]: optionIndex,
-    }));
 
-    setQuestionStatus((prevStatus) => ({
-      ...prevStatus,
+  const handleOptionClick = (optionIndex: number) => {
+    setSelectedOptions((prev) => {
+      const updated = {
+        ...prev,
+        [currentQuestionIndex]: optionIndex,
+      };
+  
+      // Recalculate score based on all selected options
+      let newScore = 0;
+      for (const [indexStr, selected] of Object.entries(updated)) {
+        const index = parseInt(indexStr);
+        const correct = testQuestions[index].correctOption;
+        if (selected === correct) {
+          newScore += 1;
+        } else if (selected !== null && selected !== undefined) {
+          newScore -= 0.25;
+        }
+      }
+  
+      setScore(newScore);
+      return updated;
+    });
+  
+    setQuestionStatus((prev) => ({
+      ...prev,
       [currentQuestionIndex]: "answered",
     }));
-
-    if (optionIndex === currentQuestion.correctOption) {
-      setScore((prevScore) =>
-        selectedOptions[currentQuestionIndex] !== currentQuestion.correctOption
-          ? prevScore + 1
-          : prevScore
-      );
-    } else {
-      setScore((prevScore) =>
-        selectedOptions[currentQuestionIndex] === currentQuestion.correctOption
-          ? prevScore + 0.25
-          : prevScore - 0.25
-      );
-    }
   };
-
+  
   const handleNextQuestion = () => {
     if (currentQuestionIndex < testQuestions.length - 1) {
       setQuestionStatus((prevStatus) => ({

@@ -52,7 +52,7 @@ const LcmHcf = () => {
         <div className="bg-blue-400 h-1 my-6"></div>
         <h1 className="text-2xl  font-bold mb-3">LCM and HCF Online Mock test </h1>
         <p className="mb-3 text-gray-500  text-justify">
-          <p className="mb-3 text-gray-500  text-justify">
+          
             Test your skills by writing those exams test your knowledge of the
             result. In the market there are also plenty of books available for
             efficiency. But instead of buying a book and we offer a lot of
@@ -60,7 +60,7 @@ const LcmHcf = () => {
             opportunity and try to get a great benefit. If you want to report
             anything please post in the forum for debate and doubt to get your
             clarification.
-          </p>
+          
         
         </p>
       </div>

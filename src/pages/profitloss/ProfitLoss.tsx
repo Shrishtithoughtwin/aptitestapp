@@ -3,8 +3,9 @@ import { useNavigate } from "react-router-dom";
 const ProfitLoss = () => {
   const navigate = useNavigate();
 
-  const handleTakeTestClick = () => {
-    navigate("/testinstruction");
+
+  const handleTakeTestClick = (testId: number) => {
+    navigate(`/test-rule-pl/${testId}`);
   };
   return (
     <div className="container mx-auto p-6 text-center">
@@ -17,31 +18,29 @@ const ProfitLoss = () => {
         Practice those questions to boost your Aptitude knowledge for upcoming
         exams.
       </p>
-            {/* Online Test 1 */}
-            <div className="border border-gray-200  p-1 mb-2 flex justify-between items-center w-4/5 mx-auto">
-        <div className="flex-1 text-left  ml-2">
-          <h2 className="text-lg  mb-1">Online Test - 1 (Profit and Loss)</h2>
-          <p className="text-gray-500 mb-1 text-base">
-            Number of questions: 20 | Time: 30 minutes
-          </p>
+      <h2 className="text-3xl  mb-4">
+        Take Profit and Loss MCQ & Online Test
+      </h2>
+             {/* Online Tests */}
+   {[1, 2].map((testId) => (
+        <div
+          key={testId}
+          className="border border-gray-200 p-1 mb-2 flex justify-between items-center w-4/5 mx-auto"
+        >
+          <div className="flex-1 text-left ml-2">
+            <h2 className="text-lg mb-1">Online Test - {testId} ( Profit and Loss)</h2>
+            <p className="text-gray-500 mb-1 text-base">
+              Number of questions: 20 | Time: 30 minutes
+            </p>
+          </div>
+          <button
+            className="bg-blue-500 text-white px-4 py-1 rounded-3xl mr-2 hover:bg-blue-600"
+            onClick={() => handleTakeTestClick(testId)}
+          >
+            TAKE TEST
+          </button>
         </div>
-        <button className="bg-blue-500 text-white px-4 py-1 rounded-3xl mr-2 hover:bg-blue-600" onClick={handleTakeTestClick}>
-          TAKE TEST
-        </button>
-      </div>
-
-      {/* Online Test 2 */}
-      <div className="border border-gray-200  p-1 mb-2 flex justify-between items-center w-4/5 mx-auto">
-        <div className="flex-1 text-left  ml-2">
-          <h2 className="text-lg mb-1">Online Test - 2 (Profit and Loss)</h2>
-          <p className="text-gray-500 mb-1 text-base">
-            Number of questions: 20 | Time: 30 minutes
-          </p>
-        </div>
-        <button className="bg-blue-500 text-white px-4 py-1 rounded-3xl mr-2 hover:bg-blue-600" onClick={handleTakeTestClick}>
-          TAKE TEST
-        </button>
-      </div>
+      ))}
 
       <div className="bg-blue-400 h-1 my-6"></div>
       <h1 className="text-2xl  font-bold mb-3"> Profit and Loss Online Mock test </h1>

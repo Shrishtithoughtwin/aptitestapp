@@ -39,11 +39,12 @@ const ViewResult: React.FC<ViewResultProps> = ({ score, totalQuestions }) => {
             style={{ width: `${percentage}%` }}
           ></div>
         </div>
-        <div className="absolute inset-0 flex justify-center items-center">
+
+<div className="absolute inset-0 flex justify-center items-center">
           <p className="text-sm font-semibold text-gray-700">
-            {percentage.toFixed(1)}%
+          Performance Bar
           </p>
-        </div>
+        </div> 
       </div>
 
       {/* Feedback */}
@@ -73,12 +74,6 @@ const ViewResult: React.FC<ViewResultProps> = ({ score, totalQuestions }) => {
         >
           Retake Test
         </button>
-        {/* <button
-          className="bg-gray-100 text-gray-700 px-6 py-2 rounded-lg hover:bg-gray-200"
-          onClick={() => alert("Review Questions coming soon!")}
-        >
-          Review Questions
-        </button> */}
       </div>
     </div>
   );

@@ -5,7 +5,7 @@ const TestRuleAvg = () => {
   const { testId } = useParams<{ testId: string }>();
 
   const handleStartTestClick = () => {
-    navigate(`/average-test/${testId}`);
+    navigate(`/avg-test/${testId}`);
   };
   return (
     <div className="container mx-auto p-6 text-center shadow-lg rounded-lg bg-base-100 border border-gray-200">

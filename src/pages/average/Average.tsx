@@ -5,7 +5,7 @@ const Average = () => {
 
 
   const handleTakeTestClick = (testId: number) => {
-    navigate(`/testinstruction/${testId}`);
+    navigate(`/test-rule-avg/${testId}`);
   };
   return (
    
@@ -22,6 +22,9 @@ const Average = () => {
           prepared by experts which could help in your exam in the aptitude
           section.
         </p>
+        <h2 className="text-3xl  mb-4">
+        Take Compound Interest MCQ & Online Test
+      </h2>
 
    {/* Online Tests */}
 {[1, 2].map((testId) => (

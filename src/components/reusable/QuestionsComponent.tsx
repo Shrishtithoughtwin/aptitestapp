@@ -1,31 +1,61 @@
-
 import React, { useState, useEffect } from "react";
-import { useParams } from "react-router-dom";
-import averageQuestions from "../../data/averageQuestions.json";
-import ViewResult from "../viewresult/ViewResult";
+import ConfirmModal from "../../pages/modal_component/ConfirmModal";
+import ViewResult from "../../pages/viewresult/ViewResult";
 
-const QuestionsComponent: React.FC = () => {
-  const { testId } = useParams<{ testId: string }>();
+interface Question {
+  question: string;
+  options: string[];
+  correctOption: number;
+  set: string;
+}
+
+interface QuestionsComponentProps {
+  testId: string;
+  questions: Question[];
+  timeLimit: number;
+}
+
+const QuestionsComponent: React.FC<QuestionsComponentProps> = ({
+  testId,
+  questions,
+  timeLimit,
+}) => {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [selectedOptions, setSelectedOptions] = useState<
     Record<number, number | null>
   >({});
   const [score, setScore] = useState(0);
-  const [remainingTime, setRemainingTime] = useState(30 * 60); // 30 minutes in seconds
+  const [remainingTime, setRemainingTime] = useState(timeLimit);
   const [testCompleted, setTestCompleted] = useState(false);
+  const [isModalOpen, setIsModalOpen] = useState(false);
   const [questionStatus, setQuestionStatus] = useState<
     Record<number, "answered" | "visited" | "unvisited">
   >({});
 
-  const testQuestions = averageQuestions.questions.filter(
+  const testQuestions = questions.filter(
     (q) => q.set === (testId === "1" ? "A" : "B")
   );
 
   const currentQuestion = testQuestions[currentQuestionIndex];
 
   useEffect(() => {
-    if (remainingTime === 0) {
-      setTestCompleted(true);
+    const handleBeforeUnload = (event: BeforeUnloadEvent) => {
+      if (!testCompleted) {
+        event.preventDefault();
+        event.returnValue = "";
+      }
+    };
+
+    window.addEventListener("beforeunload", handleBeforeUnload);
+
+    return () => {
+      window.removeEventListener("beforeunload", handleBeforeUnload);
+    };
+  }, [testCompleted]);
+
+  useEffect(() => {
+    if (remainingTime === 0 && !testCompleted) {
+      handleConfirmSubmit();
     }
 
     const timer = setInterval(() => {
@@ -33,7 +63,7 @@ const QuestionsComponent: React.FC = () => {
     }, 1000);
 
     return () => clearInterval(timer);
-  }, [remainingTime]);
+  }, [remainingTime, testCompleted]);
 
   const formatTime = (time: number) => {
     const minutes = Math.floor(time / 60);
@@ -61,56 +91,66 @@ const QuestionsComponent: React.FC = () => {
     } else {
       setScore((prevScore) =>
         selectedOptions[currentQuestionIndex] === currentQuestion.correctOption
-          ? prevScore - 1
-          : prevScore
+          ? prevScore + 0.25
+          : prevScore - 0.25
       );
     }
   };
 
   const handleNextQuestion = () => {
     if (currentQuestionIndex < testQuestions.length - 1) {
-      setCurrentQuestionIndex((prevIndex) => prevIndex + 1);
       setQuestionStatus((prevStatus) => ({
         ...prevStatus,
-        [currentQuestionIndex + 1]:
-          prevStatus[currentQuestionIndex + 1] === "answered"
+        [currentQuestionIndex]:
+          selectedOptions[currentQuestionIndex] !== undefined
             ? "answered"
             : "visited",
       }));
+      setCurrentQuestionIndex((prevIndex) => prevIndex + 1);
     }
   };
 
   const handlePrevQuestion = () => {
     if (currentQuestionIndex > 0) {
-      setCurrentQuestionIndex((prevIndex) => {
-        const newIndex = prevIndex - 1;
-        setQuestionStatus((prevStatus) => ({
-          ...prevStatus,
-          [newIndex]:
-            prevStatus[newIndex] === "answered" ? "answered" : "visited",
-        }));
-        return newIndex;
-      });
+      setQuestionStatus((prevStatus) => ({
+        ...prevStatus,
+        [currentQuestionIndex]:
+          selectedOptions[currentQuestionIndex] !== undefined
+            ? "answered"
+            : "visited",
+      }));
+      setCurrentQuestionIndex((prevIndex) => prevIndex - 1);
     }
   };
 
+  const handleNavigateQuestion = (index: number) => {
+    setQuestionStatus((prevStatus) => ({
+      ...prevStatus,
+      [currentQuestionIndex]:
+        selectedOptions[currentQuestionIndex] !== undefined
+          ? "answered"
+          : "visited",
+    }));
+    setCurrentQuestionIndex(index);
+  };
+
   const handleSubmitTest = () => {
+    setIsModalOpen(true);
+  };
+
+  const handleConfirmSubmit = () => {
+    setIsModalOpen(false);
     setTestCompleted(true);
   };
 
-  const handleNavigateQuestion = (index: number) => {
-    setCurrentQuestionIndex(index);
-    setQuestionStatus((prevStatus) => ({
-      ...prevStatus,
-      [index]: prevStatus[index] === "answered" ? "answered" : "visited",
-    }));
+  const handleCancelSubmit = () => {
+    setIsModalOpen(false);
   };
 
   return (
     <div className="container mx-auto p-6">
       {!testCompleted ? (
         <div className="grid grid-cols-3 gap-6">
-          {/* Question Content (Left Side) */}
           <div className="col-span-2 bg-gray-100 p-6 rounded-lg shadow-lg">
             <h2 className="text-xl font-bold mb-4 text-red-500">
               Question No. {currentQuestionIndex + 1})
@@ -143,23 +183,21 @@ const QuestionsComponent: React.FC = () => {
             </ul>
             <div className="mt-6 flex justify-between">
               <button
-                className=" text-black px-4 py-2 rounded border-blue-400 border-2"
+                className="text-black px-4 py-2 rounded border-blue-400 border-2"
                 onClick={handlePrevQuestion}
                 disabled={currentQuestionIndex === 0}
               >
                 ← Prev
               </button>
               <button
-                className=" text-black px-4 py-2 rounded border-blue-400 border-2"
+                className="text-black px-4 py-2 rounded border-blue-400 border-2"
                 onClick={handleNextQuestion}
                 disabled={currentQuestionIndex === testQuestions.length - 1}
               >
-              Next →
+                Next →
               </button>
             </div>
           </div>
-
-          {/* Timer and Navigation (Right Side) */}
           <div className="col-span-1 bg-gray-50 p-4 rounded-lg shadow-lg">
             <div className="bg-blue-200 text-blue-800 p-2 rounded-lg font-semibold text-center mb-4">
               Time Left - {formatTime(remainingTime)}
@@ -173,10 +211,8 @@ const QuestionsComponent: React.FC = () => {
                   key={index}
                   className={`p-2 rounded-full text-sm ${
                     index === currentQuestionIndex
-                      ? "ring-4 ring-blue-300"
-                      : ""
-                  } ${
-                    questionStatus[index] === "answered"
+                      ? "ring-4 ring-blue-300 bg-gray-300 text-black"
+                      : questionStatus[index] === "answered"
                       ? "bg-green-500 text-white"
                       : questionStatus[index] === "visited"
                       ? "bg-red-500 text-white"
@@ -199,6 +235,11 @@ const QuestionsComponent: React.FC = () => {
       ) : (
         <ViewResult score={score} totalQuestions={testQuestions.length} />
       )}
+      <ConfirmModal
+        isOpen={isModalOpen}
+        onClose={handleCancelSubmit}
+        onConfirm={handleConfirmSubmit}
+      />
     </div>
   );
 };

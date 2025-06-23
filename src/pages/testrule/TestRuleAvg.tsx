@@ -1,16 +1,16 @@
 import { useNavigate, useParams } from "react-router-dom";
 
-const TestInstruction = () => {
+const TestRuleAvg = () => {
   const navigate = useNavigate();
   const { testId } = useParams<{ testId: string }>();
 
   const handleStartTestClick = () => {
-    navigate(`/questions/${testId}`);
+    navigate(`/average-test/${testId}`);
   };
   return (
     <div className="container mx-auto p-6 text-center shadow-lg rounded-lg bg-base-100 border border-gray-200">
       <h1 className="text-3xl font-bold mb-4">
-        Aptitude Question and Answers Test
+        Averages, Aptitude questions & answers, Averages test
       </h1>
       <ul className="text-left text-lg mb-6 space-y-2">
         <h1 className="text-2xl font-bold mb-4">Test Instructions :</h1>
@@ -58,4 +58,4 @@ const TestInstruction = () => {
   );
 };
 
-export default TestInstruction;
+export default TestRuleAvg;

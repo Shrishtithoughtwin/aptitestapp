@@ -1,4 +1,5 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 interface ConfirmModalProps {
   isOpen: boolean;
   onClose: () => void;
@@ -9,6 +10,7 @@ const ConfirmModal: React.FC<ConfirmModalProps> = ({
   onClose,
   onConfirm,
 }) => {
+  const {t}=useTranslation();
   if (!isOpen) return null;
 
   return (
@@ -21,20 +23,20 @@ const ConfirmModal: React.FC<ConfirmModalProps> = ({
           </div>
         </div>
         <h2 className="text-2xl font-bold text-gray-700 mb-6">
-          Do you want to submit?
+        {t("modal.submitConfirm")}
         </h2>
         <div className="flex justify-center gap-6">
           <button
             className="bg-green-500 text-white px-6 py-2  hover:bg-green-600 focus:outline-none"
             onClick={onConfirm}
           >
-            Yes
+          {t("modal.yes")}
           </button>
           <button
             className="bg-red-500 text-white px-6 py-2  hover:bg-red-600 focus:outline-none"
             onClick={onClose}
           >
-            No
+            {t("modal.no")}
           </button>
         </div>
       </div>

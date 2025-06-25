@@ -1,0 +1,263 @@
+{
+    "tests": [
+      {
+        "set": "A",
+        "questionCount": 20,
+        "marksPerQuestion": 1,
+        "negativeMark": 0.25,
+        "timeLimitMinutes": 30,
+        "questions": [
+          {
+            "id": 1,
+            "question": "18 और 24 का HCF (महत्तम समापवर्त्य) क्या है?",
+            "options": ["2", "3", "6", "12"],
+            "correctOption": 2
+          },
+          {
+            "id": 2,
+            "question": "12 और 15 का LCM (न्यूनतम समापवर्ती) क्या है?",
+            "options": ["30", "60", "180", "45"],
+            "correctOption": 1
+          },
+          {
+            "id": 3,
+            "question": "8, 12 और 20 का LCM क्या है?",
+            "options": ["120", "60", "240", "80"],
+            "correctOption": 0
+          },
+          {
+            "id": 4,
+            "question": "दो सह-प्रधान (co-prime) संख्याओं का HCF क्या होता है?",
+            "options": ["0", "1", "छोटी संख्या", "बड़ी संख्या"],
+            "correctOption": 1
+          },
+          {
+            "id": 5,
+            "question": "दो संख्याओं का LCM 180 और HCF 6 है। यदि एक संख्या 30 है, तो दूसरी संख्या क्या होगी?",
+            "options": ["12", "36", "60", "90"],
+            "correctOption": 1
+          },
+          {
+            "id": 6,
+            "question": "किस संख्या जोड़ी का HCF 4 और LCM 60 है?",
+            "options": ["12 और 20", "4 और 60", "10 और 24", "6 और 10"],
+            "correctOption": 0
+          },
+          {
+            "id": 7,
+            "question": "यदि दो संख्याओं का LCM 84 है और उनका गुणनफल 252 है, तो उनका HCF क्या होगा?",
+            "options": ["3", "6", "12", "18"],
+            "correctOption": 0
+          },
+          {
+            "id": 8,
+            "question": "42 और 56 का HCF क्या है?",
+            "options": ["7", "14", "28", "21"],
+            "correctOption": 1
+          },
+          {
+            "id": 9,
+            "question": "9 और 10 का LCM क्या है?",
+            "options": ["90", "45", "18", "30"],
+            "correctOption": 0
+          },
+          {
+            "id": 10,
+            "question": "दो संख्याओं के HCF और LCM के बारे में निम्नलिखित में से क्या सही है?",
+            "options": ["HCF × LCM = संख्याओं का गुणनफल", "LCM = HCF + गुणनफल", "HCF = LCM – गुणनफल", "HCF + LCM = गुणनफल"],
+            "correctOption": 0
+          },
+          {
+            "id": 11,
+            "question": "27 और 36 का HCF क्या है?",
+            "options": ["3", "6", "9", "12"],
+            "correctOption": 2
+          },
+          {
+            "id": 12,
+            "question": "5 और 7 का LCM क्या है?",
+            "options": ["35", "70", "35", "105"],
+            "correctOption": 2
+          },
+          {
+            "id": 13,
+            "question": "60 और 72 का HCF क्या है?",
+            "options": ["6", "18", "12", "24"],
+            "correctOption": 2
+          },
+          {
+            "id": 14,
+            "question": "16 और 20 का LCM क्या है?",
+            "options": ["160", "80", "40", "20"],
+            "correctOption": 1
+          },
+          {
+            "id": 15,
+            "question": "1 और 0 का LCM क्या है?",
+            "options": ["1", "परिभाषित नहीं", "0", "अनंत"],
+            "correctOption": 2
+          },
+          {
+            "id": 16,
+            "question": "जुड़वाँ अभाज्य संख्याओं 11 और 13 का LCM क्या है?",
+            "options": ["24", "143", "144", "121"],
+            "correctOption": 1
+          },
+          {
+            "id": 17,
+            "question": "48 और 180 का HCF क्या है?",
+            "options": ["6", "12", "24", "36"],
+            "correctOption": 1
+          },
+          {
+            "id": 18,
+            "question": "21 और 6 का LCM क्या है?",
+            "options": ["63", "126", "42", "18"],
+            "correctOption": 2
+          },
+          {
+            "id": 19,
+            "question": "8 और 9 का HCF क्या है?",
+            "options": ["1", "0", "8", "9"],
+            "correctOption": 0
+          },
+          {
+            "id": 20,
+            "question": "14 और 35 का LCM क्या है?",
+            "options": ["49", "140", "245", "70"],
+            "correctOption": 3
+          }
+        ]
+      },
+      {
+        "set": "B",
+        "questionCount": 20,
+        "marksPerQuestion": 1,
+        "negativeMark": 0.25,
+        "timeLimitMinutes": 30,
+        "questions": [
+          {
+            "id": 21,
+            "question": "81 और 54 का HCF क्या है?",
+            "options": ["9", "18", "27", "36"],
+            "correctOption": 2
+          },
+          {
+            "id": 22,
+            "question": "25 और 45 का LCM क्या है?",
+            "options": ["75", "225", "90", "45"],
+            "correctOption": 1
+          },
+          {
+            "id": 23,
+            "question": "100 और 125 का HCF क्या है?",
+            "options": ["25", "50", "5", "10"],
+            "correctOption": 0
+          },
+          {
+            "id": 24,
+            "question": "3, 5 और 15 का LCM क्या है?",
+            "options": ["45", "30", "15", "75"],
+            "correctOption": 2
+          },
+          {
+            "id": 25,
+            "question": "121 और 143 का HCF क्या है?",
+            "options": ["1", "13", "17", "11"],
+            "correctOption": 3
+          },
+          {
+            "id": 26,
+            "question": "6 और 8 का LCM क्या है?",
+            "options": ["48", "24", "12", "16"],
+            "correctOption": 1
+          },
+          {
+            "id": 27,
+            "question": "20, 50 और 120 का HCF क्या है?",
+            "options": ["10", "5", "20", "15"],
+            "correctOption": 0
+          },
+          {
+            "id": 28,
+            "question": "2, 3, 4 और 6 का LCM क्या है?",
+            "options": ["24", "36", "48", "12"],
+            "correctOption": 3
+          },
+          {
+            "id": 29,
+            "question": "96 और 144 का HCF क्या है?",
+            "options": ["24", "32", "48", "72"],
+            "correctOption": 2
+          },
+          {
+            "id": 30,
+            "question": "18 और 24 का LCM क्या है?",
+            "options": ["72", "36", "48", "54"],
+            "correctOption": 0
+          },
+          {
+            "id": 31,
+            "question": "9, 12 और 15 का LCM क्या है?",
+            "options": ["90", "180", "120", "60"],
+            "correctOption": 1
+          },
+          {
+            "id": 32,
+            "question": "5, 10 और 15 का HCF क्या है?",
+            "options": ["5", "10", "15", "1"],
+            "correctOption": 0
+          },
+          {
+            "id": 33,
+            "question": "3, 6 और 9 का LCM क्या है?",
+            "options": ["27", "36", "18", "12"],
+            "correctOption": 2
+          },
+          {
+            "id": 34,
+            "question": "64 और 48 का HCF क्या है?",
+            "options": ["16", "8", "4", "32"],
+            "correctOption": 0
+          },
+          {
+            "id": 35,
+            "question": "40 और 60 का LCM क्या है?",
+            "options": ["180", "200", "100", "120"],
+            "correctOption": 3
+          },
+          {
+            "id": 36,
+            "question": "72 और 120 का HCF क्या है?",
+            "options": ["12", "24", "36", "48"],
+            "correctOption": 1
+          },
+          {
+            "id": 37,
+            "question": "14 और 28 का LCM क्या है?",
+            "options": ["56", "84", "42", "28"],
+            "correctOption": 3
+          },
+          {
+            "id": 38,
+            "question": "36, 54 और 90 का HCF क्या है?",
+            "options": ["9", "27", "18", "36"],
+            "correctOption": 2
+          },
+          {
+            "id": 39,
+            "question": "22 और 33 का LCM क्या है?",
+            "options": ["66", "99", "198", "44"],
+            "correctOption": 0
+          },
+          {
+            "id": 40,
+            "question": "225 और 300 का HCF क्या है?",
+            "options": ["75", "25", "15", "45"],
+            "correctOption": 0
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -1,285 +1,302 @@
 {
+  "tests": [
+    {
+      "set": "A",
+      "questionCount": 20,
+      "marksPerQuestion": 1,
+      "negativeMark": 0.25,
+      "timeLimitMinutes": 30,
   "questions":[
   {
     "id": 1,
-    "set":"A",
+  
     "question": "What is the HCF (Highest Common Factor) of 18 and 24?",
     "options": ["2", "3", "6", "12"],
     "correctOption": 2
   },
   {
     "id": 2,
-       "set":"A",
+  
     "question": "What is the LCM (Least Common Multiple) of 12 and 15?",
     "options": ["30", "60", "180", "45"],
     "correctOption": 1
   },
   {
     "id": 3,
-       "set":"A",
+  
     "question": "What is the LCM of 8, 12, and 20?",
     "options": ["120", "60", "240", "80"],
     "correctOption": 0
   },
   {
     "id": 4,
-       "set":"A",
+  
     "question": "What is the HCF of two co-prime numbers?",
     "options": ["0", "1", "The smaller number", "The larger number"],
     "correctOption": 1
   },
   {
     "id": 5,
-       "set":"A",
+  
     "question": "The LCM of two numbers is 180, and their HCF is 6. If one number is 30, what is the other number?",
     "options": ["12", "36", "60", "90"],
     "correctOption": 1
   },
   {
     "id": 6,
-       "set":"A",
+  
     "question": "Which pair of numbers has an HCF of 4 and an LCM of 60?",
     "options": ["12 and 20", "4 and 60", "10 and 24", "6 and 10"],
     "correctOption": 0
   },
   {
     "id": 7,
-       "set":"A",
+  
     "question": "If the LCM of two numbers is 84 and their product is 252, what is their HCF?",
     "options": ["3", "6", "12", "18"],
     "correctOption": 0
   },
   {
     "id": 8,
-       "set":"A",
+  
     "question": "What is the HCF of 42 and 56?",
     "options": ["7", "14", "28", "21"],
     "correctOption": 1
   },
   {
     "id": 9,
-       "set":"A",
+  
     "question": "What is the LCM of 9 and 10?",
     "options": ["90", "45", "18", "30"],
     "correctOption": 0
   },
   {
     "id": 10,
-       "set":"A",
+  
     "question": "Which of the following is true regarding HCF and LCM of two numbers?",
     "options": ["HCF × LCM = Product of the numbers", "LCM = HCF + Product", "HCF = LCM – Product", "HCF + LCM = Product"],
     "correctOption": 0
   },
   {
     "id": 11,
-       "set":"A",
+  
     "question": "What is the HCF of 27 and 36?",
     "options": ["3", "6", "9", "12"],
     "correctOption": 2
   },
   {
     "id": 12,
-       "set":"A",
+  
     "question": "What is the LCM of 5 and 7?",
     "options": ["35", "70", "35", "105"],
     "correctOption": 2
   },
   {
     "id": 13,
-   "set":"A",
+  
     "question": "What is the HCF of 60 and 72?",
     "options": ["6", "18", "12", "24"],
     "correctOption": 2
   },
   {
     "id": 14,
-       "set":"A",
+  
     "question": "What is the LCM of 16 and 20?",
     "options": ["160", "80", "40", "20"],
     "correctOption": 1
   },
   {
     "id": 15,
-       "set":"A",
+  
     "question": "What is the LCM of 1 and 0?",
     "options": ["1", "Not defined", "0", "Infinite"],
     "correctOption": 2
   },
   {
     "id": 16,
-       "set":"A",
+  
     "question": "What is the LCM of twin prime numbers 11 and 13?",
     "options": ["24", "143", "144", "121"],
     "correctOption": 1
   },
   {
     "id": 17,
-       "set":"A",
+  
     "question": "What is the HCF of 48 and 180?",
     "options": ["6", "12", "24", "36"],
     "correctOption": 1
   },
   {
     "id": 18,
-       "set":"A",
+  
     "question": "What is the LCM of 21 and 6?",
     "options": ["63", "126", "42", "18"],
     "correctOption": 2
   },
   {
     "id": 19,
-       "set":"A",
+  
     "question": "What is the HCF of 8 and 9?",
     "options": ["1", "0", "8", "9"],
     "correctOption": 0
   },
   {
     "id": 20,
-       "set":"A",
+  
     "question": "What is the LCM of 14 and 35?",
     "options": ["49", "140", "245", "70"],
     "correctOption": 3
-  },
+  }
+]
+},
+{
+  "set": "B",
+  "questionCount": 20,
+  "marksPerQuestion": 1,
+  "negativeMark": 0.25,
+  "timeLimitMinutes": 30,
+  "questions": [
   {
     "id": 21,
-     "set":"B",
+  
     "question": "What is the HCF of 81 and 54?",
     "options": ["9", "18", "27", "36"],
     "correctOption": 2
   },
   {
     "id": 22,
-     "set":"B",
+  
     "question": "What is the LCM of 25 and 45?",
     "options": ["75", "225", "90", "45"],
     "correctOption": 1
   },
   {
     "id": 23,
-     "set":"B",
+  
     "question": "What is the HCF of 100 and 125?",
     "options": ["25", "50", "5", "10"],
     "correctOption": 0
   },
   {
     "id": 24,
-     "set":"B",
+  
     "question": "What is the LCM of 3, 5, and 15?",
     "options": ["45", "30", "15", "75"],
     "correctOption": 2
   },
   {
     "id": 25,
-     "set":"B",
+  
     "question": "What is the HCF of 121 and 143?",
     "options": ["1", "13", "17", "11"],
     "correctOption": 3
   },
   {
     "id": 26,
-     "set":"B",
+  
     "question": "What is the LCM of 6 and 8?",
     "options": ["48", "24", "12", "16"],
     "correctOption": 1
   },
   {
     "id": 27,
-     "set":"B",
+  
     "question": "What is the HCF of 20, 50, and 120?",
     "options": ["10", "5", "20", "15"],
     "correctOption": 0
   },
   {
     "id": 28,
-     "set":"B",
+  
     "question": "What is the LCM of 2, 3, 4, and 6?",
     "options": ["24", "36", "48", "12"],
     "correctOption": 3
   },
   {
     "id": 29,
-     "set":"B",
+  
     "question": "What is the HCF of 96 and 144?",
     "options": ["24", "32", "48", "72"],
     "correctOption": 2
   },
   {
     "id": 30,
-     "set":"B",
+  
     "question": "What is the LCM of 18 and 24?",
     "options": ["72", "36", "48", "54"],
     "correctOption": 0
   },
   {
     "id": 31,
-     "set":"B",
+  
     "question": "What is the LCM of 9, 12, and 15?",
     "options": ["90", "180", "120", "60"],
     "correctOption": 1
   },
   {
     "id": 32,
-     "set":"B",
+  
     "question": "What is the HCF of 5, 10, and 15?",
     "options": ["5", "10", "15", "1"],
     "correctOption": 0
   },
   {
     "id": 33,
-     "set":"B",
+  
     "question": "What is the LCM of 3, 6, and 9?",
     "options": ["27", "36", "18", "12"],
     "correctOption": 2
   },
   {
     "id": 34,
-     "set":"B",
+  
     "question": "What is the HCF of 64 and 48?",
     "options": ["16", "8", "4", "32"],
     "correctOption": 0
   },
   {
     "id": 35,
-     "set":"B",
+  
     "question": "What is the LCM of 40 and 60?",
     "options": ["180", "200", "100", "120"],
     "correctOption": 3
   },
   {
     "id": 36,
-     "set":"B",
+  
     "question": "What is the HCF of 72 and 120?",
     "options": ["12", "24", "36", "48"],
     "correctOption": 1
   },
   {
     "id": 37,
-     "set":"B",
+  
     "question": "What is the LCM of 14 and 28?",
     "options": ["56", "84", "42", "28"],
     "correctOption": 3
   },
   {
     "id": 38,
-     "set":"B",
+  
     "question": "What is the HCF of 36, 54, and 90?",
     "options": ["9", "27", "18", "36"],
     "correctOption": 2
   },
   {
     "id": 39,
-     "set":"B",
+  
     "question": "What is the LCM of 22 and 33?",
     "options": ["66", "99", "198", "44"],
     "correctOption": 0
   },
   {
     "id": 40,
-     "set":"B",
+  
     "question": "What is the HCF of 225 and 300?",
     "options": ["75", "25", "15", "45"],
     "correctOption": 0
   }
 ]
 }
-
+]
+}

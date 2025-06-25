@@ -3,14 +3,36 @@ import React from "react";
 import QuestionsComponent from "../../components/reusable/QuestionsComponent";
 import plQuestions from "../../data/plQuestions.json"
 import { useParams } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 const ProfitLossTest: React.FC = () => {
   const { testId } = useParams<{ testId: string }>();
+const {t}=useTranslation();
+  const testSetMap: Record<string, string> = {
+    "1": "A",
+    "2": "B",
+  };
+
+  const mappedTestId = testSetMap[testId ?? "1"];
+
+  const test = plQuestions.tests.find(
+    (t) => t.set === mappedTestId
+  );
+
+  if (!test) {
+    return (
+      <div className="text-center text-red-500 font-bold mt-10">
+       {t("test.invalidTest")}
+      </div>
+    );
+  }
 
   return (
     <QuestionsComponent
       testId={testId ?? "1"} 
-      questions={plQuestions.questions}
-      timeLimit={30*60} 
+      questions={test.questions.map((q) => ({ ...q, selectedOption: null }))}
+            timeLimit={test.timeLimitMinutes * 60}
+            marksPerQuestion={test.marksPerQuestion}
+            negativeMark={test.negativeMark}
     />
   );
 };

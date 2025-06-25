@@ -1,0 +1,134 @@
+{
+  "nav": {
+    "home": "Home",
+    "aptitude": "Aptitude",
+    "mode": "Mode"
+  },
+  "home": {
+    "title": "Questions and Answers for Competitive Exams, Free Online Test, Mock test Series, MCQ Questions, Practice Test , Online Quiz",
+    "subtitle": "Take practice tests and improve your skills.",
+    "aptitudeTitle": "Aptitude",
+    "topics": {
+      "simpleInterest": "Simple Interest",
+      "compoundInterest": "Compound Interest",
+      "average": "Average",
+      "learnMore": "Learn More"
+    },
+    "description": "All about freeonlinetest.in Home page: This page is having all the main categories list mentioned in this website. Those are Aptitude, Reasoning, English, General knowledge, Computer, Professional Knowledge and model papers. These model papers useful for all banking examinations like IBPS Clerk, IBPS Probationary Officer, IBPS Specialist Officer, SBI Probationary Officer, SBI clerk, SBI Specialist Officer, RRB and RBI Grade B and other competitive examinations. There is no need of registration and no need to pay the money. It is free of cost. Start using it and share it with your friends if you like this website. This web site helps for below mentioned exams.",
+    "whyFree": "Why freeonlinetest? Why not other websites? This is the only website which displays time spent on each question along with full report, Handling negative marking in the test, Good navigation throughout the website, Corresponding materials are available for each topic, Previous year questions along with solutions, All questions are prepared by most experienced faculty and members, Color coding system while taking the online test, Model papers are also available in separate section, Guidance for interview preparation and helping aspirants by responding to their questions via emails, Posting model questions in social media networks such as Facebook, Twitter, Google Plus etc."
+  },
+  "aptitude": {
+    "title": "Online Aptitude Test , Solved Aptitude Questions, Apti Test",
+    "description": "This page is all about aptitude online test formula, tricks, aptitude problems. Here you will get 5000+ Apti test. Aptitude is one of the most important categories in all competitive exams and entrance exams. This consists of the page from the sub-categories (Topic wise) of the Aptitude category like simplifying and time, labor, time and distance, simple and useful, compound interest, averages, partnership, ratio and proportion, the problems of the times, the permutations and mixed, percentage, LCM and HCF and more. Candidates can take mock test chapter wise or topic wise aptitude test for exams like SSC CGL, SSC CHSL, SSC MTS, SSC Group D, Railway Group D, UPSC, IAS exams, Banking exams like IBPS PO, Clerk, NDA exams, Police Constable exams, etc. In each topic, you will get formulas and shortcut tricks.",
+    "mockTestTitle": "Aptitude Online Mock test",
+    "mockTestDescription": "Test your skills by writing those exams test your knowledge of the result. In the market there are also plenty of books available for efficiency. But instead of buying a book and we offer a lot of questions in the test papers at free of cost. Take this one as an opportunity and try to get a great benefit. If you want to report anything please post in the forum for debate and doubt to get your clarification. If you are preparing for any of the following exams only setup here is defined by the ability to consider the total marks. Most of the students are not perfect in the efficiency category but good in another subject sometimes they will get scared, too. That is why we are here to help you. The study included all the basics of materials and formats as well. Each category has the basics along with the tests.",
+    "topics": {
+      "lcmhcf": "LCM and HCF",
+      "average": "Average",
+      "profitloss": "Profit and Loss",
+      "simpleinterest": "Simple Interest",
+      "compoundinterest": "Compound Interest"
+    }
+  },
+  "average": {
+    "title": "Averages online test - Aptitude",
+    "description": "Welcome to freeonlinetest online exam portal, here you will get 2000+ Averages With formulae. As you know Aptitude is one of the important topics for competitive exams like Banking, SSC CGL, SSC MTS, SSC Group D, Railway Group D, Police Constable Exams, etc. Averages is also part of Quantitative aptitude. Here you will get expected questions prepared by experts which could help in your exam in the aptitude section.",
+    "testHeading": "Take Compound Interest MCQ & Online Test",
+    "onlineTest": "Online Test",
+    "onlineTestDescription": "Multiple Choice Questions and Answers on Averages",
+    "takeTestButton": "TAKE TEST",
+    "mockTestTitle": "Averages Online Mock test",
+    "mockTestDescription": "Test your skills by writing those exams test your knowledge of the result. In the market there are also plenty of books available for efficiency. But instead of buying a book and we offer a lot of questions in the test papers at free of cost. Take this one as an opportunity and try to get a great benefit. If you want to report anything please post in the forum for debate and doubt to get your clarification."
+  },
+  "compound": {
+    "title": "Compound interest online test - Aptitude",
+    "description": "Welcome to freeonlinetest online exam portal, here you will get 2000+ Compound Interest With formulae. As you know Aptitude is one of the important topics for competitive exams like Banking, SSC CGL, SSC MTS, SSC Group D, Railway Group D, Police Constable Exams, etc. Compound Interest is also part of Quantitative Aptitude. Here you will get expected questions prepared by experts which could help in your exam in the aptitude section.",
+    "testHeading": "Take Compound Interest MCQ & Online Test",
+    "onlineTest": "Online Test",
+    "topic": "Compound Interest",
+    "onlineTestDescription": "Multiple Choice Questions and Answers on Compound Interest",
+    "takeTestButton": "TAKE TEST",
+    "infoTitle": "Compound Interest:",
+    "infoDescription": "We have provided useful formulae and hints for the Compound Interest category. Requesting you to refer below points before taking any CI test. While calculating compound interest, the simple interest which is calculated for the principal of first year will add to the principal which we taken already. The addition of this amount will be the principle for the next year. For this amount simple is calculated for second year and added to principal for second year. It will go on increase like this. Finally principal is subtracted from last year amount. The result of this subtraction gives compound interest. It is denoted by CI."
+  },
+  "lcmhcf": {
+    "title": "LCM and HCF online test - Aptitude",
+    "description": "LCM and HCF online test, Mock test on LCM and HCF. Here free online test provides best questions and answers of LCM and HCF for all competitive exams like banking sector (IBPS PO, SBI, RBI, SBI Clerk), SSC (Staff Selection Commission) SSC CGL, SSC CHSL, SSC CPO, SSC MTS, Railway Board, Group D exams, and IT company placement. Questions are prepared by best faculty with easy understanding. All the sets are quite unique and come with solutions and answer keys. You can get all the tricks and tips in LCM and HCF.",
+    "testHeading": "Take LCM and HCF MCQ & Online Test",
+    "onlineTest": "Online Test",
+    "topic": "LCM and HCF",
+    "onlineTestDescription": "Multiple Choice Questions and Answers on LCM and HCF",
+    "takeTestButton": "TAKE TEST",
+    "mockTestTitle": "LCM and HCF Online Mock Test",
+    "mockTestDescription": "Test your skills by writing these exams to check your knowledge. There are plenty of books available on the market, but we offer a large number of test questions for free. Take advantage of this opportunity. If you want to report anything, please post in the forum for discussion and clarification."
+  },
+  "profitloss": {
+    "title": "Profit and Loss Question, Formulas - Profit and Loss MCQ Online Test",
+    "description": "Welcome to freeonlinetest online exam portal, here you will get 200+ Profit and Loss aptitude questions for all types of competitive exams. Practice those questions to boost your Aptitude knowledge for upcoming exams.",
+    "testHeading": "Take Profit and Loss MCQ & Online Test",
+    "onlineTest": "Online Test",
+    "topic": "Profit and Loss",
+    "onlineTestDescription": "Multiple Choice Questions and Answers on Profit and Loss",
+    "takeTestButton": "TAKE TEST",
+    "mockTestTitle": "Profit and Loss Online Mock Test",
+    "mockTestDescription": "Test your skills by writing those exams to test your knowledge. There are many books available in the market for efficiency, but we offer a lot of questions in test papers for free. Take this opportunity and try to gain great benefits. If you want to report anything, please post in the forum for discussion and clarification."
+  },
+  "simpleInterest": {
+    "title": "Simple Interest Online Test - Aptitude",
+    "description": "Welcome to freeonlinetest online exam portal, here you will get 2000+ Simple Interest with formulas. As you know, Aptitude is one of the important topics for competitive exams like Banking, SSC CGL, SSC MTS, SSC Group D, Railway Group D, Police Constable Exams, etc. Simple Interest is also part of it. Here you will get expected questions prepared by experts to help in your exam.",
+    "testHeading": "Take Simple Interest MCQ & Online Test",
+    "onlineTest": "Online Test",
+    "topic": "Simple Interest",
+    "onlineTestDescription": "Multiple Choice Questions and Answers on Simple Interest",
+    "takeTestButton": "TAKE TEST"
+  },
+  "test": {
+    "invalidTest": "Invalid Test ID",
+    "invalidTestSuggestion": "Please check the test link or contact support.",
+    "titles": {
+      "avg": "Averages, Aptitude questions & answers, Averages test",
+      "ci": "Compound Interest Questions with Solutions for Competitive Exams",
+      "si": "Simple Interest Practice Test - Aptitude Questions",
+      "pl": "Profit and Loss Online Practice Questions",
+      "lh": "LCM and HCF Mock Test - Aptitude Questions"
+    }
+  },
+  "testCard": {
+    "instructions": "Test Instructions:",
+    "questions": "Total number of questions",
+    "marks": "Each question carries",
+    "negative": "Negative marks per question",
+    "skip": "Skipping questions",
+    "skipDetails":"No marks will be deducted",
+    "time": "Time allotted",
+    "mark": "mark",
+    "minutes": "minutes",
+    "start": "Start Test"
+  },
+  "questionsComp": {
+    "questionNo": "Question No.",
+    "prev": "← Prev",
+    "next": "Next →",
+    "submit": "Submit Test",
+    "timeLeft": "Time Left",
+    "navigation": "Question Navigation"
+  },
+  "modal": {
+    "submitConfirm": "Do you want to submit?",
+    "yes": "Yes",
+    "no": "No"
+  },
+  "viewresult": {
+    "title": "Test Results",
+    "yourScore": "Your Score:",
+    "performanceBar": "Performance Bar",
+    "excellent": "🎉 Excellent work! Keep it up!",
+    "good": "😊 Good effort! A little more practice will help!",
+    "poor": "😟 Don't worry! Practice makes perfect.",
+    "retake": "Retake Test",
+    "review": "Review Your Answers",
+    "question": "Q{{num}}: {{text}}"
+  }
+}
+
+  

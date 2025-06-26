@@ -212,6 +212,8 @@ const QuestionsComponent: React.FC<QuestionsComponentProps> = ({
 <ViewResult
   score={score}
   totalQuestions={questions.length}
+  marksPerQuestion={marksPerQuestion}
+  totalMarks={questions.length * marksPerQuestion} // Pass total marks here
   results={questions.map((q, index) => ({
     question: q.question,
     options: q.options,
@@ -219,6 +221,7 @@ const QuestionsComponent: React.FC<QuestionsComponentProps> = ({
     selectedOption: selectedOptions[index] ?? null,
   }))}
 />
+
       )}
 
       {/* Confirmation Modal */}

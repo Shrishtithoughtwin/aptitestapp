@@ -3,6 +3,7 @@ import React from "react";
 import Confetti from "react-confetti";
 import { useWindowSize } from "react-use";
 import { useTranslation } from "react-i18next";
+
 interface QuestionResult {
   question: string;
   options: string[];
@@ -13,36 +14,45 @@ interface QuestionResult {
 interface ViewResultProps {
   score: number;
   totalQuestions: number;
+  marksPerQuestion: number;
+  totalMarks: number; 
   results: QuestionResult[];
 }
 
 const ViewResult: React.FC<ViewResultProps> = ({
   score,
-  totalQuestions,
+  totalMarks,
   results,
 }) => {
   const { t } = useTranslation();
-  const percentage = (score / totalQuestions) * 100;
   const { width, height } = useWindowSize();
+  const percentage = (score / totalMarks) * 100;
 
-  const confettiPieces =
-    percentage >= 75 ? 500 : percentage >= 50 ? 300 : 200;
+  const confettiPieces = percentage >= 75 ? 500 : percentage >= 50 ? 300 : 200;
 
   return (
     <div className="container mx-auto text-center p-8 shadow-lg rounded-lg">
+      {/* Confetti Effect */}
       <Confetti width={width} height={height} numberOfPieces={confettiPieces} recycle={false} />
-      
-      <h2 className="text-4xl font-bold text-blue-600 mb-6">  {t("viewresult.title")}</h2>
 
+      {/* Result Title */}
+      <h2 className="text-4xl font-bold text-blue-600 mb-6">
+        {t("viewresult.title")}
+      </h2>
+
+      {/* Score Section */}
       <div className="mb-8">
-        <p className="text-2xl font-semibold text-gray-500 mb-2">{t("viewresult.yourScore")}:</p>
+        <p className="text-2xl font-semibold text-gray-500 mb-2">
+          {t("viewresult.yourScore")}
+        </p>
         <p className="text-5xl font-extrabold text-blue-500">
-          {score} / {totalQuestions}
+          {score} / {totalMarks}
         </p>
       </div>
 
+      {/* Performance Bar */}
       <div className="relative w-full max-w-md mx-auto mb-8">
-        <div className="w-full  rounded-full h-6 overflow-hidden shadow-inner">
+        <div className="w-full rounded-full h-6 overflow-hidden shadow-inner">
           <div
             className={`h-6 transition-all duration-500 rounded-full ${
               percentage >= 75
@@ -55,14 +65,17 @@ const ViewResult: React.FC<ViewResultProps> = ({
           />
         </div>
         <div className="absolute inset-0 flex justify-center items-center">
-          <p className="text-sm font-semibold text-gray-700">{t("viewresult.performanceBar")}</p>
+          <p className="text-sm font-semibold text-gray-700">
+            {t("viewresult.performanceBar")}
+          </p>
         </div>
       </div>
 
+      {/* Feedback Section */}
       <div className="mb-6">
         {percentage >= 75 && (
           <p className="text-lg font-medium text-green-600">
-              {t("viewresult.excellent")}
+            {t("viewresult.excellent")}
           </p>
         )}
         {percentage >= 50 && percentage < 75 && (
@@ -72,27 +85,31 @@ const ViewResult: React.FC<ViewResultProps> = ({
         )}
         {percentage < 50 && (
           <p className="text-lg font-medium text-red-600">
-             {t("viewresult.poor")}
+            {t("viewresult.poor")}
           </p>
         )}
       </div>
+
+      {/* Retake Button */}
       <div className="flex justify-center gap-4 mt-8">
         <button
           className="bg-blue-500 text-white px-6 py-2 rounded-lg hover:bg-blue-600"
           onClick={() => window.location.reload()}
         >
-           {t("viewresult.retake")}
+          {t("viewresult.retake")}
         </button>
       </div>
 
       {/* Review Answers */}
       <div className="text-left mt-8">
-        <h3 className="text-2xl font-bold mb-4 text-center">  {t("viewresult.review")}</h3>
+        <h3 className="text-2xl font-bold mb-4 text-center">
+          {t("viewresult.review")}
+        </h3>
         <div className="space-y-6">
           {results.map((result, index) => (
             <div key={index} className="p-4 border border-gray-300 rounded-lg">
               <p className="mb-2 font-semibold text-gray-500">
-              {t("viewresult.question", {
+                {t("viewresult.question", {
                   num: index + 1,
                   text: result.question,
                 })}

@@ -6,298 +6,697 @@
       "marksPerQuestion": 1,
       "negativeMark": 0.25,
       "timeLimitMinutes": 40,
-  "questions":[
-  {
-    "id": 1,
-    
-    "question": "Find the profit percent earned after selling an article at a doubled rate for half quantity.",
-    "options": ["200%", "300%", "400%", "450%"],
-    "correctOption": 1
-  },
-  {
-    "id": 2,
-    
-    "question": "The shopkeeper sells an article for 600 rupees. If the profit is 20% of the cost price, find the profit.",
-    "options": ["100 rupees", "250 rupees", "500 rupees", "120 rupees"],
-    "correctOption": 0
-  },
-  {
-    "id": 3,
-    
-    "question": "A shopkeeper purchases an article for 500 rupees. If the profit is 37.5% of the selling price, find the profit.",
-    "options": ["800 rupees", "200 rupees", "300 rupees", "500 rupees"],
-    "correctOption": 2
-  },
-  {
-    "id": 4,
-    
-    "question": "An article is sold at 20% less than its cost price. If the selling cost is 50 rupees and the selling cost is 5% of the selling price, find the loss.",
-    "options": ["150 rupees", "200 rupees", "250 rupees", "300 rupees"],
-    "correctOption": 3
-  },
-  {
-    "id": 5,
-    
-    "question": "If the seller sells half of his goods at 20% loss and the rest of his goods at 50% profit, find the profit percentage on the entire transaction.",
-    "options": ["12% profit", "15% profit", "20% profit", "25% profit"],
-    "correctOption": 1
-  },
-  {
-    "id": 6,
-    
-    "question": "The price of an article is increased by 20% for the shopkeeper, he further increases the selling price by 50%. The initial profit percent was 25%. If his initial profit was 50 rupees, find the profit now.",
-    "options": ["115 rupees", "125 rupees", "135 rupees", "150 rupees"],
-    "correctOption": 2
-  },
-  {
-    "id": 7,
-    
-    "question": "The initial price of an article is decreased by 20% but the selling price remains constant. If the initial profit was 500 rupees, find the new profit. It is known the initial profit percent was 20% of cost price.",
-    "options": ["800 rupees", "900 rupees", "1000 rupees", "1250 rupees"],
-    "correctOption": 2
-  },
-  {
-    "id": 8,
-    
-    "question": "The first 3 articles were sold at a profit of 50%, the next 5 articles were sold at a loss of 25% and the final 2 articles were sold at a profit of 100%. Find the profit percentage on the whole transaction.",
-    "options": ["22.5% loss", "22.5% profit", "25% loss", "25% profit"],
-    "correctOption": 1
-  },
-  {
-    "id": 9,
-    
-    "question": "The profit on selling 1 article is equal to the cost price of 2 such articles. Find the profit percentage.",
-    "options": ["100%", "150%", "200%", "225%"],
-    "correctOption": 2
-  },
-  {
-    "id": 10,
-    
-    "question": "If the loss occurred on selling an article is 20% of the selling price, find the loss percentage.",
-    "options": ["16.6%", "16.8%", "17%", "18%"],
-    "correctOption": 0
-  },
-  {
-    "id": 11,
-    
-    "question": "The expense of selling an article, worth rupees 6000, is 50 rupees. If the selling expenses is 10% more than the loss, find the loss percentage.",
-    "options": ["7.5%", "8.33%", "9.09%", "10%"],
-    "correctOption": 1
-  },
-  {
-    "id": 12,
-    
-    "question": "The profit by selling an article is 40 rupees. Find the cost price if the selling price is twice the cost price.",
-    "options": ["80 rupees", "20 rupees", "40 rupees", "60 rupees"],
-    "correctOption": 2
-  },
-  {
-    "id": 13,
-    
-    "question": "The purchase price of an article is 20% less than the profit made. Find the profit if the selling price is 360 rupees.",
-    "options": ["200 rupees", "160 rupees", "180 rupees", "240 rupees"],
-    "correctOption": 0
-  },
-  {
-    "id": 14,
-    
-    "question": "The profit made by selling an article for 720 is 20%. Find the cost price.",
-    "options": ["500", "520", "580", "600"],
-    "correctOption": 3
-  },
-  {
-    "id": 15,
-    
-    "question": "The cost price of an article is 50% of the marked price. Find the discount if there is no profit or loss made. The selling price is 25 rupees.",
-    "options": ["20 rupees", "25 rupees", "50 rupees", "125 rupees"],
-    "correctOption": 1
-  },
-  {
-    "id": 16,
-    
-    "question": "The selling price of an article is 70% of the cost price. If the loss is 33 rupees, find the selling price.",
-    "options": ["110 rupees", "330 rupees", "33 rupees", "77 rupees"],
-    "correctOption": 3
-  },
-  {
-    "id": 17,
-    
-    "question": "The price of an article is marked 20% more than the cost price. If the discount is 20% find the profit or loss percent.",
-    "options": ["4% loss", "4% profit", "No loss or profit", "11% loss"],
-    "correctOption": 0
-  },
-  {
-    "id": 18,
-    
-    "question": "The cost price of an article is 20% of the marked price. Find the loss or profit percent if the discount allowed is 40% of the marked price.",
-    "options": ["20% profit", "200% profit", "2% profit", "20% loss"],
-    "correctOption": 1
-  },
-  {
-    "id": 19,
-    
-    "question": "The cost price of an article is 50 rupees. Find the selling price if the profit is 1 / 3rd of the selling price.",
-    "options": ["25 rupees", "50 rupees", "75 rupees", "100 rupees"],
-    "correctOption": 2
-  },
-  {
-    "id": 20,
-     
-    "question": "The selling price of an article is half the loss incurred. Find the ratio between the cost price and the selling price.",
-    "options": ["1 : 2", "2 : 1", "1 : 3", "3 : 1"],
-    "correctOption": 3
-  }
-]
-},
-{
-  "set": "B",
-  "questionCount": 20,
-  "marksPerQuestion": 1,
-  "negativeMark": 0.25,
-  "timeLimitMinutes": 30,
-  "questions": [
-  {
-    "id": 21,
-     
-    "question": "The profit on selling 10 articles is equal to the cost price of 3 articles. Find the profit percentage.",
-    "options": ["25%", "30%", "35%", "50%"],
-    "correctOption": 1
-  },
-  {
-    "id": 22,
-     
-    "question": "The price of a pair of slippers is decreased by 10% and the selling price is constant. If the initial profit percentage was equal to 25%, find the new profit percentage.",
-    "options": ["35%", "38.8%", "40%", "42%"],
-    "correctOption": 1
-  },
-  {
-    "id": 23,
-     
-    "question": "If the profit is increased to 500 rupees the profit percentage is increased by 10% find the initial profit.",
-    "options": ["400 rupees", "450 rupees", "500 rupees", "600 rupees"],
-    "correctOption": 1
-  },
-  {
-    "id": 24,
-     
-    "question": "The cost price of an article is doubled, and the selling price is made half. If the initial profit percentage was 500%, find the profit percentage now.",
-    "options": ["25%", "50%", "100%", "250%"],
-    "correctOption": 1
-  },
-  {
-    "id": 25,
-     
-    "question": "The cost price of an article is 80% of its selling price, find the profit percentage.",
-    "options": ["25%", "50%", "20%", "33.33%"],
-    "correctOption": 0
-  },
-  {
-    "id": 26,
-     
-    "question": "The profit on selling 10 articles is equal to selling price of 1 article. Find the profit percentage.",
-    "options": ["9.09%", "10%", "11.11%", "12.5%"],
-    "correctOption": 2
-  },
-  {
-    "id": 27,
-     
-    "question": "The selling price of an article is 1200 rupees. If the profit percentage is 20%, find the profit.",
-    "options": ["100 rupees", "200 rupees", "300 rupees", "500 rupees"],
-    "correctOption": 1
-  },
-  {
-    "id": 28,
-     
-    "question": "The profit on selling 15 articles is equal to the cost price of 2 articles. Find the profit percentage.",
-    "options": ["11.11%", "12.22%", "13.33%", "14.44%"],
-    "correctOption": 2
-  },
-  {
-    "id": 29,
-     
-    "question": "The selling price of 17 articles is equal to the cost price of 21 articles. Find the profit or loss percentage.",
-    "options": ["19% loss", "19% profit", "23.5% loss", "23.5% profit"],
-    "correctOption": 2
-  },
-  {
-    "id": 30,
-     
-    "question": "The cost of 12 articles is equal to the selling price of 15 articles. Find the profit or loss percentage.",
-    "options": ["20% loss", "20% profit", "25% loss", "25% profit"],
-    "correctOption": 1
-  },
-  {
-    "id": 31,
-     
-    "question": "The marked price of an article is 12% more than the selling price. What is the discount percentage?",
-    "options": ["12%", "11.7%", "10.7%", "9.35%"],
-    "correctOption": 2
-  },
-  {
-    "id": 32,
-     
-    "question": "The selling price of an article is 20% less than the profit. If the cost price is 200 rupees, find the selling price.",
-    "options": ["800 rupees", "900 rupees", "1000 rupees", "1200 rupees"],
-    "correctOption": 2
-  },
-  {
-    "id": 33,
-     
-    "question": "The cost price of an article is 2450 rupees. Find the profit if the selling price and the cost price are in a ratio 7 : 11.",
-    "options": ["1200 rupees", "1400 rupees", "2100 rupees", "1540 rupees"],
-    "correctOption": 1
-  },
-  {
-    "id": 34,
-     
-    "question": "The cost price of an article is 1.35 times the selling price. Find the loss percent.",
-    "options": ["25.3%", "25.7%", "25.9%", "26.7%"],
-    "correctOption": 2
-  },
-  {
-    "id": 35,
-     
-    "question": "The cost price of an article is 6.5 times the profit. Find the profit percentage.",
-    "options": ["15.1%", "15.2%", "15.3%", "15.4%"],
-    "correctOption": 3
-  },
-  {
-    "id": 36,
-     
-    "question": "Find the profit percentage if the selling price is 1.25 times the profit.",
-    "options": ["25%", "50%", "200%", "400%"],
-    "correctOption": 3
-  },
-  {
-    "id": 37,
-     
-    "question": "The profit earned by selling an article for 670 rupees is 23%. Find the cost price.",
-    "options": ["543 rupees", "544 rupees", "545 rupees", "546 rupees"],
-    "correctOption": 2
-  },
-  {
-    "id": 38,
-     
-    "question": "The cost price of an article is 1.56 times the selling price. Find the loss percentage.",
-    "options": ["35.8%", "39.5%", "35.9%", "39.5%"],
-    "correctOption": 2
-  },
-  {
-    "id": 39,
-     
-    "question": "The total of the selling price and the cost price is 1250. If the profit is 35%, find the selling price.",
-    "options": ["718 rupees", "798 rupees", "789 rupees", "790 rupees"],
-    "correctOption": 0
-  },
-  {
-    "id": 40,
-     
-    "question": "The cost price of an article is twice the discount. If the discount is 40% of the selling price, find the profit or loss percent.",
-    "options": ["25% loss", "25% profit", "20% loss", "20% profit"],
-    "correctOption": 1
-  }
-]
+      "questions": [
+        {
+          "id": 1,
+          "languages": {
+            "en": {
+              "question": "Find the profit percent earned after selling an article at a doubled rate for half quantity.",
+              "options": ["200%", "300%", "400%", "450%"],
+              "correctOption": 1
+            },
+            "hi": {
+              "question": "आधार की आधी मात्रा को दोगुनी दर पर बेचने पर प्राप्त लाभ प्रतिशत ज्ञात करें।",
+              "options": ["200%", "300%", "400%", "450%"],
+              "correctOption": 1
+            }
+          }
+        },
+        {
+          "id": 2,
+          "languages": {
+            "en": {
+              "question": "The shopkeeper sells an article for 600 rupees. If the profit is 20% of the cost price, find the profit.",
+              "options": [
+                "100 rupees",
+                "250 rupees",
+                "500 rupees",
+                "120 rupees"
+              ],
+              "correctOption": 0
+            },
+            "hi": {
+              "question": "दुकानदार किसी वस्तु को ₹600 में बेचता है। यदि लाभ, लागत मूल्य का 20% है, तो लाभ बताइए।",
+              "options": ["₹100", "₹250", "₹500", "₹120"],
+              "correctOption": 0
+            }
+          }
+        },
+        {
+          "id": 3,
+          "languages": {
+            "en": {
+              "question": "A shopkeeper purchases an article for 500 rupees. If the profit is 37.5% of the selling price, find the profit.",
+              "options": [
+                "800 rupees",
+                "200 rupees",
+                "300 rupees",
+                "500 rupees"
+              ],
+              "correctOption": 2
+            },
+            "hi": {
+              "question": "दुकानदार किसी वस्तु ₹500 में खरीदता है। यदि लाभ, विक्रय मूल्य का 37.5% है, तो लाभ कितना होगा?",
+              "options": ["₹800", "₹200", "₹300", "₹500"],
+              "correctOption": 2
+            }
+          }
+        },
+        {
+          "id": 4,
+          "languages": {
+            "en": {
+              "question": "An article is sold at 20% less than its cost price. If the selling cost is 50 rupees and the selling cost is 5% of the selling price, find the loss.",
+              "options": [
+                "150 rupees",
+                "200 rupees",
+                "250 rupees",
+                "300 rupees"
+              ],
+              "correctOption": 3
+            },
+            "hi": {
+              "question": "एक वस्तु उसकी लागत मूल्य से 20% कम पर बेची जाती है। यदि विक्रय लागत ₹50 है और यह विक्रय मूल्य का 5% है, तो हानि कितनी होगी?",
+              "options": ["₹150", "₹200", "₹250", "₹300"],
+              "correctOption": 3
+            }
+          }
+        },
+        {
+          "id": 5,
+          "languages": {
+            "en": {
+              "question": "If the seller sells half of his goods at 20% loss and the rest of his goods at 50% profit, find the profit percentage on the entire transaction.",
+              "options": [
+                "12% profit",
+                "15% profit",
+                "20% profit",
+                "25% profit"
+              ],
+              "correctOption": 1
+            },
+            "hi": {
+              "question": "विक्रेता अपनी वस्तुओं का आधा हिस्सा 20% हानि पर और बाकी 50% लाभ पर बेचता है। पूरे व्यापार पर लाभ प्रतिशत ज्ञात करें।",
+              "options": ["12% लाभ", "15% लाभ", "20% लाभ", "25% लाभ"],
+              "correctOption": 1
+            }
+          }
+        },
+        {
+          "id": 6,
+          "languages": {
+            "en": {
+              "question": "The price of an article is increased by 20% for the shopkeeper, he further increases the selling price by 50%. The initial profit percent was 25%. If his initial profit was 50 rupees, find the profit now.",
+              "options": [
+                "115 rupees",
+                "125 rupees",
+                "135 rupees",
+                "150 rupees"
+              ],
+              "correctOption": 2
+            },
+            "hi": {
+              "question": "दुकानदार के लिए किसी वस्तु का मूल्य 20% बढ़ाया गया, फिर उसने विक्रय मूल्य में 50% वृद्धि कर दी। प्रारंभिक लाभ % 25% था और लाभ ₹50 था। अब लाभ बताइए।",
+              "options": ["₹115", "₹125", "₹135", "₹150"],
+              "correctOption": 2
+            }
+          }
+        },
+        {
+          "id": 7,
+          "languages": {
+            "en": {
+              "question": "The initial price of an article is decreased by 20% but the selling price remains constant. If the initial profit was 500 rupees, find the new profit. It is known the initial profit percent was 20% of cost price.",
+              "options": [
+                "800 rupees",
+                "900 rupees",
+                "1000 rupees",
+                "1250 rupees"
+              ],
+              "correctOption": 2
+            },
+            "hi": {
+              "question": "वस्तु का प्रारंभिक मूल्य 20% घटाया गया लेकिन विक्रय मूल्य अपरिवर्तित रहा। यदि प्रारंभिक लाभ ₹500 था और वह लागत मूल्य का 20% था, तो नया लाभ कितना होगा?",
+              "options": ["₹800", "₹900", "₹1000", "₹1250"],
+              "correctOption": 2
+            }
+          }
+        },
+        {
+          "id": 8,
+          "languages": {
+            "en": {
+              "question": "The first 3 articles were sold at a profit of 50%, the next 5 articles were sold at a loss of 25% and the final 2 articles were sold at a profit of 100%. Find the profit percentage on the whole transaction.",
+              "options": [
+                "22.5% loss",
+                "22.5% profit",
+                "25% loss",
+                "25% profit"
+              ],
+              "correctOption": 1
+            },
+            "hi": {
+              "question": "पहली 3 वस्तुएं 50% लाभ पर, अगली 5 वस्तुएं 25% हानि पर और अंतिम 2 वस्तुएं 100% लाभ पर बेचीं जाती हैं। पूरे व्यापार पर लाभ प्रतिशत क्या है?",
+              "options": ["22.5% हानि", "22.5% लाभ", "25% हानि", "25% लाभ"],
+              "correctOption": 1
+            }
+          }
+        },
+        {
+          "id": 9,
+          "languages": {
+            "en": {
+              "question": "The profit on selling 1 article is equal to the cost price of 2 such articles. Find the profit percentage.",
+              "options": ["100%", "150%", "200%", "225%"],
+              "correctOption": 2
+            },
+            "hi": {
+              "question": "1 वस्तु पर प्राप्त लाभ, 2 ऐसी वस्तुओं की लागत मूल्य के बराबर है। लाभ प्रतिशत ज्ञात करें।",
+              "options": ["100%", "150%", "200%", "225%"],
+              "correctOption": 2
+            }
+          }
+        },
+        {
+          "id": 10,
+          "languages": {
+            "en": {
+              "question": "If the loss occurred on selling an article is 20% of the selling price, find the loss percentage.",
+              "options": ["16.6%", "16.8%", "17%", "18%"],
+              "correctOption": 0
+            },
+            "hi": {
+              "question": "यदि किसी वस्तु की विक्रय मूल्य पर 20% हानि होती है, तो हानि का प्रतिशत क्या होगा?",
+              "options": ["16.6%", "16.8%", "17%", "18%"],
+              "correctOption": 0
+            }
+          }
+        },
+        {
+          "id": 11,
+          "languages": {
+            "en": {
+              "question": "The expense of selling an article, worth rupees 6000, is 50 rupees. If the selling expenses is 10% more than the loss, find the loss percentage.",
+              "options": ["7.5%", "8.33%", "9.09%", "10%"],
+              "correctOption": 1
+            },
+            "hi": {
+              "question": "₹6000 मूल्य की वस्तु की विक्रय लागत ₹50 है। यदि विक्रय लागत, हानि से 10% अधिक है, तो हानि प्रतिशत क्या होगा?",
+              "options": ["7.5%", "8.33%", "9.09%", "10%"],
+              "correctOption": 1
+            }
+          }
+        },
+        {
+          "id": 12,
+          "languages": {
+            "en": {
+              "question": "The profit by selling an article is 40 rupees. Find the cost price if the selling price is twice the cost price.",
+              "options": ["80 rupees", "20 rupees", "40 rupees", "60 rupees"],
+              "correctOption": 2
+            },
+            "hi": {
+              "question": "वस्तु बेचकर ₹40 का लाभ होता है। यदि विक्रय मूल्य, लागत मूल्य का दोगुना है, तो लागत मूल्य क्या होगा?",
+              "options": ["₹80", "₹20", "₹40", "₹60"],
+              "correctOption": 2
+            }
+          }
+        },
+        {
+          "id": 13,
+          "languages": {
+            "en": {
+              "question": "The purchase price of an article is 20% less than the profit made. Find the profit if the selling price is 360 rupees.",
+              "options": [
+                "200 rupees",
+                "160 rupees",
+                "180 rupees",
+                "240 rupees"
+              ],
+              "correctOption": 0
+            },
+            "hi": {
+              "question": "किसी वस्तु का क्रय मूल्य, लाभ से 20% कम है। यदि विक्रय मूल्य ₹360 है, तो लाभ कितना होगा?",
+              "options": ["₹200", "₹160", "₹180", "₹240"],
+              "correctOption": 0
+            }
+          }
+        },
+        {
+          "id": 14,
+          "languages": {
+            "en": {
+              "question": "The profit made by selling an article for 720 is 20%. Find the cost price.",
+              "options": ["500", "520", "580", "600"],
+              "correctOption": 3
+            },
+            "hi": {
+              "question": "₹720 में बेचकर 20% लाभ होता है। लागत मूल्य बताइए।",
+              "options": ["500", "520", "580", "600"],
+              "correctOption": 3
+            }
+          }
+        },
+        {
+          "id": 15,
+          "languages": {
+            "en": {
+              "question": "The cost price of an article is 50% of the marked price. Find the discount if there is no profit or loss made. The selling price is 25 rupees.",
+              "options": ["20 rupees", "25 rupees", "50 rupees", "125 rupees"],
+              "correctOption": 1
+            },
+            "hi": {
+              "question": "वस्तु की लागत मूल्य, अंकित मूल्य की 50% है। बिना लाभ-हानि के विक्रय करते हैं और विक्रय मूल्य ₹25 है। छूट कितनी होगी?",
+              "options": ["₹20", "₹25", "₹50", "₹125"],
+              "correctOption": 1
+            }
+          }
+        },
+        {
+          "id": 16,
+          "languages": {
+            "en": {
+              "question": "The selling price of an article is 70% of the cost price. If the loss is 33 rupees, find the selling price.",
+              "options": ["110 rupees", "330 rupees", "33 rupees", "77 rupees"],
+              "correctOption": 3
+            },
+            "hi": {
+              "question": "वस्तु का विक्रय मूल्य, लागत मूल्य का 70% है। यदि हानि ₹33 है, तो विक्रय मूल्य क्या होगा?",
+              "options": ["₹110", "₹330", "₹33", "₹77"],
+              "correctOption": 3
+            }
+          }
+        },
+        {
+          "id": 17,
+          "languages": {
+            "en": {
+              "question": "The price of an article is marked 20% more than the cost price. If the discount is 20% find the profit or loss percent.",
+              "options": [
+                "4% loss",
+                "4% profit",
+                "No loss or profit",
+                "11% loss"
+              ],
+              "correctOption": 0
+            },
+            "hi": {
+              "question": "वस्तु का अंकित मूल्य, लागत मूल्य से 20% अधिक है। यदि छूट 20% दी जाती है, तो लाभ या हानि प्रतिशत क्या होगा?",
+              "options": ["4% हानि", "4% लाभ", "ना लाभ ना हानि", "11% हानि"],
+              "correctOption": 0
+            }
+          }
+        },
+        {
+          "id": 18,
+          "languages": {
+            "en": {
+              "question": "The cost price of an article is 20% of the marked price. Find the loss or profit percent if the discount allowed is 40% of the marked price.",
+              "options": ["20% profit", "200% profit", "2% profit", "20% loss"],
+              "correctOption": 1
+            },
+            "hi": {
+              "question": "वस्तु का लागत मूल्य, अंकित मूल्य का 20% है। यदि छूट, अंकित मूल्य का 40% हो, तो लाभ/हानि प्रतिशत क्या होगी?",
+              "options": ["20% लाभ", "200% लाभ", "2% लाभ", "20% हानि"],
+              "correctOption": 1
+            }
+          }
+        },
+        {
+          "id": 19,
+          "languages": {
+            "en": {
+              "question": "The cost price of an article is 50 rupees. Find the selling price if the profit is 1 / 3rd of the selling price.",
+              "options": ["25 rupees", "50 rupees", "75 rupees", "100 rupees"],
+              "correctOption": 2
+            },
+            "hi": {
+              "question": "वस्तु की लागत मूल्य ₹50 है। यदि लाभ, विक्रय मूल्य का 1/3 है, तो विक्रय मूल्य क्या होगा?",
+              "options": ["₹25", "₹50", "₹75", "₹100"],
+              "correctOption": 2
+            }
+          }
+        },
+        {
+          "id": 20,
+          "languages": {
+            "en": {
+              "question": "The selling price of an article is half the loss incurred. Find the ratio between the cost price and the selling price.",
+              "options": ["1 : 2", "2 : 1", "1 : 3", "3 : 1"],
+              "correctOption": 3
+            },
+            "hi": {
+              "question": "वस्तु की विक्रय कीमत, हुई हानि का आधा है। लागत मूल्य और विक्रय मूल्य का अनुपात बताइए।",
+              "options": ["1 : 2", "2 : 1", "1 : 3", "3 : 1"],
+              "correctOption": 3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "set": "B",
+      "questionCount": 20,
+      "marksPerQuestion": 1,
+      "negativeMark": 0.25,
+      "timeLimitMinutes": 30,
+      "questions": [
+        {
+          "id": 21,
+          "languages": {
+            "en": {
+              "question": "The profit on selling 10 articles is equal to the cost price of 3 articles. Find the profit percentage.",
+              "options": ["25%", "30%", "35%", "50%"],
+              "correctOption": 1
+            },
+            "hi": {
+              "question": "10 वस्तुओं की बिक्री पर जो लाभ होता है, वह 3 वस्तुओं की लागत मूल्य के बराबर है। लाभ प्रतिशत क्या होगा?",
+              "options": ["25%", "30%", "35%", "50%"],
+              "correctOption": 1
+            }
+          }
+        },
+        {
+          "id": 22,
+          "languages": {
+            "en": {
+              "question": "The price of a pair of slippers is decreased by 10% and the selling price is constant. If the initial profit percentage was equal to 25%, find the new profit percentage.",
+              "options": ["35%", "38.8%", "40%", "42%"],
+              "correctOption": 1
+            },
+            "hi": {
+              "question": "चप्पल की कीमत 10% कम की जाती है, लेकिन विक्रय मूल्य अपरिवर्तित रखा जाता है। यदि प्रारंभिक लाभ प्रतिशत 25% था, तो नया लाभ प्रतिशत क्या होगा?",
+              "options": ["35%", "38.8%", "40%", "42%"],
+              "correctOption": 1
+            }
+          }
+        },
+        {
+          "id": 23,
+          "languages": {
+            "en": {
+              "question": "If the profit is increased to 500 rupees the profit percentage is increased by 10% find the initial profit.",
+              "options": [
+                "400 rupees",
+                "450 rupees",
+                "500 rupees",
+                "600 rupees"
+              ],
+              "correctOption": 1
+            },
+            "hi": {
+              "question": "यदि लाभ ₹500 तक बढ़ता है तो लाभ प्रतिशत 10% बढ़ जाता है, तो प्रारंभिक लाभ कितना था?",
+              "options": ["₹400", "₹450", "₹500", "₹600"],
+              "correctOption": 1
+            }
+          }
+        },
+        {
+          "id": 24,
+          "languages": {
+            "en": {
+              "question": "The cost price of an article is doubled, and the selling price is made half. If the initial profit percentage was 500%, find the profit percentage now.",
+              "options": ["25%", "50%", "100%", "250%"],
+              "correctOption": 1
+            },
+            "hi": {
+              "question": "वस्तु की लागत मूल्य दोगुनी कर दी गई, और विक्रय मूल्य आधा कर दिया गया। यदि प्रारंभिक लाभ प्रतिशत 500% था, तो अब लाभ प्रतिशत क्या होगा?",
+              "options": ["25%", "50%", "100%", "250%"],
+              "correctOption": 1
+            }
+          }
+        },
+        {
+          "id": 25,
+          "languages": {
+            "en": {
+              "question": "The cost price of an article is 80% of its selling price, find the profit percentage.",
+              "options": ["25%", "50%", "20%", "33.33%"],
+              "correctOption": 0
+            },
+            "hi": {
+              "question": "वस्तु की लागत मूल्य, उसकी विक्रय मूल्य की 80% है। लाभ प्रतिशत क्या होगा?",
+              "options": ["25%", "50%", "20%", "33.33%"],
+              "correctOption": 0
+            }
+          }
+        },
+        {
+          "id": 26,
+          "languages": {
+            "en": {
+              "question": "The profit on selling 10 articles is equal to selling price of 1 article. Find the profit percentage.",
+              "options": ["9.09%", "10%", "11.11%", "12.5%"],
+              "correctOption": 2
+            },
+            "hi": {
+              "question": "10 वस्तुओं की बिक्री पर जो लाभ होता है, वह 1 वस्तु के विक्रय मूल्य के बराबर है। लाभ प्रतिशत क्या होगा?",
+              "options": ["9.09%", "10%", "11.11%", "12.5%"],
+              "correctOption": 2
+            }
+          }
+        },
+        {
+          "id": 27,
+          "languages": {
+            "en": {
+              "question": "The selling price of an article is 1200 rupees. If the profit percentage is 20%, find the profit.",
+              "options": [
+                "100 rupees",
+                "200 rupees",
+                "300 rupees",
+                "500 rupees"
+              ],
+              "correctOption": 1
+            },
+            "hi": {
+              "question": "वस्तु का विक्रय मूल्य ₹1200 है। यदि लाभ प्रतिशत 20% है, तो लाभ कितना होगा?",
+              "options": ["₹100", "₹200", "₹300", "₹500"],
+              "correctOption": 1
+            }
+          }
+        },
+        {
+          "id": 28,
+          "languages": {
+            "en": {
+              "question": "The profit on selling 15 articles is equal to the cost price of 2 articles. Find the profit percentage.",
+              "options": ["11.11%", "12.22%", "13.33%", "14.44%"],
+              "correctOption": 2
+            },
+            "hi": {
+              "question": "15 वस्तुओं की बिक्री पर जो लाभ होता है, वह 2 वस्तुओं की लागत मूल्य के बराबर है। लाभ प्रतिशत क्या होगा?",
+              "options": ["11.11%", "12.22%", "13.33%", "14.44%"],
+              "correctOption": 2
+            }
+          }
+        },
+        {
+          "id": 29,
+          "languages": {
+            "en": {
+              "question": "The selling price of 17 articles is equal to the cost price of 21 articles. Find the profit or loss percentage.",
+              "options": [
+                "19% loss",
+                "19% profit",
+                "23.5% loss",
+                "23.5% profit"
+              ],
+              "correctOption": 2
+            },
+            "hi": {
+              "question": "17 वस्तुओं की विक्रय मूल्य, 21 वस्तुओं की लागत मूल्य के बराबर है। लाभ/हानि प्रतिशत क्या होगा?",
+              "options": ["19% हानि", "19% लाभ", "23.5% हानि", "23.5% लाभ"],
+              "correctOption": 2
+            }
+          }
+        },
+        {
+          "id": 30,
+          "languages": {
+            "en": {
+              "question": "The cost of 12 articles is equal to the selling price of 15 articles. Find the profit or loss percentage.",
+              "options": ["20% loss", "20% profit", "25% loss", "25% profit"],
+              "correctOption": 1
+            },
+            "hi": {
+              "question": "12 वस्तुओं की लागत मूल्य, 15 वस्तुओं की विक्रय मूल्य के बराबर है। लाभ/हानि प्रतिशत क्या होगा?",
+              "options": ["20% हानि", "20% लाभ", "25% हानि", "25% लाभ"],
+              "correctOption": 1
+            }
+          }
+        },
+        {
+          "id": 31,
+          "languages": {
+            "en": {
+              "question": "The marked price of an article is 12% more than the selling price. What is the discount percentage?",
+              "options": ["12%", "11.7%", "10.7%", "9.35%"],
+              "correctOption": 2
+            },
+            "hi": {
+              "question": "किसी वस्तु का अंकित मूल्य, विक्रय मूल्य से 12% अधिक है। छूट प्रतिशत क्या होगा?",
+              "options": ["12%", "11.7%", "10.7%", "9.35%"],
+              "correctOption": 2
+            }
+          }
+        },
+        {
+          "id": 32,
+          "languages": {
+            "en": {
+              "question": "The selling price of an article is 20% less than the profit. If the cost price is 200 rupees, find the selling price.",
+              "options": [
+                "800 rupees",
+                "900 rupees",
+                "1000 rupees",
+                "1200 rupees"
+              ],
+              "correctOption": 2
+            },
+            "hi": {
+              "question": "वस्तु का विक्रय मूल्य, लाभ से 20% कम है। यदि लागत मूल्य ₹200 है, तो विक्रय मूल्य कितना होगा?",
+              "options": ["₹800", "₹900", "₹1000", "₹1200"],
+              "correctOption": 2
+            }
+          }
+        },
+        {
+          "id": 33,
+          "languages": {
+            "en": {
+              "question": "The cost price of an article is 2450 rupees. Find the profit if the selling price and the cost price are in a ratio 7 : 11.",
+              "options": [
+                "1200 rupees",
+                "1400 rupees",
+                "2100 rupees",
+                "1540 rupees"
+              ],
+              "correctOption": 1
+            },
+            "hi": {
+              "question": "वस्तु की लागत मूल्य ₹2450 है। यदि विक्रय मूल्य और लागत मूल्य का अनुपात 7:11 है, तो लाभ कितना होगा?",
+              "options": ["₹1200", "₹1400", "₹2100", "₹1540"],
+              "correctOption": 1
+            }
+          }
+        },
+        {
+          "id": 34,
+          "languages": {
+            "en": {
+              "question": "The cost price of an article is 1.35 times the selling price. Find the loss percent.",
+              "options": ["25.3%", "25.7%", "25.9%", "26.7%"],
+              "correctOption": 2
+            },
+            "hi": {
+              "question": "वस्तु की लागत मूल्य, विक्रय मूल्य की 1.35 गुणा है। हानि प्रतिशत क्या होगा?",
+              "options": ["25.3%", "25.7%", "25.9%", "26.7%"],
+              "correctOption": 2
+            }
+          }
+        },
+        {
+          "id": 35,
+          "languages": {
+            "en": {
+              "question": "The cost price of an article is 6.5 times the profit. Find the profit percentage.",
+              "options": ["15.1%", "15.2%", "15.3%", "15.4%"],
+              "correctOption": 3
+            },
+            "hi": {
+              "question": "वस्तु की लागत मूल्य, लाभ की 6.5 गुणा है। लाभ प्रतिशत क्या होगा?",
+              "options": ["15.1%", "15.2%", "15.3%", "15.4%"],
+              "correctOption": 3
+            }
+          }
+        },
+        {
+          "id": 36,
+          "languages": {
+            "en": {
+              "question": "Find the profit percentage if the selling price is 1.25 times the profit.",
+              "options": ["25%", "50%", "200%", "400%"],
+              "correctOption": 3
+            },
+            "hi": {
+              "question": "यदि लाभ, विक्रय मूल्य का 1.25 गुना है, तो लाभ प्रतिशत क्या होगा?",
+              "options": ["25%", "50%", "200%", "400%"],
+              "correctOption": 3
+            }
+          }
+        },
+        {
+          "id": 37,
+          "languages": {
+            "en": {
+              "question": "The profit earned by selling an article for 670 rupees is 23%. Find the cost price.",
+              "options": [
+                "543 rupees",
+                "544 rupees",
+                "545 rupees",
+                "546 rupees"
+              ],
+              "correctOption": 2
+            },
+            "hi": {
+              "question": "एक वस्तु को ₹670 में बेचने पर 23% लाभ होता है। लागत मूल्य ज्ञात करें।",
+              "options": ["₹543", "₹544", "₹545", "₹546"],
+              "correctOption": 2
+            }
+          }
+        },
+        {
+          "id": 38,
+          "languages": {
+            "en": {
+              "question": "The cost price of an article is 1.56 times the selling price. Find the loss percentage.",
+              "options": ["35.8%", "39.5%", "35.9%", "39.5%"],
+              "correctOption": 2
+            },
+            "hi": {
+              "question": "वस्तु का लागत मूल्य, विक्रय मूल्य का 1.56 गुना है। हानि प्रतिशत ज्ञात करें।",
+              "options": ["35.8%", "39.5%", "35.9%", "39.5%"],
+              "correctOption": 2
+            }
+          }
+        },
+        {
+          "id": 39,
+          "languages": {
+            "en": {
+              "question": "The total of the selling price and the cost price is 1250. If the profit is 35%, find the selling price.",
+              "options": [
+                "718 rupees",
+                "798 rupees",
+                "789 rupees",
+                "790 rupees"
+              ],
+              "correctOption": 0
+            },
+            "hi": {
+              "question": "किसी वस्तु की लागत मूल्य और विक्रय मूल्य का योग ₹1250 है। यदि लाभ 35% है, तो विक्रय मूल्य ज्ञात करें।",
+              "options": ["₹718", "₹798", "₹789", "₹790"],
+              "correctOption": 0
+            }
+          }
+        },
+        {
+          "id": 40,
+          "languages": {
+            "en": {
+              "question": "The cost price of an article is twice the discount. If the discount is 40% of the selling price, find the profit or loss percent.",
+              "options": ["25% loss", "25% profit", "20% loss", "20% profit"],
+              "correctOption": 1
+            },
+            "hi": {
+              "question": "किसी वस्तु का लागत मूल्य छूट का दोगुना है। यदि छूट, विक्रय मूल्य का 40% है, तो लाभ या हानि प्रतिशत ज्ञात करें।",
+              "options": ["25% हानि", "25% लाभ", "20% हानि", "20% लाभ"],
+              "correctOption": 1
+            }
+          }
+        }
+      ]
+    }
+  ]
 }
-]
-}
-

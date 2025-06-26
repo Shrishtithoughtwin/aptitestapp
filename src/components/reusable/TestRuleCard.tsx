@@ -19,7 +19,7 @@ const TestRuleCard: React.FC<TestRuleCardProps> = ({
 }) => {
   const { t } = useTranslation();
   return (
-    <div className="container mx-auto p-6 text-center shadow-lg rounded-lg bg-base-100 border border-gray-200">
+    <div className="container mx-auto p-6 text-center  rounded-lg bg-base-100 border border-gray-200">
       <h1 className="text-3xl font-bold mb-4">{title}</h1>
 
       <ul className="text-left text-lg mb-6 space-y-2">

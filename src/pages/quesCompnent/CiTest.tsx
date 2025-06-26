@@ -6,7 +6,7 @@ import { useParams } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 const CiTest: React.FC = () => {
   const { testId } = useParams<{ testId: string }>();
-const {t}=useTranslation();
+  const { i18n, t } = useTranslation();
   
   const testSetMap: Record<string, string> = {
     "1": "A",
@@ -27,11 +27,23 @@ const {t}=useTranslation();
     );
   }
 
+  const translatedQuestions = test.questions.map((q) => {
+    const languageKey = i18n.language as "en" | "hi"; 
+  
+    return {
+      id: q.id,
+      question: q.languages[languageKey].question,
+      options: q.languages[languageKey].options,
+      correctOption: q.languages[languageKey].correctOption,
+      selectedOption: null,
+    };
+  });
+
 
   return (
     <QuestionsComponent
       testId={testId ?? "1"} 
-      questions={test.questions.map((q) => ({ ...q, selectedOption: null }))}
+      questions={translatedQuestions}
             timeLimit={test.timeLimitMinutes * 60}
             marksPerQuestion={test.marksPerQuestion}
             negativeMark={test.negativeMark}

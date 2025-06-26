@@ -3,6 +3,7 @@ import React, { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import logo from "../../assets/logo.png";
 import { useTranslation } from "react-i18next";
+import { Sun, Moon } from "lucide-react"; 
 import LanguageDropdown from "../reusable/LanguageDropdown";
 
 const Header: React.FC = () => {
@@ -98,14 +99,14 @@ const Header: React.FC = () => {
           <span className="text-sm text-primary">{t("nav.mode")}</span>
           <button
             onClick={toggleTheme}
-            className="w-10 h-5 bg-gray-200 dark:bg-gray-600 rounded-full p-1 transition-colors"
+            className="text-primary focus:outline-none"
             aria-label="Toggle theme"
           >
-            <div
-              className={`w-3 h-3 bg-white rounded-full shadow-md transform transition-transform ${
-                theme === "dark" ? "translate-x-6" : "translate-x-0"
-              }`}
-            />
+            {theme === "light" ? (
+              <Moon className="w-6 h-6" />
+            ) : (
+              <Sun className="w-6 h-6" />
+            )}
           </button>
        <LanguageDropdown/>
         </div>
@@ -118,16 +119,16 @@ const Header: React.FC = () => {
         } lg:hidden flex items-center justify-center mt-4`}
       >
         <span className="text-sm text-primary">{t("nav.mode")}</span>
-        <button
+         <button
           onClick={toggleTheme}
-          className="w-12 h-6 bg-gray-200 dark:bg-gray-600 rounded-full p-1 transition-colors ml-2"
+          className="text-primary focus:outline-none"
           aria-label="Toggle theme"
         >
-          <div
-            className={`w-4 h-4 bg-white rounded-full shadow-md transform transition-transform ${
-              theme === "dark" ? "translate-x-6" : "translate-x-0"
-            }`}
-          />
+          {theme === "light" ? (
+            <Moon className="w-6 h-6" />
+          ) : (
+            <Sun className="w-6 h-6" />
+          )}
         </button>
         <LanguageDropdown/>
       </div>

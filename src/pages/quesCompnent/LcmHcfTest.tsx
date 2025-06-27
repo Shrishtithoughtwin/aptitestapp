@@ -4,15 +4,16 @@ import lcmhcfQuestions from "../../data/lcmhcfQuestions.json";
 import { useParams } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 const LcmHcfTest: React.FC = () => {
-  const { testId } = useParams<{ testId: string }>();
+  const { testId } = useParams<{ testId?: string }>();
+  const safeTestId = typeof testId === "string" ? testId : "1";
   const {i18n,t}=useTranslation();
   const testSetMap: Record<string, string> = {
     "1": "A",
     "2": "B",
   };
 
-  const mappedTestId = testSetMap[testId ?? "1"];
 
+  const mappedTestId = testSetMap[safeTestId]; 
   const test = lcmhcfQuestions.tests.find(
     (t) => t.set === mappedTestId
   );
@@ -25,7 +26,7 @@ const LcmHcfTest: React.FC = () => {
     );
   }
   const translatedQuestions = test.questions.map((q) => {
-    const languageKey = i18n.language as "en" | "hi"; 
+    const languageKey = i18n.language.startsWith("hi") ? "hi" : "en";
   
     return {
       id: q.id,

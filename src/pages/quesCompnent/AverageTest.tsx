@@ -1,3 +1,6 @@
+
+
+
 import React from "react";
 import QuestionsComponent from "../../components/reusable/QuestionsComponent";
 import averageQuestions from "../../data/averageQuestions.json";
@@ -5,7 +8,8 @@ import { useParams } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 
 const AverageTest: React.FC = () => {
-  const { testId } = useParams<{ testId: string }>();
+  const { testId } = useParams<{ testId?: string }>();
+  const safeTestId = typeof testId === "string" ? testId : "1";
   const { i18n, t } = useTranslation();
 
   const testSetMap: Record<string, string> = {
@@ -13,8 +17,8 @@ const AverageTest: React.FC = () => {
     "2": "B",
   };
 
-  const mappedTestId = testSetMap[testId ?? "1"];
-  const test = averageQuestions.tests.find((test) => test.set === mappedTestId);
+  const mappedTestId = testSetMap[safeTestId]; 
+  const test = averageQuestions.tests?.find((test) => test.set === mappedTestId);
 
   if (!test) {
     return (
@@ -25,8 +29,8 @@ const AverageTest: React.FC = () => {
   }
 
   const translatedQuestions = test.questions.map((q) => {
-    const languageKey = i18n.language as "en" | "hi"; 
-  
+    const languageKey = i18n.language.startsWith("hi") ? "hi" : "en";
+
     return {
       id: q.id,
       question: q.languages[languageKey].question,
@@ -38,7 +42,7 @@ const AverageTest: React.FC = () => {
 
   return (
     <QuestionsComponent
-      testId={testId ?? "1"}
+      testId={safeTestId}
       questions={translatedQuestions}
       timeLimit={test.timeLimitMinutes * 60}
       marksPerQuestion={test.marksPerQuestion}

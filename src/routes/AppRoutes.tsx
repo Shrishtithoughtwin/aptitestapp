@@ -40,7 +40,7 @@ const AppRoutes: React.FC = () => (
       <Route path="/si-test/:testId" element={<SiTest/>}/>
       <Route path="/profit-loss-test/:testId" element={<ProfitLossTest/>}/>
       <Route path="/lh-test/:testId" element={<LcmHcfTest/>}/>
-      <Route path="/viewresult" element={<ViewResult score={0} totalQuestions={0} results={[]} />} />
+      <Route path="/viewresult" element={<ViewResult score={0} totalQuestions={0} results={[]} marksPerQuestion={1} totalMarks={10} />} />
     </Routes>
   </MainLayout>
 );

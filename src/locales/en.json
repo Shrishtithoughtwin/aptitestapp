@@ -103,7 +103,13 @@
     "time": "Time allotted",
     "mark": "mark",
     "minutes": "minutes",
-    "start": "Start Test"
+    "start": "Start Test",
+    "navigationInstruction": "Question Navigation Status",
+    "answered": "Answered",
+    "visited": "Visited (Seen but not answered)",
+    "unvisited": "Unvisited",
+    "cleared": "Cleared (Response removed)",
+    "current": "Current"
   },
   "questionsComp": {
     "questionNo": "Question No.",
@@ -111,7 +117,8 @@
     "next": "Next →",
     "submit": "Submit Test",
     "timeLeft": "Time Left",
-    "navigation": "Question Navigation"
+    "navigation": "Question Navigation",
+     "clearResponse": "Clear Response"
   },
   "modal": {
     "submitConfirm": "Do you want to submit?",

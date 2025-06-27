@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from "react";
 import ConfirmModal from "../../pages/modal_component/ConfirmModal";
 import ViewResult from "../../pages/viewresult/ViewResult";
@@ -12,7 +11,7 @@ interface Question {
 interface QuestionsComponentProps {
   testId: string;
   questions: Question[];
-  timeLimit: number; 
+  timeLimit: number;
   marksPerQuestion: number;
   negativeMark: number;
 }
@@ -24,13 +23,17 @@ const QuestionsComponent: React.FC<QuestionsComponentProps> = ({
   negativeMark,
 }) => {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
-  const [selectedOptions, setSelectedOptions] = useState<Record<number, number | null>>({});
+  const [selectedOptions, setSelectedOptions] = useState<
+    Record<number, number | null>
+  >({});
   const [score, setScore] = useState(0);
   const [remainingTime, setRemainingTime] = useState(timeLimit);
   const [testCompleted, setTestCompleted] = useState(false);
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const [questionStatus, setQuestionStatus] = useState<Record<number, "answered" | "visited" | "unvisited">>({});
-  const {t}=useTranslation();
+  const [questionStatus, setQuestionStatus] = useState<
+    Record<number, "answered" | "visited" | "unvisited" | "cleared">
+  >({});
+  const { t } = useTranslation();
   const currentQuestion = questions[currentQuestionIndex];
 
   useEffect(() => {
@@ -64,28 +67,54 @@ const QuestionsComponent: React.FC<QuestionsComponentProps> = ({
     setSelectedOptions((prev) => {
       const updated = { ...prev, [currentQuestionIndex]: optionIndex };
       let newScore = 0;
-  
+
       for (const [indexStr, selected] of Object.entries(updated)) {
         const index = parseInt(indexStr);
         const correct = questions[index].correctOption;
-  
+
         if (selected === correct) {
           newScore += marksPerQuestion;
         } else if (selected !== null && selected !== undefined) {
           newScore -= negativeMark;
         }
       }
-  
+
       setScore(newScore);
       return updated;
     });
-  
     setQuestionStatus((prev) => ({
       ...prev,
       [currentQuestionIndex]: "answered",
     }));
   };
-  
+
+  const handleClearSelection = () => {
+    setSelectedOptions((prev) => {
+      const updated = { ...prev, [currentQuestionIndex]: null };
+
+      let newScore = 0;
+      for (const [indexStr, selected] of Object.entries(updated)) {
+        const index = parseInt(indexStr);
+        const correct = questions[index].correctOption;
+
+        if (selected === correct) {
+          newScore += marksPerQuestion;
+        } else if (selected !== null && selected !== undefined) {
+          newScore -= negativeMark;
+        }
+      }
+
+      setScore(newScore);
+
+      return updated;
+    });
+
+    setQuestionStatus((prev) => ({
+      ...prev,
+      [currentQuestionIndex]: "cleared",
+    }));
+  };
+
   const handleNextQuestion = () => {
     if (currentQuestionIndex < questions.length - 1) {
       updateStatusBeforeNavigation();
@@ -108,9 +137,11 @@ const QuestionsComponent: React.FC<QuestionsComponentProps> = ({
   const updateStatusBeforeNavigation = () => {
     setQuestionStatus((prev) => ({
       ...prev,
-      [currentQuestionIndex]: selectedOptions[currentQuestionIndex] !== undefined
-        ? "answered"
-        : "visited",
+      [currentQuestionIndex]:
+        selectedOptions[currentQuestionIndex] !== undefined &&
+        selectedOptions[currentQuestionIndex] !== null
+          ? "answered"
+          : prev[currentQuestionIndex] || "visited",
     }));
   };
 
@@ -130,7 +161,7 @@ const QuestionsComponent: React.FC<QuestionsComponentProps> = ({
           {/* Question Panel */}
           <div className="col-span-2 bg-gray-100 p-6 rounded-lg shadow-lg">
             <h2 className="text-xl font-bold mb-4 text-red-500">
-            {t("questionsComp.questionNo")} . {currentQuestionIndex + 1})
+              {t("questionsComp.questionNo")} {currentQuestionIndex + 1})
             </h2>
             <p className="mb-6 text-black">{currentQuestion.question}</p>
             <ul className="space-y-2">
@@ -149,26 +180,38 @@ const QuestionsComponent: React.FC<QuestionsComponentProps> = ({
                     onChange={() => handleOptionClick(idx)}
                     className="mr-3"
                   />
-                  <label htmlFor={`option-${idx}`} className="text-black cursor-pointer">
+                  <label
+                    htmlFor={`option-${idx}`}
+                    className="text-black cursor-pointer"
+                  >
                     {String.fromCharCode(65 + idx)}) {option}
                   </label>
                 </li>
               ))}
             </ul>
+            {/* Clear Button */}
             <div className="mt-6 flex justify-between">
+              {currentQuestionIndex > 0 && (
+                <button
+                  className="text-black px-4 py-2 rounded border-blue-400 border-2"
+                  onClick={handlePrevQuestion}
+                >
+                  {t("questionsComp.prev")}
+                </button>
+              )}
+              {/* Clear Button */}
               <button
-                className="text-black px-4 py-2 rounded border-blue-400 border-2"
-                onClick={handlePrevQuestion}
-                disabled={currentQuestionIndex === 0}
+                onClick={handleClearSelection}
+                className="ml-4 px-4 py-2 text-sm text-black rounded border-blue-400 border-2"
               >
-                 {t("questionsComp.prev")}
+                {t("questionsComp.clearResponse")}
               </button>
               <button
-                className="text-black px-4 py-2 rounded border-blue-400 border-2"
+                className="text-black px-4 py-2 rounded border-blue-400 border-2 ml-auto"
                 onClick={handleNextQuestion}
                 disabled={currentQuestionIndex === questions.length - 1}
               >
-             {t("questionsComp.next")}
+                {t("questionsComp.next")}
               </button>
             </div>
           </div>
@@ -176,10 +219,10 @@ const QuestionsComponent: React.FC<QuestionsComponentProps> = ({
           {/* Navigation Panel */}
           <div className="col-span-1 bg-gray-50 p-4 rounded-lg shadow-lg">
             <div className="bg-blue-200 text-blue-800 p-2 rounded-lg font-semibold text-center mb-4">
-            {t("questionsComp.timeLeft")}  - {formatTime(remainingTime)}
+              {t("questionsComp.timeLeft")} - {formatTime(remainingTime)}
             </div>
             <h2 className="text-black font-semibold text-center mb-4">
-            {t("questionsComp.navigation")}
+              {t("questionsComp.navigation")}
             </h2>
             <div className="grid grid-cols-5 gap-2">
               {questions.map((_, index) => (
@@ -190,6 +233,8 @@ const QuestionsComponent: React.FC<QuestionsComponentProps> = ({
                       ? "ring-4 ring-blue-300 bg-gray-300 text-black"
                       : questionStatus[index] === "answered"
                       ? "bg-green-500 text-white"
+                      : questionStatus[index] === "cleared"
+                      ? "bg-yellow-400 text-black"
                       : questionStatus[index] === "visited"
                       ? "bg-red-500 text-white"
                       : "bg-gray-300 hover:bg-gray-400"
@@ -204,24 +249,23 @@ const QuestionsComponent: React.FC<QuestionsComponentProps> = ({
               className="mt-4 bg-blue-500 text-white w-full py-2 rounded hover:bg-blue-600"
               onClick={handleSubmitTest}
             >
-           {t("questionsComp.submit")}
+              {t("questionsComp.submit")}
             </button>
           </div>
         </div>
       ) : (
-<ViewResult
-  score={score}
-  totalQuestions={questions.length}
-  marksPerQuestion={marksPerQuestion}
-  totalMarks={questions.length * marksPerQuestion} // Pass total marks here
-  results={questions.map((q, index) => ({
-    question: q.question,
-    options: q.options,
-    correctOption: q.correctOption,
-    selectedOption: selectedOptions[index] ?? null,
-  }))}
-/>
-
+        <ViewResult
+          score={score}
+          totalQuestions={questions.length}
+          marksPerQuestion={marksPerQuestion}
+          totalMarks={questions.length * marksPerQuestion}
+          results={questions.map((q, index) => ({
+            question: q.question,
+            options: q.options,
+            correctOption: q.correctOption,
+            selectedOption: selectedOptions[index] ?? null,
+          }))}
+        />
       )}
 
       {/* Confirmation Modal */}

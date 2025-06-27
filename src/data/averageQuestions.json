@@ -1,285 +1,632 @@
 {
-  "questions":[
-  {
-    "id": 1,
-    "set":"A",
-    "question": "The average age of 5 men is 40. The average age of 5 women is 39. The average age of their 4 children is 15. What is the average age of a family?",
-    "options": ["45", "30.33", "90.5", "91"],
-    "correctOption": 3
-  },
-  {
-    "id": 2,
-     "set":"A",
-    "question": "The average age of 20 men is 50. The average age of their wives is 44. 3 couples among them have two children rest have one child. The average age of each child is 19 years. Find the average age of a family.",
-    "options": ["11.575", "115.85", "115.75", "11.585"],
-    "correctOption": 1
-  },
-  {
-    "id": 3,
-     "set":"A",
-    "question": "The total age of 5 men is 440. The total age of their wives is 385. The average age of their children is 22. What is the average age of each member of the family? (each couple have 3 children)",
-    "options": ["44.5", "56.2", "46.2", "50.2"],
-    "correctOption": 2
-  },
-  {
-    "id": 4,
-     "set":"A",
-    "question": "The age of 5 people are in proportion 2:3:4:10:11. If their average age is 18, find the average age of the eldest of them.",
-    "options": ["11", "22", "33", "44"],
-    "correctOption": 2
-  },
-  {
-    "id": 5,
-     "set":"A",
-    "question": "The ages of 5 people are in a ratio 1:3:5:7:11. If the difference between the total of their age and the average of their ages is 108, find the age of the Youngest of them.",
-    "options": ["5", "10", "15", "12"],
-    "correctOption": 0
-  },
-  {
-    "id": 6,
-     "set":"A",
-    "question": "The average age of 9 members of a family is 68. If a couple with average age 45 left the house and another couple is blessed with twins, what will be the average age of the family 5 years later?",
-    "options": ["53", "57", "60", "63"],
-    "correctOption": 3
-  },
-  {
-    "id": 7,
-     "set":"A",
-    "question": "The average runs scored by Rohan in first 11 matches is 97. If he scored x runs in his 12th match the average decreased by 3. Find the value of x.",
-    "options": ["57", "59", "61", "63"],
-    "correctOption": 2
-  },
-  {
-    "id": 8,
-     "set":"A",
-    "question": "Ravi travelled 290 km in three parts 100 km at a speed of 20 kmph, 120 km at a speed of 80 kmph and remaining at a speed of 140 kmph. Find his average speed during the journey.",
-    "options": ["40.42", "41.42", "40.47", "41.47"],
-    "correctOption": 1
-  },
-  {
-    "id": 9,
-     "set":"A",
-    "question": "Raj have 5 members in his team excluding him. When arranged in ascending order the difference between every second person was equal to 3. If the average of their ages is 45, find the age of Raj if he is 4th eldest amongst the team.",
-    "options": ["33", "36", "39", "42"],
-    "correctOption": 2
-  },
-  {
-    "id": 10,
-     "set":"A",
-    "question": "Find the average of the prime numbers between 100 and 200.",
-    "options": ["140.33", "141.33", "142.33", "143.33"],
-    "correctOption": 1
-  },
-  {
-    "id": 11,
-     "set":"A",
-    "question": "The monthly income of 4 members of a family are 10000, 20000, 50000 and 60000. If 2 members of the family are retired and gets a pension of 120 per day and 1 member of the family does not earn, find the average income of the family for the month of February 2020.",
-    "options": ["20994.28", "20998.24", "20992.48", "2099.428"],
-    "correctOption": 0
-  },
-  {
-    "id": 12,
-     "set":"A",
-    "question": "There are 40 fruits in a basket which includes banana, apple, mango and orange. If the average weight of the fruits is 60, 120, 180 and 90 grams respectively and the quantity of fruits are in a ratio of 1:2:3:4 find the total weight of fruits in the basket.",
-    "options": ["3.6 kg", "4.2 kg", "3.2 kg", "4.6 kg"],
-    "correctOption": 3
-  },
-  {
-    "id": 13,
-     "set":"A",
-    "question": "Out of 10 employees in an office, 5 drink 2 cups of coffee per day, 3 drink 3 cups of hot chocolate per day, and 2 drink 5 cups of tea per day. If it is known that, on average, to make a cup of coffee, 100 ml of milk is used, to make a cup of hot chocolate, 180 ml of milk is used, and to make a cup of tea, 60 ml of milk is used, find the monthly expenditure on milk of the company, if milk is ₹46 per litre.",
-    "options": ["4232", "2342", "4324", "4432"],
-    "correctOption": 2
-  },
-  {
-    "id": 14,
-     "set":"A",
-    "question": "In a group of 20 women each like to go for shopping. On an average each of them goes for shopping 12 times per year. If 5 of them moved to another society and out of the remaining 5 increased their consistency to shop by 50 % and 10 decreased their consistency to shop by 25%, how many times will they visit the shopping mall in total?",
-    "options": ["240", "180", "160", "140"],
-    "correctOption": 1
-  },
-  {
-    "id": 15,
-     "set":"A",
-    "question": "Out of 30 days of a month the income of a stall for the first 5 days was 100 per day for the next 10 days the income was 200 per day and for the last 15 days the income was 300 per day. If there was a fixed expenditure of 5000 per month and a variable expenditure of 70 per week. Find the monthly profit of the stall.",
-    "options": ["1700", "1800", "1900", "2000"],
-    "correctOption": 0
-  },
-  {
-    "id": 16,
-     "set":"A",
-    "question": "The average of 20 results is 200. If the average of the first 12 results is 250 and the average of last 7 results is 90, find the 13th result.",
-    "options": ["300", "340", "360", "370"],
-    "correctOption": 3
-  },
-  {
-    "id": 17,
-     "set":"A",
-    "question": "Which of the following can never be an average of 3 consecutive odd numbers?",
-    "options": ["3", "5", "3.5", "7"],
-    "correctOption": 2
-  },
-  {
-    "id": 18,
-     "set":"A",
-    "question": "Out of 30 employees of an office, 5 are retired this year 10 got a hike of 25% and the remaining 15 had the same pay as before. If the retired employees got the same pay as pension and the initial salary of each employee was 20000 per month what is the new expenditure of the company in relation to employee’s salaries?",
-    "options": ["6,00,000", "6,50,000", "7,00,000", "7,50,000"],
-    "correctOption": 1
-  },
-  {
-    "id": 19,
-     "set":"A",
-    "question": "In a class of 50 students 45 passed the exam with an average of 45 marks. If the average marks of the students who failed was 20, find the average marks of the entire class.",
-    "options": ["42.5", "42", "32.5", "45.5"],
-    "correctOption": 0
-  },
-  {
-    "id": 20,
-     "set":"A",
-    "question": "Out of 100 students of the class 20 scored an average of 40 marks, 30 scored an average of 50 marks, 50% of the remaining scored an average of 60 marks and the rest scored 100 marks. Find the average marks scored by the students.",
-    "options": ["50", "52", "55", "57"],
-    "correctOption": 3
-  },
-  {
-    "id": 21,
-     "set":"B",
-    "question": "5 shareholders of a company have 1290, 2302, 9802, 3202, 7480 shares of the company, respectively. If the company announces a bonus of 2 shares for every 4 shares held, what will be the new average of the shares held by these shareholders?",
-    "options": ["7222.8", "722.28", "7288.2", "728.82"],
-    "correctOption": 0
-  },
-  {
-    "id": 22,
-     "set":"B",
-    "question": "Out of 20 students first 10 students scored 40% of the marks of the next 10 students. If the total score of the class was 700, find the average marks obtained by the first 10 students.",
-    "options": ["10", "15", "18", "20"],
-    "correctOption": 3
-  },
-  {
-    "id": 23,
-     "set":"B",
-    "question": "What is the average of the prime numbers more than 60 but less than equal to 221?",
-    "options": ["121.2", "123.2", "125.2", "127.2"],
-    "correctOption": 3
-  },
-  {
-    "id": 24,
-     "set":"B",
-    "question": "What is the average of first 10 prime numbers, first 10 even numbers and first 10 odd numbers?",
-    "options": ["10.3", "10.7", "11.3", "11.7"],
-    "correctOption": 2
-  },
-  {
-    "id": 25,
-     "set":"B",
-    "question": "Out of 25 students of a class, 12 failed the exam and has an average of 45 marks. From the passing students 3 got distinction. If the average of the class is 70 marks, passing marks are 50 and to get a distinction one must score 100 marks, find the average marks of the students who passed the exam without distinction. The exam was of 100 marks.",
-    "options": ["85", "90", "91", "93"],
-    "correctOption": 2
-  },
-  {
-    "id": 26,
-     "set":"B",
-    "question": "There are 40 animals in a zoo and per animal 20 packets of milk is required. One pack of milk contains 200 ml of milk, and milk costs 46 rupees per litre. If the employees of the zoo fulfil only 80% of the animal’s intake of milk what will be the expenditure of the zoo?",
-    "options": ["576.5", "587.8", "546.9", "579.6"],
-    "correctOption": 3
-  },
-  {
-    "id": 27,
-     "set":"B",
-    "question": "Find the average of first 12 multiples of 7.",
-    "options": ["42.5", "43.5", "44.5", "45.5"],
-    "correctOption": 3
-  },
-  {
-    "id": 28,
-     "set":"B",
-    "question": "Find the average of the following 7 digits up to 3 places of decimal 102.3, 293.5, 492.4, 483.7, 945.3, 164.4, 188.4.",
-    "options": ["381.429", "381.428", "389.421", "389.422"],
-    "correctOption": 0
-  },
-  {
-    "id": 29,
-     "set":"B",
-    "question": "In a group of 10 girls 5 have an average height of 5.2 feet. Rest of the 5 girls have an average height of 1.7 metres. Find the average height of the group in feet. (1 m = 3.281 feet).",
-    "options": ["5.1", "5.2", "5.3", "5.4"],
-    "correctOption": 3
-  },
-  {
-    "id": 30,
-     "set":"B",
-    "question": "A class is consisted of 10 with weights 30, 31, 32, 33…39kg, respectively. If 3 new students are admitted to the class with weights 45, 50 and 60 kg what will be the average weight of boys of the newly formed class?",
-    "options": ["37.5", "38.5", "39.5", "40.5"],
-    "correctOption": 1
-  },
-  {
-    "id": 31,
-     "set":"B",
-    "question": "Distance travelled by Ram is 40 km. Find the average speed if Ram travelled 10 km at a speed of 20 kmph, 20 km at a speed of 40 kmph and rest of the distance at a speed of 2 kmph.",
-    "options": ["6.66", "7.77", "8.88", "9.99"],
-    "correctOption": 0
-  },
-  {
-    "id": 32,
-     "set":"B",
-    "question": "The average runs scored by 3 players is 120 per match. Their runs are in a ratio 2:3:1. What will be the average, if the player who scored the minimum runs hits a century in the next match and the other two play with the same average?",
-    "options": ["120.50", "130.25", "131.11", "133.33"],
-    "correctOption": 3
-  },
-  {
-    "id": 33,
-     "set":"B",
-    "question": "3 numbers are in a ratio 11:19:20. If the difference between the largest and smallest number is 45, find the average of the numbers.",
-    "options": ["75", "77.25", "83.33", "87.50"],
-    "correctOption": 2
-  },
-  {
-    "id": 34,
-     "set":"B",
-    "question": "In a group of people 5 play golf, 8 play cricket and 3 play both. It is known that the heart rate of golf player is 98bpm, the heart rate of a cricket player is 102bpm and the heart rate of people who play both is 100bpm. Find the average heart rate of the group.",
-    "options": ["100", "100.2", "100.4", "100.6"],
-    "correctOption": 3
-  },
-  {
-    "id": 35,
-     "set":"B",
-    "question": "There are 10 people in a room each with a distinct age. If the average of their age is 55, what is the least and most possible age of a person?",
-    "options": ["1, 8", "2, 10", "0, 10", "0, 11"],
-    "correctOption": 3
-  },
-  {
-    "id": 36,
-     "set":"B",
-    "question": "In a group of 17 people 10 are men and rest are boys. It is said that the men have twice capacity to do a work as compared to boys. If boys do a total of 37 units of work, what is the average work done by 7 men and 25 boys? Find the answer to the closest integer.",
-    "options": ["40", "45", "50", "55"],
-    "correctOption": 1
-  },
-  {
-    "id": 37,
-     "set":"B",
-    "question": "Out of 100 members of a group 20% likes tea, 50% of the rest likes coffee and the rest likes milk. A glass of milk gives 10 units of energy, a cup of coffee gives 8 units of energy and a cup of tea is good enough for 15 units of energy. Find the average of the units of energy that the members of the group gained.",
-    "options": ["9.9 units", "10 units", "11.1 units", "12.2 units"],
-    "correctOption": 3
-  },
-  {
-    "id": 38,
-     "set":"B",
-    "question": "On an average, it takes 2 workers to build a wall and 8 workers to lay a ceiling. If there are 24 walls in a house and 3 ceilings, what is the amount to be paid to workers? One worker is paid 1000 rupees per day for building walls and 1500 rupees per day for laying a ceiling.",
-    "options": ["80,000", "84,000", "90,000", "95,000"],
-    "correctOption": 1
-  },
-  {
-    "id": 39,
-     "set":"B",
-    "question": "In a wedding 300 guests are invited. 20% of the guests did not show up. 40% of the remaining did not eat anything. The remaining used an average of 1.5 plates per person. What is the average number of plates used per person?",
-    "options": ["0.56", "0.62", "0.72", "0.75"],
-    "correctOption": 2
-  },
-  {
-    "id": 40,
-     "set":"B",
-    "question": "Out of 150 golf clubs present at a shop only 120 are in a condition to be sold. If the average weight of 20 clubs is 200 grams, 40 clubs is 250 grams and 60 clubs is 300 grams. If each of the non–saleable club weighs 500 grams, what is the average weight of all the clubs?",
-    "options": ["313.3 grams", "323.3 grams", "333.3 grams", "343.3 grams"],
-    "correctOption": 0
-  }
-]
+  "tests": [
+    {
+      "set": "A",
+      "questionCount": 20,
+      "marksPerQuestion": 1,
+      "negativeMark": 0.25,
+      "timeLimitMinutes": 40,
+      "questions": [
+        {
+          "id": 1,
+          "languages": {
+            "en": {
+              "question": "The average age of 5 men is 40. The average age of 5 women is 39. The average age of their 4 children is 15. What is the average age of a family?",
+              "options": ["45", "30.33", "90.5", "91"],
+              "correctOption": 3
+            },
+            "hi": {
+              "question": "5 पुरुषों की औसत आयु 40 वर्ष है। 5 महिलाओं की औसत आयु 39 वर्ष है। उनके 4 बच्चों की औसत आयु 15 वर्ष है। पूरे परिवार की औसत आयु क्या होगी?",
+              "options": ["45", "30.33", "90.5", "91"],
+              "correctOption": 3
+            }
+          }
+        },
+        {
+          "id": 2,
+          "languages": {
+            "en": {
+              "question": "The average age of 20 men is 50. The average age of their wives is 44. 3 couples among them have two children rest have one child. The average age of each child is 19 years. Find the average age of a family.",
+              "options": ["11.575", "115.85", "115.75", "11.585"],
+              "correctOption": 1
+            },
+            "hi": {
+              "question": "20 पुरुषों की औसत आयु 50 वर्ष है। उनकी पत्नियों की औसत आयु 44 वर्ष है। उनमें से 3 जोड़ों के दो बच्चे हैं और बाकी सभी के एक-एक बच्चा है। प्रत्येक बच्चे की औसत आयु 19 वर्ष है। परिवार की औसत आयु ज्ञात करें।",
+              "options": ["11.575", "115.85", "115.75", "11.585"],
+              "correctOption": 1
+            }
+          }
+        },
+        {
+          "id": 3,
+          "languages": {
+            "en": {
+              "question": "The total age of 5 men is 440. The total age of their wives is 385. The average age of their children is 22. What is the average age of each member of the family? (each couple have 3 children)",
+              "options": ["44.5", "56.2", "46.2", "50.2"],
+              "correctOption": 2
+            },
+            "hi": {
+              "question": "5 पुरुषों की कुल आयु 440 वर्ष है। उनकी पत्नियों की कुल आयु 385 वर्ष है। उनके बच्चों की औसत आयु 22 वर्ष है (प्रत्येक जोड़े के 3 बच्चे हैं)। प्रत्येक सदस्य की औसत आयु ज्ञात करें।",
+              "options": ["44.5", "56.2", "46.2", "50.2"],
+              "correctOption": 2
+            }
+          }
+        },
+        {
+          "id": 4,
+          "languages": {
+            "en": {
+              "question": "The age of 5 people are in proportion 2:3:4:10:11. If their average age is 18, find the average age of the eldest of them.",
+              "options": ["11", "22", "33", "44"],
+              "correctOption": 2
+            },
+            "hi": {
+              "question": "5 व्यक्तियों की आयु का अनुपात 2:3:4:10:11 है। यदि उनकी औसत आयु 18 वर्ष है, तो उनमें सबसे बड़े व्यक्ति की आयु ज्ञात करें।",
+              "options": ["11", "22", "33", "44"],
+              "correctOption": 2
+            }
+          }
+        },
+        {
+          "id": 5,
+          "languages": {
+            "en": {
+              "question": "The ages of 5 people are in a ratio 1:3:5:7:11. If the difference between the total of their age and the average of their ages is 108, find the age of the Youngest of them.",
+              "options": ["5", "10", "15", "12"],
+              "correctOption": 0
+            },
+            "hi": {
+              "question": "5 व्यक्तियों की आयु का अनुपात 1:3:5:7:11 है। यदि उनकी कुल आयु और औसत आयु का अंतर 108 है, तो सबसे छोटे व्यक्ति की आयु ज्ञात करें।",
+              "options": ["5", "10", "15", "12"],
+              "correctOption": 0
+            }
+          }
+        },
+        {
+          "id": 6,
+          "languages": {
+            "en": {
+              "question": "The average age of 9 members of a family is 68. If a couple with average age 45 left the house and another couple is blessed with twins, what will be the average age of the family 5 years later?",
+              "options": ["53", "57", "60", "63"],
+              "correctOption": 3
+            },
+            "hi": {
+              "question": "एक परिवार के 9 सदस्यों की औसत आयु 68 वर्ष है। यदि एक जोड़ा (औसत आयु 45) घर छोड़ देता है और परिवार को जुड़वां बच्चे मिलते हैं, तो 5 साल बाद परिवार की औसत आयु क्या होगी?",
+              "options": ["53", "57", "60", "63"],
+              "correctOption": 3
+            }
+          }
+        },
+        {
+          "id": 7,
+          "languages": {
+            "en": {
+              "question": "The average runs scored by Rohan in first 11 matches is 97. If he scored x runs in his 12th match the average decreased by 3. Find the value of x.",
+              "options": ["57", "59", "61", "63"],
+              "correctOption": 2
+            },
+            "hi": {
+              "question": "रोहन ने पहले 11 मैचों में औसतन 97 रन बनाए। यदि उसने 12वें मैच में x रन बनाए जिससे औसत 3 कम हो गया, तो x का मान ज्ञात करें।",
+              "options": ["57", "59", "61", "63"],
+              "correctOption": 2
+            }
+          }
+        },
+        {
+          "id": 8,
+          "languages": {
+            "en": {
+              "question": "Ravi travelled 290 km in three parts 100 km at a speed of 20 kmph, 120 km at a speed of 80 kmph and remaining at a speed of 140 kmph. Find his average speed during the journey.",
+              "options": ["40.42", "41.42", "40.47", "41.47"],
+              "correctOption": 1
+            },
+            "hi": {
+              "question": "रवि ने तीन हिस्सों में 290 किमी यात्रा की: 100 किमी 20 किमी/घंटा, 120 किमी 80 किमी/घंटा और बाकी 140 किमी/घंटा की गति से। पूरी यात्रा की औसत गति ज्ञात करें।",
+              "options": ["40.42", "41.42", "40.47", "41.47"],
+              "correctOption": 1
+            }
+          }
+        },
+        {
+          "id": 9,
+          "languages": {
+            "en": {
+              "question": "Raj have 5 members in his team excluding him. When arranged in ascending order the difference between every second person was equal to 3. If the average of their ages is 45, find the age of Raj if he is 4th eldest amongst the team.",
+              "options": ["33", "36", "39", "42"],
+              "correctOption": 2
+            },
+            "hi": {
+              "question": "राज की टीम में उसके अलावा 5 सदस्य हैं। जब सभी की आयु को आरोही क्रम में रखा जाता है, तो हर दूसरे व्यक्ति के बीच का अंतर 3 है। यदि उनकी औसत आयु 45 है और राज चौथे सबसे बड़े हैं, तो राज की आयु क्या है?",
+              "options": ["33", "36", "39", "42"],
+              "correctOption": 2
+            }
+          }
+        },
+        {
+          "id": 10,
+          "languages": {
+            "en": {
+              "question": "Find the average of the prime numbers between 100 and 200.",
+              "options": ["140.33", "141.33", "142.33", "143.33"],
+              "correctOption": 1
+            },
+            "hi": {
+              "question": "100 और 200 के बीच आने वाले अभाज्य संख्याओं का औसत ज्ञात करें।",
+              "options": ["140.33", "141.33", "142.33", "143.33"],
+              "correctOption": 1
+            }
+          }
+        },
+        {
+          "id": 11,
+          "languages": {
+            "en": {
+              "question": "The monthly income of 4 members of a family are 10000, 20000, 50000 and 60000. If 2 members of the family are retired and gets a pension of 120 per day and 1 member of the family does not earn, find the average income of the family for the month of February 2020.",
+              "options": ["20994.28", "20998.24", "20992.48", "2099.428"],
+              "correctOption": 0
+            },
+            "hi": {
+              "question": "परिवार के 4 सदस्यों की मासिक आय 10000, 20000, 50000 और 60000 है। यदि 2 सदस्य सेवानिवृत्त हैं और उन्हें प्रतिदिन ₹120 पेंशन मिलती है तथा 1 सदस्य की कोई आय नहीं है, तो फरवरी 2020 महीने की औसत आय ज्ञात करें।",
+              "options": ["20994.28", "20998.24", "20992.48", "2099.428"],
+              "correctOption": 0
+            }
+          }
+        },
+        {
+          "id": 12,
+          "languages": {
+            "en": {
+              "question": "There are 40 fruits in a basket which includes banana, apple, mango and orange. If the average weight of the fruits is 60, 120, 180 and 90 grams respectively and the quantity of fruits are in a ratio of 1:2:3:4 find the total weight of fruits in the basket.",
+              "options": ["3.6 kg", "4.2 kg", "3.2 kg", "4.6 kg"],
+              "correctOption": 3
+            },
+            "hi": {
+              "question": "एक टोकरी में 40 फल हैं – केले, सेब, आम और संतरे। उनके औसत वजन क्रमशः 60, 120, 180 और 90 ग्राम हैं और मात्रा का अनुपात 1:2:3:4 है। फलों का कुल वजन ज्ञात करें।",
+              "options": ["3.6 किलो", "4.2 किलो", "3.2 किलो", "4.6 किलो"],
+              "correctOption": 3
+            }
+          }
+        },
+        {
+          "id": 13,
+          "languages": {
+            "en": {
+              "question": "Out of 10 employees in an office, 5 drink 2 cups of coffee per day, 3 drink 3 cups of hot chocolate per day, and 2 drink 5 cups of tea per day. If it is known that, on average, to make a cup of coffee, 100 ml of milk is used, to make a cup of hot chocolate, 180 ml of milk is used, and to make a cup of tea, 60 ml of milk is used, find the monthly expenditure on milk of the company, if milk is ₹46 per litre.",
+              "options": ["4232", "2342", "4324", "4432"],
+              "correctOption": 2
+            },
+            "hi": {
+              "question": "10 कर्मचारियों में से 5 प्रति दिन 2 कप कॉफी, 3 प्रति दिन 3 कप हॉट चॉकलेट और 2 प्रति दिन 5 कप चाय पीते हैं। कॉफी के एक कप में 100 मि.ली., हॉट चॉकलेट में 180 मि.ली. और चाय में 60 मि.ली. दूध लगता है। यदि दूध की कीमत ₹46 प्रति लीटर है, तो कंपनी का मासिक दूध खर्च ज्ञात करें।",
+              "options": ["4232", "2342", "4324", "4432"],
+              "correctOption": 2
+            }
+          }
+        },
+        {
+          "id": 14,
+          "languages": {
+            "en": {
+              "question": "In a group of 20 women each like to go for shopping. On an average each of them goes for shopping 12 times per year. If 5 of them moved to another society and out of the remaining 5 increased their consistency to shop by 50 % and 10 decreased their consistency to shop by 25%, how many times will they visit the shopping mall in total?",
+              "options": ["240", "180", "160", "140"],
+              "correctOption": 1
+            },
+            "hi": {
+              "question": "20 महिलाओं के समूह में प्रत्येक औसतन साल में 12 बार खरीदारी जाती हैं। यदि 5 महिलाएं अन्य समाज में चली जाती हैं, 5 ने अपनी खरीदारी 50% बढ़ा दी और 10 ने 25% घटा दी, तो वे कुल कितनी बार मॉल जाएंगी?",
+              "options": ["240", "180", "160", "140"],
+              "correctOption": 1
+            }
+          }
+        },
+        {
+          "id": 15,
+          "languages": {
+            "en": {
+              "question": "Out of 30 days of a month the income of a stall for the first 5 days was 100 per day for the next 10 days the income was 200 per day and for the last 15 days the income was 300 per day. If there was a fixed expenditure of 5000 per month and a variable expenditure of 70 per week. Find the monthly profit of the stall.",
+              "options": ["1700", "1800", "1900", "2000"],
+              "correctOption": 0
+            },
+            "hi": {
+              "question": "एक स्टॉल की 30 दिन की आय पहले 5 दिनों के लिए ₹100/दिन, अगले 10 दिन ₹200/दिन और अंतिम 15 दिन ₹300/दिन थी। मासिक खर्च ₹5000 था और साप्ताहिक परिवर्ती खर्च ₹70 था। स्टॉल का मासिक लाभ ज्ञात करें।",
+              "options": ["1700", "1800", "1900", "2000"],
+              "correctOption": 0
+            }
+          }
+        },
+        {
+          "id": 16,
+          "languages": {
+            "en": {
+              "question": "The average of 20 results is 200. If the average of the first 12 results is 250 and the average of last 7 results is 90, find the 13th result.",
+              "options": ["300", "340", "360", "370"],
+              "correctOption": 3
+            },
+            "hi": {
+              "question": "20 परिणामों का औसत 200 है। पहले 12 परिणामों का औसत 250 और अंतिम 7 का औसत 90 है। 13वां परिणाम ज्ञात करें।",
+              "options": ["300", "340", "360", "370"],
+              "correctOption": 3
+            }
+          }
+        },
+        {
+          "id": 17,
+          "languages": {
+            "en": {
+              "question": "Which of the following can never be an average of 3 consecutive odd numbers?",
+              "options": ["3", "5", "3.5", "7"],
+              "correctOption": 2
+            },
+            "hi": {
+              "question": "निम्नलिखित में से कौन सा तीन क्रमागत विषम संख्याओं का औसत कभी नहीं हो सकता?",
+              "options": ["3", "5", "3.5", "7"],
+              "correctOption": 2
+            }
+          }
+        },
+        {
+          "id": 18,
+          "languages": {
+            "en": {
+              "question": "Out of 30 employees of an office, 5 are retired this year 10 got a hike of 25% and the remaining 15 had the same pay as before. If the retired employees got the same pay as pension and the initial salary of each employee was 20000 per month what is the new expenditure of the company in relation to employee’s salaries?",
+              "options": ["6,00,000", "6,50,000", "7,00,000", "7,50,000"],
+              "correctOption": 1
+            },
+            "hi": {
+              "question": "30 कर्मचारियों में से 5 सेवानिवृत्त हुए, 10 को 25% वेतनवृद्धि मिली और बाकी 15 का वेतन जस का तस रहा। यदि सभी की प्रारंभिक मासिक वेतन ₹20000 था और पेंशन भी समान वेतन है, तो कंपनी का नया कुल वेतन खर्च कितना होगा?",
+              "options": ["6,00,000", "6,50,000", "7,00,000", "7,50,000"],
+              "correctOption": 1
+            }
+          }
+        },
+        {
+          "id": 19,
+          "languages": {
+            "en": {
+              "question": "In a class of 50 students 45 passed the exam with an average of 45 marks. If the average marks of the students who failed was 20, find the average marks of the entire class.",
+              "options": ["42.5", "42", "32.5", "45.5"],
+              "correctOption": 0
+            },
+            "hi": {
+              "question": "कक्षा के 50 छात्रों में से 45 छात्रों का औसत अंक 45 है। असफल छात्रों का औसत अंक 20 है। पूरे वर्ग का औसत अंक ज्ञात करें।",
+              "options": ["42.5", "42", "32.5", "45.5"],
+              "correctOption": 0
+            }
+          }
+        },
+        {
+          "id": 20,
+          "languages": {
+            "en": {
+              "question": "Out of 100 students of the class 20 scored an average of 40 marks, 30 scored an average of 50 marks, 50% of the remaining scored an average of 60 marks and the rest scored 100 marks. Find the average marks scored by the students.",
+              "options": ["50", "52", "55", "57"],
+              "correctOption": 3
+            },
+            "hi": {
+              "question": "100 छात्रों में से 20 ने औसतन 40 अंक, 30 ने औसतन 50 अंक, शेष के 50% ने औसतन 60 अंक और बाकी ने 100 अंक प्राप्त किए। छात्रों का कुल औसत अंक ज्ञात करें।",
+              "options": ["50", "52", "55", "57"],
+              "correctOption": 3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "set": "B",
+      "questionCount": 20,
+      "marksPerQuestion": 1,
+      "negativeMark": 0.25,
+      "timeLimitMinutes": 30,
+      "questions": [
+        {
+          "id": 21,
+          "languages": {
+            "en": {
+              "question": "5 shareholders of a company have 1290, 2302, 9802, 3202, 7480 shares of the company, respectively. If the company announces a bonus of 2 shares for every 4 shares held, what will be the new average of the shares held by these shareholders?",
+              "options": ["7222.8", "722.28", "7288.2", "728.82"],
+              "correctOption": 0
+            },
+            "hi": {
+              "question": "एक कंपनी के 5 शेयरधारकों के पास क्रमशः 1290, 2302, 9802, 3202, 7480 शेयर हैं। यदि कंपनी 4 शेयर पर 2 बोनस शेयर देती है, तो इन शेयरधारकों के पास अब औसतन कितने शेयर होंगे?",
+              "options": ["7222.8", "722.28", "7288.2", "728.82"],
+              "correctOption": 0
+            }
+          }
+        },
+        {
+          "id": 22,
+          "languages": {
+            "en": {
+              "question": "Out of 20 students first 10 students scored 40% of the marks of the next 10 students. If the total score of the class was 700, find the average marks obtained by the first 10 students.",
+              "options": ["10", "15", "18", "20"],
+              "correctOption": 3
+            },
+            "hi": {
+              "question": "20 छात्रों में से पहले 10 छात्रों ने अगले 10 छात्रों के अंकों का 40% अंक प्राप्त किया। यदि कक्षा का कुल स्कोर 700 है, तो पहले 10 छात्रों द्वारा प्राप्त औसत अंक ज्ञात करें।",
+              "options": ["10", "15", "18", "20"],
+              "correctOption": 3
+            }
+          }
+        },
+        {
+          "id": 23,
+          "languages": {
+            "en": {
+              "question": "What is the average of the prime numbers more than 60 but less than equal to 221?",
+              "options": ["121.2", "123.2", "125.2", "127.2"],
+              "correctOption": 3
+            },
+            "hi": {
+              "question": "उन अभाज्य संख्याओं का औसत ज्ञात करें जो 60 से अधिक और 221 से कम या उसके बराबर हैं।",
+              "options": ["121.2", "123.2", "125.2", "127.2"],
+              "correctOption": 3
+            }
+          }
+        },
+        {
+          "id": 24,
+          "languages": {
+            "en": {
+              "question": "What is the average of first 10 prime numbers, first 10 even numbers and first 10 odd numbers?",
+              "options": ["10.3", "10.7", "11.3", "11.7"],
+              "correctOption": 2
+            },
+            "hi": {
+              "question": "प्रथम 10 अभाज्य संख्याओं, प्रथम 10 सम संख्याओं और प्रथम 10 विषम संख्याओं का औसत ज्ञात करें।",
+              "options": ["10.3", "10.7", "11.3", "11.7"],
+              "correctOption": 2
+            }
+          }
+        },
+        {
+          "id": 25,
+          "languages": {
+            "en": {
+              "question": "Out of 25 students of a class, 12 failed the exam and has an average of 45 marks. From the passing students 3 got distinction. If the average of the class is 70 marks, passing marks are 50 and to get a distinction one must score 100 marks, find the average marks of the students who passed the exam without distinction. The exam was of 100 marks.",
+              "options": ["85", "90", "91", "93"],
+              "correctOption": 2
+            },
+            "hi": {
+              "question": "25 छात्रों की कक्षा में 12 छात्र परीक्षा में फेल हो गए जिनका औसत 45 अंक है। पास होने वालों में से 3 को डिस्टिंक्शन मिला। यदि कक्षा का औसत 70 है, पासिंग मार्क्स 50 है और डिस्टिंक्शन के लिए 100 अंक जरूरी हैं, तो डिस्टिंक्शन न पाने वाले पास छात्रों का औसत ज्ञात करें।",
+              "options": ["85", "90", "91", "93"],
+              "correctOption": 2
+            }
+          }
+        },
+        {
+          "id": 26,
+          "languages": {
+            "en": {
+              "question": "There are 40 animals in a zoo and per animal 20 packets of milk is required. One pack of milk contains 200 ml of milk, and milk costs 46 rupees per litre. If the employees of the zoo fulfil only 80% of the animal’s intake of milk what will be the expenditure of the zoo?",
+              "options": ["576.5", "587.8", "546.9", "579.6"],
+              "correctOption": 3
+            },
+            "hi": {
+              "question": "एक चिड़ियाघर में 40 जानवर हैं और प्रत्येक को 20 पैकेट दूध की आवश्यकता है। एक पैकेट में 200 मि.ली. दूध होता है और दूध की कीमत ₹46 प्रति लीटर है। यदि कर्मचारी जानवरों की आवश्यकता का केवल 80% ही पूरा करते हैं, तो चिड़ियाघर का खर्च कितना होगा?",
+              "options": ["576.5", "587.8", "546.9", "579.6"],
+              "correctOption": 3
+            }
+          }
+        },
+        {
+          "id": 27,
+          "languages": {
+            "en": {
+              "question": "Find the average of first 12 multiples of 7.",
+              "options": ["42.5", "43.5", "44.5", "45.5"],
+              "correctOption": 3
+            },
+            "hi": {
+              "question": "7 के पहले 12 गुणजों का औसत ज्ञात करें।",
+              "options": ["42.5", "43.5", "44.5", "45.5"],
+              "correctOption": 3
+            }
+          }
+        },
+        {
+          "id": 28,
+          "languages": {
+            "en": {
+              "question": "Find the average of the following 7 digits up to 3 places of decimal 102.3, 293.5, 492.4, 483.7, 945.3, 164.4, 188.4.",
+              "options": ["381.429", "381.428", "389.421", "389.422"],
+              "correctOption": 0
+            },
+            "hi": {
+              "question": "निम्नलिखित 7 अंकों का औसत दशमलव के 3 स्थानों तक ज्ञात करें: 102.3, 293.5, 492.4, 483.7, 945.3, 164.4, 188.4।",
+              "options": ["381.429", "381.428", "389.421", "389.422"],
+              "correctOption": 0
+            }
+          }
+        },
+        {
+          "id": 29,
+          "languages": {
+            "en": {
+              "question": "In a group of 10 girls 5 have an average height of 5.2 feet. Rest of the 5 girls have an average height of 1.7 metres. Find the average height of the group in feet. (1 m = 3.281 feet).",
+              "options": ["5.1", "5.2", "5.3", "5.4"],
+              "correctOption": 3
+            },
+            "hi": {
+              "question": "10 लड़कियों के समूह में 5 की औसत ऊंचाई 5.2 फीट है और बाकी 5 की औसत ऊंचाई 1.7 मीटर है। पूरे समूह की औसत ऊंचाई फीट में ज्ञात करें। (1 मीटर = 3.281 फीट)",
+              "options": ["5.1", "5.2", "5.3", "5.4"],
+              "correctOption": 3
+            }
+          }
+        },
+        {
+          "id": 30,
+          "languages": {
+            "en": {
+              "question": "A class is consisted of 10 with weights 30, 31, 32, 33…39kg, respectively. If 3 new students are admitted to the class with weights 45, 50 and 60 kg what will be the average weight of boys of the newly formed class?",
+              "options": ["37.5", "38.5", "39.5", "40.5"],
+              "correctOption": 1
+            },
+            "hi": {
+              "question": "एक कक्षा में 10 छात्रों के वजन क्रमशः 30 से 39 किग्रा तक हैं। 3 नए छात्रों का वजन 45, 50 और 60 किग्रा है। अब नई कक्षा का औसत वजन क्या होगा?",
+              "options": ["37.5", "38.5", "39.5", "40.5"],
+              "correctOption": 1
+            }
+          }
+        },
+        {
+          "id": 31,
+          "languages": {
+            "en": {
+              "question": "Distance travelled by Ram is 40 km. Find the average speed if Ram travelled 10 km at a speed of 20 kmph, 20 km at a speed of 40 kmph and rest of the distance at a speed of 2 kmph.",
+              "options": ["6.66", "7.77", "8.88", "9.99"],
+              "correctOption": 0
+            },
+            "hi": {
+              "question": "राम ने 40 किमी की यात्रा की। यदि उसने 10 किमी 20 किमी/घंटा, 20 किमी 40 किमी/घंटा और शेष दूरी 2 किमी/घंटा की गति से तय की, तो औसत गति क्या होगी?",
+              "options": ["6.66", "7.77", "8.88", "9.99"],
+              "correctOption": 0
+            }
+          }
+        },
+        {
+          "id": 32,
+          "languages": {
+            "en": {
+              "question": "The average runs scored by 3 players is 120 per match. Their runs are in a ratio 2:3:1. What will be the average, if the player who scored the minimum runs hits a century in the next match and the other two play with the same average?",
+              "options": ["120.50", "130.25", "131.11", "133.33"],
+              "correctOption": 3
+            },
+            "hi": {
+              "question": "3 खिलाड़ियों का औसत रन 120 है और उनका अनुपात 2:3:1 है। यदि सबसे कम रन बनाने वाला खिलाड़ी अगली पारी में शतक बनाता है और बाकी दो उसी औसत से खेलते हैं, तो नया औसत क्या होगा?",
+              "options": ["120.50", "130.25", "131.11", "133.33"],
+              "correctOption": 3
+            }
+          }
+        },
+        {
+          "id": 33,
+          "languages": {
+            "en": {
+              "question": "3 numbers are in a ratio 11:19:20. If the difference between the largest and smallest number is 45, find the average of the numbers.",
+              "options": ["75", "77.25", "83.33", "87.50"],
+              "correctOption": 2
+            },
+            "hi": {
+              "question": "3 संख्याएँ 11:19:20 के अनुपात में हैं। यदि सबसे बड़ी और सबसे छोटी संख्या में अंतर 45 है, तो इन संख्याओं का औसत क्या होगा?",
+              "options": ["75", "77.25", "83.33", "87.50"],
+              "correctOption": 2
+            }
+          }
+        },
+        {
+          "id": 34,
+          "languages": {
+            "en": {
+              "question": "In a group of people 5 play golf, 8 play cricket and 3 play both. It is known that the heart rate of golf player is 98bpm, the heart rate of a cricket player is 102bpm and the heart rate of people who play both is 100bpm. Find the average heart rate of the group.",
+              "options": ["100", "100.2", "100.4", "100.6"],
+              "correctOption": 3
+            },
+            "hi": {
+              "question": "एक समूह में 5 लोग गोल्फ खेलते हैं, 8 क्रिकेट और 3 दोनों खेलते हैं। यदि गोल्फ खेलने वालों की दिल की धड़कन 98bpm, क्रिकेट वालों की 102bpm और दोनों खेलने वालों की 100bpm है, तो पूरे समूह की औसत हृदयगति क्या होगी?",
+              "options": ["100", "100.2", "100.4", "100.6"],
+              "correctOption": 3
+            }
+          }
+        },
+        {
+          "id": 35,
+          "languages": {
+            "en": {
+              "question": "There are 10 people in a room each with a distinct age. If the average of their age is 55, what is the least and most possible age of a person?",
+              "options": ["1, 8", "2, 10", "0, 10", "0, 11"],
+              "correctOption": 3
+            },
+            "hi": {
+              "question": "एक कमरे में 10 लोग हैं, जिनकी उम्र अलग-अलग है। यदि उनकी औसत उम्र 55 वर्ष है, तो न्यूनतम और अधिकतम उम्र क्या हो सकती है?",
+              "options": ["1, 8", "2, 10", "0, 10", "0, 11"],
+              "correctOption": 3
+            }
+          }
+        },
+        {
+          "id": 36,
+          "languages": {
+            "en": {
+              "question": "In a group of 17 people 10 are men and rest are boys. It is said that the men have twice capacity to do a work as compared to boys. If boys do a total of 37 units of work, what is the average work done by 7 men and 25 boys? Find the answer to the closest integer.",
+              "options": ["40", "45", "50", "55"],
+              "correctOption": 1
+            },
+            "hi": {
+              "question": "17 लोगों के समूह में 10 पुरुष हैं और बाकी लड़के। पुरुषों की कार्य क्षमता लड़कों से दुगनी है। यदि लड़के 37 यूनिट कार्य करते हैं, तो 7 पुरुष और 25 लड़कों द्वारा किया गया औसत कार्य क्या होगा? निकटतम पूर्णांक में उत्तर दें।",
+              "options": ["40", "45", "50", "55"],
+              "correctOption": 1
+            }
+          }
+        },
+        {
+          "id": 37,
+          "languages": {
+            "en": {
+              "question": "Out of 100 members of a group 20% likes tea, 50% of the rest likes coffee and the rest likes milk. A glass of milk gives 10 units of energy, a cup of coffee gives 8 units of energy and a cup of tea is good enough for 15 units of energy. Find the average of the units of energy that the members of the group gained.",
+              "options": ["9.9 units", "10 units", "11.1 units", "12.2 units"],
+              "correctOption": 3
+            },
+            "hi": {
+              "question": "100 लोगों में से 20% को चाय पसंद है, बाकी में से 50% को कॉफी और शेष को दूध पसंद है। दूध से 10, कॉफी से 8 और चाय से 15 यूनिट ऊर्जा मिलती है। समूह को मिलने वाली औसत ऊर्जा ज्ञात करें।",
+              "options": ["9.9 यूनिट", "10 यूनिट", "11.1 यूनिट", "12.2 यूनिट"],
+              "correctOption": 3
+            }
+          }
+        },
+        {
+          "id": 38,
+          "languages": {
+            "en": {
+              "question": "On an average, it takes 2 workers to build a wall and 8 workers to lay a ceiling. If there are 24 walls in a house and 3 ceilings, what is the amount to be paid to workers? One worker is paid 1000 rupees per day for building walls and 1500 rupees per day for laying a ceiling.",
+              "options": ["80,000", "84,000", "90,000", "95,000"],
+              "correctOption": 1
+            },
+            "hi": {
+              "question": "औसतन 2 मजदूर दीवार बनाते हैं और 8 मजदूर छत डालते हैं। एक घर में 24 दीवारें और 3 छत हैं। दीवार बनाने पर ₹1000 और छत डालने पर ₹1500 प्रति दिन मिलते हैं। कुल मजदूरी खर्च क्या होगा?",
+              "options": ["80,000", "84,000", "90,000", "95,000"],
+              "correctOption": 1
+            }
+          }
+        },
+        {
+          "id": 39,
+          "languages": {
+            "en": {
+              "question": "In a wedding 300 guests are invited. 20% of the guests did not show up. 40% of the remaining did not eat anything. The remaining used an average of 1.5 plates per person. What is the average number of plates used per person?",
+              "options": ["0.56", "0.62", "0.72", "0.75"],
+              "correctOption": 2
+            },
+            "hi": {
+              "question": "एक शादी में 300 मेहमान बुलाए गए। इनमें से 20% नहीं आए, बचे हुए में से 40% ने कुछ नहीं खाया। बाकी ने औसतन 1.5 प्लेट उपयोग की। प्रति व्यक्ति औसतन कितनी प्लेटें उपयोग हुईं?",
+              "options": ["0.56", "0.62", "0.72", "0.75"],
+              "correctOption": 2
+            }
+          }
+        },
+        {
+          "id": 40,
+          "languages": {
+            "en": {
+              "question": "Out of 150 golf clubs present at a shop only 120 are in a condition to be sold. If the average weight of 20 clubs is 200 grams, 40 clubs is 250 grams and 60 clubs is 300 grams. If each of the non–saleable club weighs 500 grams, what is the average weight of all the clubs?",
+              "options": [
+                "313.3 grams",
+                "323.3 grams",
+                "333.3 grams",
+                "343.3 grams"
+              ],
+              "correctOption": 0
+            },
+            "hi": {
+              "question": "150 गोल्फ क्लबों में से 120 बिकाऊ हैं। जिनमें 20 का औसत वजन 200 ग्राम, 40 का 250 ग्राम और 60 का 300 ग्राम है। गैर-बिकाऊ क्लबों का वजन 500 ग्राम है। सभी क्लबों का औसत वजन क्या है?",
+              "options": [
+                "313.3 ग्राम",
+                "323.3 ग्राम",
+                "333.3 ग्राम",
+                "343.3 ग्राम"
+              ],
+              "correctOption": 0
+            }
+          }
+        }
+      ]
+    }
+  ]
 }
-

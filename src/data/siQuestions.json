@@ -1,284 +1,738 @@
 {
-  "questions":[
-  {
-    "id": 1,
-    "set":"A",
-    "question": "A man invested x rupees for 5 years at a rate of 2.5% simple interest. If he received an interest of 125000 after 5 years, find the amount he invested.",
-    "options": ["10,00,000 rupees", "12,25,000 rupees", "50,00,000 rupees", "1,00,00,000 rupees"],
-    "correctOption": 1
-  },
-  {
-    "id": 2,
-    "set":"A",
-    "question": "A man invested x rupees for 7.5 years at a rate of 6.5% simple interest. If he received a total of 125000 after 5 years, find the amount he invested.",
-    "options": ["84034 rupees", "83404 rupees", "80434 rupees", "84043 rupees"],
-    "correctOption": 1
-  },
-  {
-    "id": 3,
-    "set":"A",
-    "question": "A man invested x rupees for 7 years at a rate of 8.8% simple interest. If the amount he received after 7 years was 404000 rupees, find the amount he invested.",
-    "options": ["2,50,000 rupees", "2,75,000 rupees", "2,85,000 rupees", "3,05,000 rupees"],
-    "correctOption": 1
-  },
-  {
-    "id": 4,
-    "set":"A",
-    "question": "A man invested x rupees for 11 years at a rate of 12.2% simple interest. If the amount he received after 11 years was 1826760 rupees, find the amount he invested.",
-    "options": ["7,20,000 rupees", "7,80,000 rupees", "8,40,000 rupees", "9,20,000 rupees"],
-    "correctOption": 2
-  },
-  {
-    "id": 5,
-    "set":"A",
-    "question": "A man invested x rupees for 10.5 years at a rate of 21.6% simple interest. If the amount he received after 10.5 years was 2127468 rupees, find the amount he invested.",
-    "options": ["6,51,000 rupees", "7,28,000 rupees", "8,37,000 rupees", "8,82,000 rupees"],
-    "correctOption": 1
-  },
-  {
-    "id": 6,
-    "set":"A",
-    "question": "A man invested x rupees for 7.7 years at a rate of 13.3% simple interest. If the amount he received after 7.7 years was 23,68,197 rupees, find the amount he invested.",
-    "options": ["11,45,000 rupees", "11,70,000 rupees", "12,45,000 rupees", "12,70,000 rupees"],
-    "correctOption": 2
-  },
-  {
-    "id": 7,
-    "set":"A",
-    "question": "A man invested x rupees for 8 years at a rate of 9% simple interest. If the amount he received after 8 years was 26,00,640 rupees, find the amount he invested.",
-    "options": ["12,15,000 rupees", "15,12,000 rupees", "12,00,120 rupees", "15,00,150 rupees"],
-    "correctOption": 2
-  },
-  {
-    "id": 8,
-    "set":"A",
-    "question": "A man invested x rupees for 17 years at a rate of 33% simple interest. If the amount he received after 17 years was 45,00,088 rupees, find the amount he invested.",
-    "options": ["6,80,000 rupees", "6,88,000 rupees", "6,80,800 rupees", "6,80,808 rupees"],
-    "correctOption": 3
-  },
-  {
-    "id": 9,
-    "set":"A",
-    "question": "A man invested x rupees for 23 years at a rate of 0.9% simple interest. If the amount he received after 23 years was 30,41,640 rupees, find the amount he invested.",
-    "options": ["25,00,000 rupees", "25,20,000 rupees", "25,40,000 rupees", "25,80,000 rupees"],
-    "correctOption": 2
-  },
-  {
-    "id": 10,
-    "set":"A",
-    "question": "A man invested x rupees for 19 years at a rate of 37% simple interest. If the amount he received after 19 years was 90,15,281 rupees, find the amount he invested.",
-    "options": ["11,22,300 rupees", "11,22,700 rupees", "12,21,000 rupees", "13,35,000 rupees"],
-    "correctOption": 2
-  },
-  {
-    "id": 11,
-    "set":"A",
-    "question": "A man invested x rupees for y years at 25% simple interest per annum. If the interest after 4y years is 8x, find the value of y.",
-    "options": ["10", "8", "12", "15"],
-    "correctOption": 2
-  },
-  {
-    "id": 12,
-    "set":"A",
-    "question": "A man invested 1,25,000 rupees at x% simple interest for 2.5 years. After 2.5 years the interest was 1.25 times the amount invested. Find the value of x.",
-    "options": ["37", "48", "59", "50"],
-    "correctOption": 4
-  },
-  {
-    "id": 13,
-    "set":"A",
-    "question": "A man invested 1200 rupees at 4% simple interest for x years. If after x years the interest was 1.5 times the amount invested, find the value of x.",
-    "options": ["34.5", "35.5", "36.5", "37.5"],
-    "correctOption": 4
-  },
-  {
-    "id": 14,
-    "set":"A",
-    "question": "A man invested x rupees for y years at 12% simple interest. If after y years, the interest earned is 2.4 times of the amount invested, find the value of y.",
-    "options": ["16", "17", "19", "20"],
-    "correctOption": 4
-  },
-  {
-    "id": 15,
-    "set":"A",
-    "question": "A man invested 12000 at a rate of x% simple interest that earns 600 rupees interest per annum. Find the interest on 35800 rupees for 2 years at the same interest percentage.",
-    "options": ["358 rupees", "895 rupees", "1790 rupees", "3580 rupees"],
-    "correctOption": 4
-  },
-  {
-    "id": 16,
-    "set":"A",
-    "question": "A man invested 15000 rupees at 0.6% simple interest for 11.25 years. The interest earned is what percentage of the amount invested.",
-    "options": ["3.25%", "3.75%", "5.25%", "6.75%"],
-    "correctOption": 4
-  },
-  {
-    "id": 17,
-    "set":"A",
-    "question": "A man invested 4560 rupees at 46% simple interest for x years. If the amount tripled itself in x years, find the value of x.",
-    "options": ["4.14 years", "4.28 years", "4.34 years", "4.77 years"],
-    "correctOption": 3
-  },
-  {
-    "id": 18,
-    "set":"A",
-    "question": "A man invested a sum of 80000 rupees for 21 years at x% simple interest. If the interest for 21 years is 375% of the amount invested, find the value of x.",
-    "options": ["13.35", "15.57", "17.85", "18.57"],
-    "correctOption": 3
-  },
-  {
-    "id": 19,
-    "set":"A",
-    "question": "A man invested a sum of x rupees for y months at a rate of 12% per month simple interest. Find the time in which the sum will triple itself.",
-    "options": ["16.66 months", "1.5 years", "24 months", "1.8 years"],
-    "correctOption": 1
-  },
-  {
-    "id": 20,
-    "set":"A",
-    "question": "A man invested 24% of his income at a rate of 0.05% simple interest of the amount he invested for 45 years. If the man earns 120000 rupees, find the interest after 45 years, as a percentage of the amount he invested.",
-    "options": ["630%", "638%", "640%", "648"],
-    "correctOption": 4
-  },
-   {
-    "id": 21,
-    "set":"B",
-    "question": "A man invested x rupees for y years at a rate of 6.2% simple interest. If he received 1.32x rupees after y years, find the value of y.",
-    "options": ["5.12", "5.16", "5.18", "5.22"],
-    "correctOption": 2
-  },
-  {
-    "id": 22,
-    "set":"B",
-    "question": "A man invested x rupees for y years at a rate of 33% per annum simple interest. If he received 4.33x after y years, find the value of y.",
-    "options": ["10", "10.5", "11", "11.5"],
-    "correctOption": 1
-  },
-  {
-    "id": 23,
-    "set":"B",
-    "question": "A man invested x rupees for y years at a rate of 12% per annum simple interest. If he received 7.2x after y years, find the value of y.",
-    "options": ["51.72", "51.27", "51.66", "51.33"],
-    "correctOption": 3
-  },
-  {
-    "id": 24,
-    "set":"B",
-    "question": "A man invested x rupees for y years at a rate of 82% per annum simple interest. If he received 9.6x after y years, find the value of y.",
-    "options": ["10.48", "11.58", "12.68", "17.78"],
-    "correctOption": 1
-  },
-  {
-    "id": 25,
-    "set":"B",
-    "question": "A man invested x rupees for y years at a rate of 44% per annum simple interest. If he received 9.8x after y years, find the value of y.",
-    "options": ["15", "17", "19", "20"],
-    "correctOption": 4
-  },
-  {
-    "id": 26,
-    "set":"B",
-    "question": "A man invested x rupees for y years at a rate of 38% per annum simple interest. If he received 5.22x after y years, find the value of y.",
-    "options": ["10.20", "11.10", "13.35", "14.25"],
-    "correctOption": 2
-  },
-  {
-    "id": 27,
-    "set":"B",
-    "question": "A man invested x rupees for y years at a rate of 27% per annum simple interest. If he received 3.27x after y years, find the value of y.",
-    "options": ["8.4", "8.8", "9.2", "9.6"],
-    "correctOption": 1
-  },
-  {
-    "id": 28,
-    "set":"B",
-    "question": "A man invested x rupees for y years at a rate of 5.25% per annum simple interest. If he received 2.25x after y years, find the value of y.",
-    "options": ["21.7", "22.5", "23.8", "24.2"],
-    "correctOption": 3
-  },
-  {
-    "id": 29,
-    "set":"B",
-    "question": "A man invested x rupees for y years at a rate of 11.5% per annum simple interest. If he received 3.2x after y years, find the value of y.",
-    "options": ["19.13", "18.23", "18.13", "19.23"],
-    "correctOption": 1
-  },
-  {
-    "id": 30,
-    "set":"B",
-    "question": "A man invested x rupees for y years at a rate of 10% per annum simple interest. If he received 1.5x after y years, find the value of y.",
-    "options": ["2", "3", "4", "5"],
-    "correctOption": 4
-  },
-  {
-    "id": 31,
-    "set":"B",
-    "question": "A man invested x rupees for 5 years at a rate of r% simple interest. If the amount he received after 5 years is 2.5x, find the rate percentage.",
-    "options": ["33%", "32%", "31%", "30%"],
-    "correctOption": 4
-  },
-  {
-    "id": 32,
-    "set":"B",
-    "question": "A man invested x rupees for 5.4 years at a rate of r% simple interest. If the amount he received after 5.4 years is 1.25x, find the rate percentage.",
-    "options": ["4.62%", "5%", "5.22%", "6%"],
-    "correctOption": 1
-  },
-  {
-    "id": 33,
-    "set":"B",
-    "question": "A man invested x rupees for 1.5 years at a rate of r% simple interest. If the amount he received after 1.5 years is 1.95x, find the rate percentage.",
-    "options": ["62%", "62.5%", "63.33%", "64.5%"],
-    "correctOption": 3
-  },
-  {
-    "id": 34,
-    "set":"B",
-    "question": "A man invested x rupees for 7 years at a rate of r% simple interest. If the amount he received after 7 years is 10x, find the rate percentage.",
-    "options": ["128.62%", "128.57%", "136.32%", "123.77%"],
-    "correctOption": 2
-  },
-  {
-    "id": 35,
-    "set":"B",
-    "question": "A man invested x rupees for 4 years at a rate of r% simple interest. If the amount he received after 4 years is 5.25x, find the rate percentage.",
-    "options": ["104.80%", "106.25%", "108.35%", "110.50%"],
-    "correctOption": 2
-  },
-  {
-    "id": 36,
-    "set":"B",
-    "question": "A man invested x rupees for 3 years at a rate of r% simple interest. If the amount he received after 3 years is 1.27x, find the rate percentage.",
-    "options": ["9%", "12%", "15%", "18%"],
-    "correctOption": 1
-  },
-  {
-    "id": 37,
-    "set":"B",
-    "question": "A man invested x rupees for 10.5 years at a rate of r% simple interest. If the amount he received after 10.5 years is 7.25x, find the rate percentage.",
-    "options": ["59.52%", "50.27%", "51.25%", "52.20%"],
-    "correctOption": 1
-  },
-  {
-    "id": 38,
-    "set":"B",
-    "question": "A man invested x rupees for 6.5 years at a rate of r% simple interest. If the amount he received after 6.5 years is 5.65x, find the rate percentage.",
-    "options": ["71.53%", "71.77%", "72.27%", "72.72%"],
-    "correctOption": 1
-  },
-  {
-    "id": 39,
-    "set":"B",
-    "question": "A man invested x rupees for 25 years at a rate of r% simple interest. If the amount he received after 25 years is 8x, find the rate percentage.",
-    "options": ["345.34%", "350.47%", "355.45%", "357.14%"],
-    "correctOption": 4
-  },
-  {
-    "id": 40,
-    "set":"B",
-    "question": "A man invested x rupees for 12 years at a rate of r% simple interest. If the amount he received after 12 years is 5.8x, find the rate percentage.",
-    "options": ["38.5%", "40%", "43.5%", "50%"],
-    "correctOption": 2
-  }
-]
+  "tests": [
+    {
+      "set": "A",
+      "questionCount": 20,
+      "marksPerQuestion": 2,
+      "negativeMark": 0.5,
+      "timeLimitMinutes": 40,
+      "questions": [
+        {
+          "id": 1,
+          "languages": {
+            "en": {
+              "question": "A man invested x rupees for 5 years at a rate of 2.5% simple interest. If he received an interest of 125000 after 5 years, find the amount he invested.",
+              "options": [
+                "10,00,000 rupees",
+                "12,25,000 rupees",
+                "50,00,000 rupees",
+                "1,00,00,000 rupees"
+              ],
+              "correctOption": 0
+            },
+            "hi": {
+              "question": "एक व्यक्ति ने 5 वर्षों के लिए 2.5% साधारण ब्याज दर पर x रुपये का निवेश किया। यदि उसे 5 वर्षों के बाद 125000 रुपये ब्याज मिला, तो उसने कितना निवेश किया था?",
+              "options": [
+                "10,00,000 रुपये",
+                "12,25,000 रुपये",
+                "50,00,000 रुपये",
+                "1,00,00,000 रुपये"
+              ],
+              "correctOption": 0
+            }
+          }
+        },
+        {
+          "id": 2,
+          "languages": {
+            "en": {
+              "question": "A man invested x rupees for 7.5 years at a rate of 6.5% simple interest. If he received a total of 125000 after 5 years, find the amount he invested.",
+              "options": [
+                "84034 rupees",
+                "83404 rupees",
+                "80434 rupees",
+                "84043 rupees"
+              ],
+              "correctOption": 0
+            },
+            "hi": {
+              "question": "एक व्यक्ति ने 7.5 वर्षों के लिए 6.5% साधारण ब्याज पर x रुपये का निवेश किया। यदि उसे 5 वर्षों के बाद कुल 125000 रुपये प्राप्त हुए, तो उसने कितना निवेश किया?",
+              "options": [
+                "84034 रुपये",
+                "83404 रुपये",
+                "80434 रुपये",
+                "84043 रुपये"
+              ],
+              "correctOption": 0
+            }
+          }
+        },
+        {
+          "id": 3,
+          "languages": {
+            "en": {
+              "question": "A man invested x rupees for 7 years at a rate of 8.8% simple interest. If the amount he received after 7 years was 404000 rupees, find the amount he invested.",
+              "options": [
+                "2,50,000 rupees",
+                "2,75,000 rupees",
+                "2,85,000 rupees",
+                "3,05,000 rupees"
+              ],
+              "correctOption": 0
+            },
+            "hi": {
+              "question": "एक व्यक्ति ने 7 वर्षों के लिए 8.8% साधारण ब्याज पर x रुपये का निवेश किया। यदि उसे 7 वर्षों के बाद कुल 404000 रुपये प्राप्त हुए, तो उसने कितना निवेश किया?",
+              "options": [
+                "2,50,000 रुपये",
+                "2,75,000 रुपये",
+                "2,85,000 रुपये",
+                "3,05,000 रुपये"
+              ],
+              "correctOption": 0
+            }
+          }
+        },
+        {
+          "id": 4,
+          "languages": {
+            "en": {
+              "question": "A man invested x rupees for 11 years at a rate of 12.2% simple interest. If the amount he received after 11 years was 1826760 rupees, find the amount he invested.",
+              "options": [
+                "7,20,000 rupees",
+                "7,80,000 rupees",
+                "8,40,000 rupees",
+                "9,20,000 rupees"
+              ],
+              "correctOption": 1
+            },
+            "hi": {
+              "question": "एक व्यक्ति ने 11 वर्षों के लिए 12.2% साधारण ब्याज पर x रुपये का निवेश किया। यदि उसे 11 वर्षों के बाद कुल 1826760 रुपये प्राप्त हुए, तो उसने कितना निवेश किया?",
+              "options": [
+                "7,20,000 रुपये",
+                "7,80,000 रुपये",
+                "8,40,000 रुपये",
+                "9,20,000 रुपये"
+              ],
+              "correctOption": 1
+            }
+          }
+        },
+        {
+          "id": 5,
+          "languages": {
+            "en": {
+              "question": "A man invested x rupees for 10.5 years at a rate of 21.6% simple interest. If the amount he received after 10.5 years was 2127468 rupees, find the amount he invested.",
+              "options": [
+                "6,51,000 rupees",
+                "7,28,000 rupees",
+                "8,37,000 rupees",
+                "8,82,000 rupees"
+              ],
+              "correctOption": 0
+            },
+            "hi": {
+              "question": "एक व्यक्ति ने 10.5 वर्षों के लिए 21.6% साधारण ब्याज पर x रुपये का निवेश किया। यदि उसे 10.5 वर्षों के बाद 2127468 रुपये प्राप्त हुए, तो उसने कितना निवेश किया?",
+              "options": [
+                "6,51,000 रुपये",
+                "7,28,000 रुपये",
+                "8,37,000 रुपये",
+                "8,82,000 रुपये"
+              ],
+              "correctOption": 0
+            }
+          }
+        },
+        {
+          "id": 6,
+          "languages": {
+            "en": {
+              "question": "A man invested x rupees for 7.7 years at a rate of 13.3% simple interest. If the amount he received after 7.7 years was 23,68,197 rupees, find the amount he invested.",
+              "options": [
+                "11,45,000 rupees",
+                "11,70,000 rupees",
+                "12,45,000 rupees",
+                "12,70,000 rupees"
+              ],
+              "correctOption": 1
+            },
+            "hi": {
+              "question": "एक व्यक्ति ने 7.7 वर्षों के लिए 13.3% साधारण ब्याज पर x रुपये का निवेश किया। यदि उसे 7.7 वर्षों के बाद 23,68,197 रुपये प्राप्त हुए, तो उसने कितना निवेश किया?",
+              "options": [
+                "11,45,000 रुपये",
+                "11,70,000 रुपये",
+                "12,45,000 रुपये",
+                "12,70,000 रुपये"
+              ],
+              "correctOption": 1
+            }
+          }
+        },
+        {
+          "id": 7,
+          "languages": {
+            "en": {
+              "question": "A man invested x rupees for 8 years at a rate of 9% simple interest. If the amount he received after 8 years was 26,00,640 rupees, find the amount he invested.",
+              "options": [
+                "12,15,000 rupees",
+                "15,12,000 rupees",
+                "12,00,120 rupees",
+                "15,00,150 rupees"
+              ],
+              "correctOption": 1
+            },
+
+            "hi": {
+              "question": "एक व्यक्ति ने 8 वर्षों के लिए 9% साधारण ब्याज पर x रुपये का निवेश किया। यदि उसे 8 वर्षों के बाद 26,00,640 रुपये प्राप्त हुए, तो उसने कितना निवेश किया?",
+              "options": [
+                "12,15,000 रुपये",
+                "15,12,000 रुपये",
+                "12,00,120 रुपये",
+                "15,00,150 रुपये"
+              ],
+              "correctOption": 1
+            }
+          }
+        },
+        {
+          "id": 8,
+          "languages": {
+            "en": {
+              "question": "A man invested x rupees for 17 years at a rate of 33% simple interest. If the amount he received after 17 years was 45,00,088 rupees, find the amount he invested.",
+              "options": [
+                "6,80,000 rupees",
+                "6,88,000 rupees",
+                "6,80,800 rupees",
+                "6,80,808 rupees"
+              ],
+              "correctOption": 2
+            },
+            "hi": {
+              "question": "एक व्यक्ति ने 17 वर्षों के लिए 33% साधारण ब्याज पर x रुपये का निवेश किया। यदि उसे 17 वर्षों के बाद 45,00,088 रुपये प्राप्त हुए, तो उसने कितना निवेश किया?",
+              "options": [
+                "6,80,000 रुपये",
+                "6,88,000 रुपये",
+                "6,80,800 रुपये",
+                "6,80,808 रुपये"
+              ],
+              "correctOption": 2
+            }
+          }
+        },
+        {
+          "id": 9,
+          "languages": {
+            "en": {
+              "question": "A man invested x rupees for 23 years at a rate of 0.9% simple interest. If the amount he received after 23 years was 30,41,640 rupees, find the amount he invested.",
+              "options": [
+                "25,00,000 rupees",
+                "25,20,000 rupees",
+                "25,40,000 rupees",
+                "25,80,000 rupees"
+              ],
+              "correctOption": 1
+            },
+            "hi": {
+              "question": "एक व्यक्ति ने 23 वर्षों के लिए 0.9% साधारण ब्याज पर x रुपये का निवेश किया। यदि उसे 23 वर्षों के बाद 30,41,640 रुपये प्राप्त हुए, तो उसने कितना निवेश किया?",
+              "options": [
+                "25,00,000 रुपये",
+                "25,20,000 रुपये",
+                "25,40,000 रुपये",
+                "25,80,000 रुपये"
+              ],
+              "correctOption": 1
+            }
+          }
+        },
+        {
+          "id": 10,
+          "languages": {
+            "en": {
+              "question": "A man invested x rupees for 19 years at a rate of 37% simple interest. If the amount he received after 19 years was 90,15,281 rupees, find the amount he invested.",
+              "options": [
+                "11,22,300 rupees",
+                "11,22,700 rupees",
+                "12,21,000 rupees",
+                "13,35,000 rupees"
+              ],
+              "correctOption": 1
+            },
+            "hi": {
+              "question": "एक व्यक्ति ने 19 वर्षों के लिए 37% साधारण ब्याज पर x रुपये का निवेश किया। यदि उसे 19 वर्षों के बाद 90,15,281 रुपये प्राप्त हुए, तो उसने कितना निवेश किया?",
+              "options": [
+                "11,22,300 रुपये",
+                "11,22,700 रुपये",
+                "12,21,000 रुपये",
+                "13,35,000 रुपये"
+              ],
+              "correctOption": 1
+            }
+          }
+        },
+        {
+          "id": 11,
+          "languages": {
+            "en": {
+              "question": "A man invested x rupees for y years at 25% simple interest per annum. If the interest after 4y years is 8x, find the value of y.",
+              "options": ["10", "8", "12", "15"],
+              "correctOption": 1
+            },
+            "hi": {
+              "question": "एक व्यक्ति ने y वर्षों के लिए 25% वार्षिक साधारण ब्याज दर पर x रुपये का निवेश किया। यदि 4y वर्षों के बाद उसे 8x रुपये ब्याज प्राप्त होता है, तो y का मान ज्ञात कीजिए।",
+              "options": ["10", "8", "12", "15"],
+              "correctOption": 1
+            }
+          }
+        },
+        {
+          "id": 12,
+          "languages": {
+            "en": {
+              "question": "A man invested 1,25,000 rupees at x% simple interest for 2.5 years. After 2.5 years the interest was 1.25 times the amount invested. Find the value of x.",
+              "options": ["37", "48", "59", "50"],
+              "correctOption": 3
+            },
+            "hi": {
+              "question": "एक व्यक्ति ने 2.5 वर्षों के लिए x% साधारण ब्याज पर 1,25,000 रुपये निवेश किए। यदि उसे 2.5 वर्षों में मूलधन का 1.25 गुना ब्याज मिला, तो x का मान ज्ञात करें।",
+              "options": ["37", "48", "59", "50"],
+              "correctOption": 3
+            }
+          }
+        },
+        {
+          "id": 13,
+          "languages": {
+            "en": {
+              "question": "A man invested 1200 rupees at 4% simple interest for x years. If after x years the interest was 1.5 times the amount invested, find the value of x.",
+              "options": ["34.5", "35.5", "36.5", "37.5"],
+              "correctOption": 3
+            },
+            "hi": {
+              "question": "एक व्यक्ति ने x वर्षों के लिए 4% साधारण ब्याज पर 1200 रुपये का निवेश किया। यदि ब्याज राशि मूलधन का 1.5 गुना है, तो x का मान ज्ञात करें।",
+              "options": ["34.5", "35.5", "36.5", "37.5"],
+              "correctOption": 3
+            }
+          }
+        },
+        {
+          "id": 14,
+          "languages": {
+            "en": {
+              "question": "A man invested x rupees for y years at 12% simple interest. If after y years, the interest earned is 2.4 times of the amount invested, find the value of y.",
+              "options": ["16", "17", "19", "20"],
+              "correctOption": 3
+            },
+            "hi": {
+              "question": "एक व्यक्ति ने y वर्षों के लिए 12% साधारण ब्याज पर x रुपये का निवेश किया। यदि ब्याज राशि मूलधन का 2.4 गुना है, तो y का मान ज्ञात करें।",
+              "options": ["16", "17", "19", "20"],
+              "correctOption": 3
+            }
+          }
+        },
+        {
+          "id": 15,
+          "languages": {
+            "en": {
+              "question": "A man invested 12000 at a rate of x% simple interest that earns 600 rupees interest per annum. Find the interest on 35800 rupees for 2 years at the same interest percentage.",
+              "options": [
+                "358 rupees",
+                "895 rupees",
+                "1790 rupees",
+                "3580 rupees"
+              ],
+              "correctOption": 3
+            },
+            "hi": {
+              "question": "एक व्यक्ति ने x% साधारण ब्याज पर 12000 रुपये का निवेश किया, जिससे उसे प्रति वर्ष 600 रुपये ब्याज मिलता है। उसी ब्याज दर पर 35800 रुपये के 2 वर्षों के लिए ब्याज कितने रुपये होंगे?",
+              "options": ["358 रुपये", "895 रुपये", "1790 रुपये", "3580 रुपये"],
+              "correctOption": 3
+            }
+          }
+        },
+        {
+          "id": 16,
+          "languages": {
+            "en": {
+              "question": "A man invested 15000 rupees at 0.6% simple interest for 11.25 years. The interest earned is what percentage of the amount invested.",
+              "options": ["3.25%", "3.75%", "5.25%", "6.75%"],
+              "correctOption": 3
+            },
+            "hi": {
+              "question": "एक व्यक्ति ने 11.25 वर्षों के लिए 0.6% साधारण ब्याज पर 15000 रुपये निवेश किए। अर्जित ब्याज मूलधन का कितने प्रतिशत है?",
+              "options": ["3.25%", "3.75%", "5.25%", "6.75%"],
+              "correctOption": 3
+            }
+          }
+        },
+        {
+          "id": 17,
+          "languages": {
+            "en": {
+              "question": "A man invested 4560 rupees at 46% simple interest for x years. If the amount tripled itself in x years, find the value of x.",
+              "options": [
+                "4.14 years",
+                "4.28 years",
+                "4.34 years",
+                "4.77 years"
+              ],
+              "correctOption": 2
+            },
+            "hi": {
+              "question": "एक व्यक्ति ने x वर्षों के लिए 46% साधारण ब्याज पर 4560 रुपये निवेश किए। यदि x वर्षों में राशि तीन गुनी हो जाती है, तो x का मान ज्ञात करें।",
+              "options": ["4.14 वर्ष", "4.28 वर्ष", "4.34 वर्ष", "4.77 वर्ष"],
+              "correctOption": 2
+            }
+          }
+        },
+        {
+          "id": 18,
+          "languages": {
+            "en": {
+              "question": "A man invested a sum of 80000 rupees for 21 years at x% simple interest. If the interest for 21 years is 375% of the amount invested, find the value of x.",
+              "options": ["13.35", "15.57", "17.85", "18.57"],
+              "correctOption": 2
+            },
+            "hi": {
+              "question": "एक व्यक्ति ने 21 वर्षों के लिए x% साधारण ब्याज पर 80000 रुपये का निवेश किया। यदि ब्याज राशि मूलधन का 375% है, तो x का मान ज्ञात करें।",
+              "options": ["13.35", "15.57", "17.85", "18.57"],
+              "correctOption": 2
+            }
+          }
+        },
+        {
+          "id": 19,
+          "languages": {
+            "en": {
+              "question": "A man invested a sum of x rupees for y months at a rate of 12% per month simple interest. Find the time in which the sum will triple itself.",
+              "options": [
+                "16.66 months",
+                "1.5 years",
+                "24 months",
+                "1.8 years"
+              ],
+              "correctOption": 0
+            },
+            "hi": {
+              "question": "एक व्यक्ति ने x रुपये को y महीनों के लिए 12% प्रति माह साधारण ब्याज दर पर निवेश किया। कितने समय में उसकी राशि तीन गुनी हो जाएगी?",
+              "options": ["16.66 महीने", "1.5 वर्ष", "24 महीने", "1.8 वर्ष"],
+              "correctOption": 0
+            }
+          }
+        },
+        {
+          "id": 20,
+          "languages": {
+            "en": {
+              "question": "A man invested 24% of his income at a rate of 0.05% simple interest of the amount he invested for 45 years. If the man earns 120000 rupees, find the interest after 45 years, as a percentage of the amount he invested.",
+              "options": ["630%", "638%", "640%", "648"],
+              "correctOption": 3
+            },
+            "hi": {
+              "question": "एक व्यक्ति ने अपनी आय का 24% भाग 0.05% साधारण ब्याज पर 45 वर्षों के लिए निवेश किया। यदि उसकी आय 120000 रुपये है, तो 45 वर्षों बाद अर्जित ब्याज उसके निवेश के कितने प्रतिशत के बराबर होगा?",
+              "options": ["630%", "638%", "640%", "648%"],
+              "correctOption": 3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "set": "B",
+      "questionCount": 20,
+      "marksPerQuestion": 1,
+      "negativeMark": 0.25,
+      "timeLimitMinutes": 30,
+      "questions": [
+        {
+          "id": 21,
+          "languages": {
+            "en": {
+              "question": "A man invested x rupees for y years at a rate of 6.2% simple interest. If he received 1.32x rupees after y years, find the value of y.",
+              "options": ["5.12", "5.16", "5.18", "5.22"],
+              "correctOption": 1
+            },
+            "hi": {
+              "question": "एक व्यक्ति ने x रुपये y वर्षों के लिए 6.2% साधारण ब्याज दर पर निवेश किए। यदि उसे y वर्षों बाद 1.32x रुपये प्राप्त हुए, तो y का मान क्या है?",
+              "options": ["5.12", "5.16", "5.18", "5.22"],
+              "correctOption": 1
+            }
+          }
+        },
+        {
+          "id": 22,
+          "languages": {
+            "en": {
+              "question": "A man invested x rupees for y years at a rate of 33% per annum simple interest. If he received 4.33x after y years, find the value of y.",
+              "options": ["10", "10.5", "11", "11.5"],
+              "correctOption": 0
+            },
+            "hi": {
+              "question": "एक व्यक्ति ने x रुपये y वर्षों के लिए 33% वार्षिक साधारण ब्याज दर पर निवेश किए। यदि उसे y वर्षों के बाद 4.33x रुपये प्राप्त हुए, तो y का मान क्या है?",
+              "options": ["10", "10.5", "11", "11.5"],
+              "correctOption": 0
+            }
+          }
+        },
+        {
+          "id": 23,
+          "languages": {
+            "en": {
+              "question": "A man invested x rupees for y years at a rate of 12% per annum simple interest. If he received 7.2x after y years, find the value of y.",
+              "options": ["51.72", "51.27", "51.66", "51.33"],
+              "correctOption": 2
+            },
+            "hi": {
+              "question": "एक व्यक्ति ने x रुपये y वर्षों के लिए 12% वार्षिक साधारण ब्याज पर निवेश किए। यदि उसे y वर्षों के बाद 7.2x रुपये प्राप्त हुए, तो y का मान क्या है?",
+              "options": ["51.72", "51.27", "51.66", "51.33"],
+              "correctOption": 2
+            }
+          }
+        },
+        {
+          "id": 24,
+          "languages": {
+            "en": {
+              "question": "A man invested x rupees for y years at a rate of 82% per annum simple interest. If he received 9.6x after y years, find the value of y.",
+              "options": ["10.48", "11.58", "12.68", "17.78"],
+              "correctOption": 0
+            },
+            "hi": {
+              "question": "एक व्यक्ति ने x रुपये y वर्षों के लिए 82% वार्षिक साधारण ब्याज दर पर निवेश किए। यदि उसे y वर्षों के बाद 9.6x रुपये प्राप्त हुए, तो y का मान क्या है?",
+              "options": ["10.48", "11.58", "12.68", "17.78"],
+              "correctOption": 0
+            }
+          }
+        },
+        {
+          "id": 25,
+          "languages": {
+            "en": {
+              "question": "A man invested x rupees for y years at a rate of 44% per annum simple interest. If he received 9.8x after y years, find the value of y.",
+              "options": ["15", "17", "19", "20"],
+              "correctOption": 3
+            },
+            "hi": {
+              "question": "एक व्यक्ति ने x रुपये y वर्षों के लिए 44% वार्षिक साधारण ब्याज पर निवेश किए। यदि उसे y वर्षों के बाद 9.8x रुपये प्राप्त हुए, तो y का मान क्या है?",
+              "options": ["15", "17", "19", "20"],
+              "correctOption": 3
+            }
+          }
+        },
+        {
+          "id": 26,
+          "languages": {
+            "en": {
+              "question": "A man invested x rupees for y years at a rate of 38% per annum simple interest. If he received 5.22x after y years, find the value of y.",
+              "options": ["10.20", "11.10", "13.35", "14.25"],
+              "correctOption": 1
+            },
+            "hi": {
+              "question": "एक व्यक्ति ने x रुपये y वर्षों के लिए 38% वार्षिक साधारण ब्याज दर पर निवेश किए। यदि उसे y वर्षों के बाद 5.22x रुपये प्राप्त हुए, तो y का मान क्या है?",
+              "options": ["10.20", "11.10", "13.35", "14.25"],
+              "correctOption": 1
+            }
+          }
+        },
+        {
+          "id": 27,
+          "languages": {
+            "en": {
+              "question": "A man invested x rupees for y years at a rate of 27% per annum simple interest. If he received 3.27x after y years, find the value of y.",
+              "options": ["8.4", "8.8", "9.2", "9.6"],
+              "correctOption": 0
+            },
+            "hi": {
+              "question": "एक व्यक्ति ने x रुपये y वर्षों के लिए 27% साधारण ब्याज पर निवेश किए। यदि उसे y वर्षों के बाद 3.27x रुपये प्राप्त हुए, तो y का मान क्या है?",
+              "options": ["8.4", "8.8", "9.2", "9.6"],
+              "correctOption": 0
+            }
+          }
+        },
+        {
+          "id": 28,
+          "languages": {
+            "en": {
+              "question": "A man invested x rupees for y years at a rate of 5.25% per annum simple interest. If he received 2.25x after y years, find the value of y.",
+              "options": ["21.7", "22.5", "23.8", "24.2"],
+              "correctOption": 2
+            },
+            "hi": {
+              "question": "एक व्यक्ति ने x रुपये y वर्षों के लिए 5.25% वार्षिक साधारण ब्याज दर पर निवेश किए। यदि उसे y वर्षों के बाद 2.25x रुपये प्राप्त हुए, तो y का मान क्या है?",
+              "options": ["21.7", "22.5", "23.8", "24.2"],
+              "correctOption": 2
+            }
+          }
+        },
+        {
+          "id": 29,
+          "languages": {
+            "en": {
+              "question": "A man invested x rupees for y years at a rate of 11.5% per annum simple interest. If he received 3.2x after y years, find the value of y.",
+              "options": ["19.13", "18.23", "18.13", "19.23"],
+              "correctOption": 0
+            },
+            "hi": {
+              "question": "एक व्यक्ति ने x रुपये y वर्षों के लिए 11.5% साधारण ब्याज दर पर निवेश किए। यदि उसे y वर्षों के बाद 3.2x रुपये प्राप्त हुए, तो y का मान क्या है?",
+              "options": ["19.13", "18.23", "18.13", "19.23"],
+              "correctOption": 0
+            }
+          }
+        },
+        {
+          "id": 30,
+          "languages": {
+            "en": {
+              "question": "A man invested x rupees for y years at a rate of 10% per annum simple interest. If he received 1.5x after y years, find the value of y.",
+              "options": ["2", "3", "4", "5"],
+              "correctOption": 3
+            },
+            "hi": {
+              "question": "एक व्यक्ति ने x रुपये y वर्षों के लिए 10% साधारण ब्याज पर निवेश किए। यदि उसे y वर्षों के बाद 1.5x रुपये प्राप्त हुए, तो y का मान क्या है?",
+              "options": ["2", "3", "4", "5"],
+              "correctOption": 3
+            }
+          }
+        },
+        {
+          "id": 31,
+          "languages": {
+            "en": {
+              "question": "A man invested x rupees for 5 years at a rate of r% simple interest. If the amount he received after 5 years is 2.5x, find the rate percentage.",
+              "options": ["33%", "32%", "31%", "30%"],
+              "correctOption": 3
+            },
+            "hi": {
+              "question": "एक व्यक्ति ने x रुपये 5 वर्षों के लिए r% साधारण ब्याज दर पर निवेश किए। यदि उसे 5 वर्षों के बाद 2.5x रुपये प्राप्त हुए, तो r% का मान क्या होगा?",
+              "options": ["33%", "32%", "31%", "30%"],
+              "correctOption": 3
+            }
+          }
+        },
+        {
+          "id": 32,
+          "languages": {
+            "en": {
+              "question": "A man invested x rupees for 5.4 years at a rate of r% simple interest. If the amount he received after 5.4 years is 1.25x, find the rate percentage.",
+              "options": ["4.62%", "5%", "5.22%", "6%"],
+              "correctOption": 0
+            },
+            "hi": {
+              "question": "एक व्यक्ति ने x रुपये 5.4 वर्षों के लिए r% साधारण ब्याज दर पर निवेश किए। यदि उसे 5.4 वर्षों के बाद 1.25x रुपये प्राप्त हुए, तो r का मान क्या है?",
+              "options": ["4.62%", "5%", "5.22%", "6%"],
+              "correctOption": 0
+            }
+          }
+        },
+        {
+          "id": 33,
+          "languages": {
+            "en": {
+              "question": "A man invested x rupees for 1.5 years at a rate of r% simple interest. If the amount he received after 1.5 years is 1.95x, find the rate percentage.",
+              "options": ["62%", "62.5%", "63.33%", "64.5%"],
+              "correctOption": 2
+            },
+            "hi": {
+              "question": "एक व्यक्ति ने x रुपये 1.5 वर्षों के लिए r% साधारण ब्याज दर पर निवेश किए। यदि उसे 1.5 वर्षों के बाद 1.95x रुपये प्राप्त हुए, तो r का मान क्या है?",
+              "options": ["62%", "62.5%", "63.33%", "64.5%"],
+              "correctOption": 2
+            }
+          }
+        },
+        {
+          "id": 34,
+          "languages": {
+            "en": {
+              "question": "A man invested x rupees for 7 years at a rate of r% simple interest. If the amount he received after 7 years is 10x, find the rate percentage.",
+              "options": ["128.62%", "128.57%", "136.32%", "123.77%"],
+              "correctOption": 1
+            },
+            "hi": {
+              "question": "एक व्यक्ति ने x रुपये 7 वर्षों के लिए r% साधारण ब्याज पर निवेश किए। यदि उसे 7 वर्षों के बाद 10x रुपये प्राप्त हुए, तो r% का मान क्या होगा?",
+              "options": ["128.62%", "128.57%", "136.32%", "123.77%"],
+              "correctOption": 1
+            }
+          }
+        },
+        {
+          "id": 35,
+          "languages": {
+            "en": {
+              "question": "A man invested x rupees for 4 years at a rate of r% simple interest. If the amount he received after 4 years is 5.25x, find the rate percentage.",
+              "options": ["104.80%", "106.25%", "108.35%", "110.50%"],
+              "correctOption": 1
+            },
+            "hi": {
+              "question": "एक व्यक्ति ने x रुपये 4 वर्षों के लिए r% साधारण ब्याज पर निवेश किए। यदि उसे 4 वर्षों के बाद 5.25x रुपये प्राप्त हुए, तो r% का मान क्या होगा?",
+              "options": ["104.80%", "106.25%", "108.35%", "110.50%"],
+              "correctOption": 1
+            }
+          }
+        },
+        {
+          "id": 36,
+          "languages": {
+            "en": {
+              "question": "A man invested x rupees for 3 years at a rate of r% simple interest. If the amount he received after 3 years is 1.27x, find the rate percentage.",
+              "options": ["9%", "12%", "15%", "18%"],
+              "correctOption": 0
+            },
+            "hi": {
+              "question": "एक व्यक्ति ने x रुपये 3 वर्षों के लिए r% साधारण ब्याज पर निवेश किए। यदि उसे 3 वर्षों के बाद 1.27x रुपये प्राप्त हुए, तो r% का मान क्या होगा?",
+              "options": ["9%", "12%", "15%", "18%"],
+              "correctOption": 0
+            }
+          }
+        },
+        {
+          "id": 37,
+          "languages": {
+            "en": {
+              "question": "A man invested x rupees for 10.5 years at a rate of r% simple interest. If the amount he received after 10.5 years is 7.25x, find the rate percentage.",
+              "options": ["59.52%", "50.27%", "51.25%", "52.20%"],
+              "correctOption": 0
+            },
+            "hi": {
+              "question": "एक व्यक्ति ने x रुपये 10.5 वर्षों के लिए r% साधारण ब्याज पर निवेश किए। यदि उसे 10.5 वर्षों के बाद 7.25x रुपये प्राप्त हुए, तो r% का मान क्या होगा?",
+              "options": ["59.52%", "50.27%", "51.25%", "52.20%"],
+              "correctOption": 0
+            }
+          }
+        },
+        {
+          "id": 38,
+          "languages": {
+            "en": {
+              "question": "A man invested x rupees for 6.5 years at a rate of r% simple interest. If the amount he received after 6.5 years is 5.65x, find the rate percentage.",
+              "options": ["71.53%", "71.77%", "72.27%", "72.72%"],
+              "correctOption": 0
+            },
+            "hi": {
+              "question": "एक व्यक्ति ने x रुपये 6.5 वर्षों के लिए r% साधारण ब्याज पर निवेश किए। यदि उसे 6.5 वर्षों के बाद 5.65x रुपये प्राप्त हुए, तो r% का मान क्या होगा?",
+              "options": ["71.53%", "71.77%", "72.27%", "72.72%"],
+              "correctOption": 0
+            }
+          }
+        },
+        {
+          "id": 39,
+          "languages": {
+            "en": {
+              "question": "A man invested x rupees for 25 years at a rate of r% simple interest. If the amount he received after 25 years is 8x, find the rate percentage.",
+              "options": ["345.34%", "350.47%", "355.45%", "357.14%"],
+              "correctOption": 3
+            },
+            "hi": {
+              "question": "एक व्यक्ति ने x रुपये 25 वर्षों के लिए r% साधारण ब्याज दर पर निवेश किए। यदि 25 वर्षों बाद उसे कुल राशि 8x मिली, तो ब्याज दर (प्रतिशत में) ज्ञात कीजिए।",
+              "options": ["345.34%", "350.47%", "355.45%", "357.14%"],
+              "correctOption": 3
+            }
+          }
+        },
+        {
+          "id": 40,
+          "languages": {
+            "en": {
+              "question": "A man invested x rupees for 12 years at a rate of r% simple interest. If the amount he received after 12 years is 5.8x, find the rate percentage.",
+              "options": ["38.5%", "40%", "43.5%", "50%"],
+              "correctOption": 1
+            },
+            "hi": {
+              "question": "एक व्यक्ति ने x रुपये 12 वर्षों के लिए r% साधारण ब्याज दर पर निवेश किए। यदि 12 वर्षों बाद उसे कुल राशि 5.8x मिली, तो ब्याज दर (प्रतिशत में) ज्ञात कीजिए।",
+              "options": ["38.5%", "40%", "43.5%", "50%"],
+              "correctOption": 1
+            }
+          }
+        }
+      ]
+    }
+  ]
 }
